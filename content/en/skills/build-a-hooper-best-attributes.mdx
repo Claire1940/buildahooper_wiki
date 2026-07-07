@@ -1,0 +1,187 @@
+import { Map, Target, Sparkles, Shield, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build a Hooper Best Attributes: Build Order Rankings",
+  description: "Rank the best Build a Hooper attributes by position, with build priorities, point allocation steps, and practical tips for guards, wings, and bigs.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Build+a+Hooper+Attributes",
+  date: "2026-07-07",
+  author: "build a hooper Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Build a Hooper best attributes** depend on position, not one universal max-out.
+- **Guards** usually want speed, shooting, and passing to control possessions.
+- **Wings** thrive on balanced defense, scoring, and athleticism.
+- **Bigs** get the most value from defense, rebounding, and interior finishing.
+- **Spend points in layers**: core stat first, support stats second, utility last.
+</Callout>
+
+<Section icon={Map} title="Build a Hooper Attribute Priorities">
+
+The best Build a Hooper build starts with role clarity. You do not need every stat to be strong; you need the right stats to be strong at the right time. With more than 100 attribute points available, the smartest builds create a clear identity first and then patch weak spots after the core is working.
+
+<CardGrid cols={3}>
+  <Card title="Scoring Guard">
+    - **Speed first**
+    - Shooting next
+    - Passing keeps the offense stable
+    - Defense becomes the safety net later
+  </Card>
+  <Card title="Two-Way Wing">
+    - **Balanced offense**
+    - Reliable perimeter defense
+    - Enough athleticism to stay versatile
+    - A little passing for cleaner rotations
+  </Card>
+  <Card title="Paint Anchor">
+    - **Defense and rebounding**
+    - Interior finishing
+    - Strength or physical presence
+    - Perimeter stats only after the core is set
+  </Card>
+</CardGrid>
+
+| Archetype | Core Attributes | Delay Until Later |
+|---|---|---|
+| Scoring Guard | Speed, shooting, passing | Heavy interior stats |
+| Two-Way Wing | Defense, shooting, athleticism | Extreme specialization |
+| Paint Anchor | Rebounding, interior defense, finishing | Perimeter-heavy points |
+
+<Callout type="tip" title="Priority Rule">
+If a stat does not help you create possessions or stop them, it is usually a late purchase. Build the engine before the luxury items.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Best Attributes by Position">
+
+Position choice narrows your attribute budget. Build a Hooper only gives you four main roles, so each position rewards a different blend of movement, scoring, defense, and passing. The easiest way to avoid a weak build is to let your position define your first three priorities.
+
+| Position | Highest-Priority Attributes | Secondary Stats | Main Risk |
+|---|---|---|---|
+| Point Guard | Passing, speed, ball control, shooting | Perimeter defense | Too little finishing |
+| Shooting Guard | Shooting, speed, off-ball movement, perimeter defense | Dunk | Weak playmaking |
+| Small Forward | Balanced scoring, defense, athleticism | Passing | Being too thin everywhere |
+| Center | Rebounding, interior defense, strength, finishing | Close-range offense | Slow recovery on switches |
+
+| Position | Best Team Role | Beginner Friendly? |
+|---|---|---|
+| Point Guard | Primary creator | Medium |
+| Shooting Guard | Secondary scorer | Good |
+| Small Forward | Two-way connector | Good |
+| Center | Paint protector | Good for interior players |
+
+<Callout type="warning" title="What to Avoid">
+Do not force a highlight stat before the matchup skills are ready. A flashy dunk rating does not help much if you cannot get open, control the ball, or finish through contact.
+</Callout>
+
+A Point Guard usually benefits most from passing and speed, because those two numbers change possession quality every trip down the floor. A Shooting Guard can lean harder into shooting, but should still keep enough speed to stay active without the ball. Small Forwards are often the safest flexible option because they can survive with a mixed stat line. Centers should spend aggressively on defense and rebounding before anything else.
+
+</Section>
+
+<Section icon={Sparkles} title="How to Allocate Attribute Points">
+
+The safest upgrade path is to build in layers. Spend points where they change possessions, not where they only look good on a sheet. In practice, that means setting one main scoring path, one support path, and one fallback path for late-game situations.
+
+<Steps>
+  <Step num="1" title="Lock Your Identity">
+    Decide whether the player is a guard, wing, or big. Then choose the main job: scorer, creator, stopper, or rebounder. This decision should guide every point you spend.
+  </Step>
+  <Step num="2" title="Max the Engine Stat">
+    Put early points into the attribute that makes your build function. For guards, that is usually speed or passing. For bigs, it is often defense or rebounding. This step gives you immediate on-court value.
+  </Step>
+  <Step num="3" title="Add Support Stats">
+    Once the core works, start covering the second layer. Guards can add shooting and perimeter defense. Wings can add both offense and defense. Bigs can add finishing and physical stats.
+  </Step>
+  <Step num="4" title="Finish With Utility">
+    Save the last points for comfort stats that improve consistency. These are the pieces that help in messy possessions, bad matchups, and late-game pressure.
+  </Step>
+</Steps>
+
+| Build Phase | Spend First On | Why It Matters |
+|---|---|---|
+| Early | Primary scoring stat, speed, passing | Creates stable offense |
+| Mid | Defense, rebounding, secondary scoring | Prevents one-dimensional play |
+| Late | Physicals, niche skills, comfort stats | Makes the build harder to target |
+
+<Callout type="info" title="Practical Split">
+A clean starting split is 60% core, 25% support, and 15% utility. That is not a rule, but it keeps the build from drifting into average territory.
+</Callout>
+
+If you are making a guard, resist the urge to spread points across every finishing stat. If you are making a big, do not neglect defense just because a close-range scorer sounds fun. The best builds in this game feel efficient because every point is doing a job.
+
+</Section>
+
+<Section icon={Shield} title="Build Checklist and Common Mistakes">
+
+Before you lock the build, use a fast audit. A strong Build a Hooper player should have a clear role, a backup plan, and at least one reliable way to stay useful when the matchup changes. This quick checklist keeps the build focused.
+
+<Checklist
+  id="build-a-hooper-checklist"
+  title="Pre-Game Build Checklist:"
+  items={[
+    "Choose one primary role before spending points",
+    "Protect your core stats before adding luxury stats",
+    "Keep passing or defense from falling too low",
+    "Match your position to your playstyle",
+    "Leave room for one late-game adjustment"
+  ]}
+/>
+
+| Mistake | Better Choice | Why It Helps |
+|---|---|---|
+| Splitting points across every category | Focus on 2-3 core stats | Stronger early impact |
+| Ignoring passing as a guard | Keep passing competitive | Cleaner possessions |
+| Overbuying dunk on a short build | Add speed or shooting too | More usable touches |
+| Forgetting defense on wings | Add perimeter stops | Better two-way value |
+| Loading all points into offense | Leave room for defense | More consistent matchups |
+
+| Build Type | Strong Early Stats | Stats to Avoid Overbuying |
+|---|---|---|
+| Guard | Speed, passing, shooting | Heavy interior focus |
+| Wing | Defense, shooting, athleticism | Extreme one-sided builds |
+| Big | Rebounding, defense, finishing | Too much perimeter investment |
+
+<Callout type="success" title="Final Audit">
+If the build cannot score, defend, or move well in its intended role, it is not finished yet. Adjust the weak link before you start a long career run.
+</Callout>
+
+A lot of weak builds fail for the same reason: too many points go into nice-to-have stats before the player can actually dominate one area. Keep the build narrow at the start, then widen it only after the core identity is reliable.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+These answers focus on the choices that matter most when you are building a player from scratch. Use them as a final check before you commit to your attribute spread.
+
+<Callout type="tip" title="FAQ Notes">
+The best Build a Hooper attributes are the ones that fit your position, your role, and the way you want to touch the ball.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "What are the best attributes for a beginner in Build a Hooper?",
+    answer: "Beginners usually get the most value from speed, shooting, and passing on guards, or defense and rebounding on bigs. Keep the build simple and role-focused."
+  },
+  {
+    question: "Should I build a balanced player or a specialized player?",
+    answer: "Specialized builds often feel stronger early because they have a clearer job. Balanced players can work well, especially at small forward, but they need careful point management."
+  },
+  {
+    question: "Is defense worth investing in if I mostly want to score?",
+    answer: "Yes. Even scoring builds benefit from at least a workable defensive floor, because it helps you stay useful when the matchup turns physical or the offense stalls."
+  },
+  {
+    question: "What should I fix first if my first build feels weak?",
+    answer: "Start with the stat that defines your role. If you are a guard, rebuild around speed and passing. If you are a big, rebuild around defense and rebounding. Then add support stats later."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,187 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desenvolvimento de Jogador no Build a Hooper: Builds, Posições e Dicas",
+  description: "Guia de desenvolvimento de jogador no Build a Hooper para builds, posições, prioridades de atributos, insígnias, preparação para o draft e dicas de evolução na carreira para jogadores de basquete do Roblox.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Player+Development+Guide",
+  date: "2026-07-07",
+  author: "Equipe da Wiki do Build a Hooper"
+}
+
+<Callout type="info" title="Guia Rápido">
+- O **desenvolvimento de jogador no Build a Hooper** começa com uma função clara, não com melhorias dispersas.
+- **Armadores pontuadores** precisam de controle de bola, criação de arremessos e velocidade suficiente para criar separação.
+- **Jogadores de garrafão** devem priorizar presença interna, rebotes e defesa antes de atributos chamativos.
+- **Builds equilibradas** permanecem flexíveis no início e são mais fáceis de refinar durante a evolução da carreira.
+- A **preparação para o draft** funciona melhor quando sua posição, atributos e estilo de jogo estão alinhados.
+</Callout>
+
+<Section icon={Sparkles} title="Princípios Básicos do Desenvolvimento de Jogador no Build a Hooper">
+O desenvolvimento de jogador no Build a Hooper funciona melhor quando você trata a sua criação como um plano de carreira de longo prazo, e não como um despejo único de atributos. Os inícios mais fortes geralmente vêm da escolha de uma identidade clara e da construção em torno dela antes de tentar buscar tudo de uma vez.
+
+<CardGrid cols={3}>
+  <Card title="Armador Pontuador">
+    - **Ideal para:** Armador (PG) ou Ala-Armador (SG)
+    - Criação de arremesso, controle de bola, pontuação no perímetro
+    - Ataque forte no início, maior exigência de habilidade
+  </Card>
+  <Card title="Ala Completo">
+    - **Ideal para:** Ala-Armador (SG) ou Ala (SF)
+    - Valor nos dois lados da quadra, pontuação consistente, defesa útil
+    - Escolha segura se você deseja flexibilidade
+  </Card>
+  <Card title="Jogador de Garrafão Dominante">
+    - **Ideal para:** Pivô (C)
+    - Rebotes, defesa interna, controle do garrafão
+    - Mais lento no perímetro, impacto interno mais forte
+  </Card>
+</CardGrid>
+
+| Tipo de Build | Melhor Posição | Principal Força | Principal Desvantagem |
+|---|---|---|---|
+| Armador Pontuador | PG/SG | Ataque rápido, criação de arremesso | Pode parecer fraco no garrafão |
+| Ala Completo | SG/SF | Equilíbrio e adaptabilidade | Raramente é de elite em uma área |
+| Jogador de Garrafão Dominante | C | Rebotes e controle interno | Menos liberdade no perímetro |
+
+<Callout type="tip" title="Escolha do Editor">
+Se você estiver em dúvida, comece com uma build equilibrada ou no estilo ala. É mais fácil se especializar mais tarde do que se recuperar de uma configuração inicial desregulada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Escolha Sua Posição e Função">
+Sua posição deve definir o que seu jogador faz em cada posse de bola. Em um simulador de carreira de basquete, a clareza de funções importa mais do que a variedade bruta, pois molda como você gasta seus pontos, o que treina e como seu jogador se encaixa em uma equipe.
+
+| Posição | Função Principal | Foco Inicial | Ideal Para |
+|---|---|---|---|
+| Armador | Liderar o ataque | Passes, controle de bola, velocidade | Jogadores que querem o controle |
+| Ala-Armador | Pontuar do perímetro | Arremessos, movimentação, criação | Pontuadores puros e combo guards |
+| Ala | Fazer um pouco de tudo | Versatilidade, defesa, finalização | Builds two-way flexíveis |
+| Pivô | Dominar o garrafão | Rebotes, tocos, jogo interno | Âncoras defensivas e jogadores físicos |
+
+<Callout type="info" title="Função Primeiro, Atributos Depois">
+Uma posição não é apenas um rótulo. Ela diz quais atributos devem carregar a build e quais estatísticas podem ficar em segundo plano até mais tarde.
+</Callout>
+
+| Prioridade de Função | O que Maximizar | O que Adiar |
+|---|---|---|
+| Criador de Jogadas | Passes, controle de bola, visão | Atributos pesados de garrafão |
+| Arremessador | Criação de arremesso, precisão, movimentação | Investir demais em defesa no início |
+| Ala Two-Way | Ataque e defesa equilibrados | Especialização extrema |
+| Âncora do Garrafão | Rebotes, força, defesa interna | Foco em arremessos de longa distância |
+
+Use la posição que combine com o seu estilo favorito de tomada de decisão. Se você gosta de controlar as posses de bola, escolha um armador. Se prefere espaçamento e pontuação sem a bola, um ala funciona bem. Se quer proteger o aro e dominar os rebotes, o caminho de pivô é a rota mais direta.
+
+</Section>
+
+<Section icon={Target} title="Prioridades de Atributo que Mais Importam">
+O plano de atributos mais seguro é simples: monte a build em torno da sua posição, cubra suas fraquezas apenas o suficiente e evite desperdiçar pontos em estatísticas que não apoiam sua função. O crescimento inicial geralmente é mais valioso do que a novidade.
+
+| Grupo de Atributos | O que Suporta | Prioridade Recomendada | Por que Importa |
+|---|---|---|---|
+| Arremesso | Chutes livres, volume de pontuação | Alta para armadores e alas | Mantém seu ataque confiável |
+| Passe | Movimentação de bola, armação de jogadas | Alta para armadores | Ajuda a criar arremessos melhores |
+| Velocidade | Separação, recuperação, transição | Alta para armadores e alas | Deixa a jogabilidade da sua build mais fluida |
+| Defesa | Desarmes, contestação, pressão | Alta para alas e pivôs | Aumenta a utilidade geral |
+| Rebote | Posses de bola, segundas chances | Alta para pivôs | Adiciona um impacto consistente |
+| Jogo Interno | Finalização, pressão no aro, controle do garrafão | Alta para pivôs | Define o valor interno |
+
+<Callout type="warning" title="Evite a Dispersão de Atributos">
+Não divida os pontos igualmente só porque o menu permite. Uma build sem pontos fortes claros geralmente parece mais fraca do que um jogador focado com uma ou duas vantagens de destaque.
+</Callout>
+
+| Foco da Build | Atributos Principais | Atributos Secundários | Lacuna Notável |
+|---|---|---|---|
+| Criador Ofensivo | Arremesso, passe, velocidade | Defesa, controle de bola | Menor presença interna |
+| Ala Two-Way | Defesa, arremesso, velocidade | Passe, finalização | Nenhuma especialidade dominante |
+| Pivô de Garrafão | Rebote, defesa, jogo interno | Força, mobilidade | Ameaça limitada no perímetro |
+| Híbrido Equilibrado | Todas as categorias principais | Atributos de adaptabilidade | Pico de evolução inicial mais lento |
+
+Uma regra prática funciona bem aqui: gaste primeiro nos atributos que definem suas posses de bola, depois use os pontos restantes para corrigir lacunas óbvias. Essa abordagem mantém seu jogador útil, ao mesmo tempo em que deixa espaço para o crescimento a longo prazo.
+
+</Section>
+
+<Section icon={Trophy} title="Roteiro de Evolução no Draft e na Carreira">
+O draft e a trajetória de carreira fluem melhor quando você se prepara antes de começar. Uma configuração limpa evita que você crie um jogador que parece bom no papel, mas tem dificuldades quando a temporada simulada começa.
+
+<Steps>
+  <Step num="1" title="Escolha Sua Identidade">
+    Decide se o seu jogador será um pontuador, criador, defensor, reboteador ou um contribuidor equilibrado.
+  </Step>
+  <Step num="2" title="Defina a Posição">
+    Escolha a função que melhor se alinha às suas forças planejadas para que seu plano de atributos permaneça coerente.
+  </Step>
+  <Step num="3" title="Gaste Pontos com Propósito">
+    Melhore primeiro os atributos que definem sua função, depois reforce as áreas que compensam suas fraquezas.
+  </Step>
+  <Step num="4" title="Jogue pela Evolução da Carreira">
+    Entre na trajetória de carreira, acompanhe o progresso e refine a build com base no desempenho do seu jogador em partidas reais.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Melhor Mentalidade de Evolução">
+Trate cada temporada como um teste para a sua função. Quando sua build se sai bem na sua especialidade, sua carreira a longo prazo se torna muito mais fácil de gerenciar.
+</Callout>
+
+| Estágio da Carreira | Objetivo Principal | Bons Hábitos | O que Monitorar |
+|---|---|---|---|
+| Criação | Definir identidade | Escolher uma função clara | Tentar cobrir muitas áreas na build |
+| Início de Carreira | Estabelecer consistência | Apoiar-se nos seus atributos mais fortes | Escolha ruim de arremessos ou posicionamento fraco |
+| Meio de Carreira | Lapidar fraquezas | Corrigir lacunas óbvias | Gastar pontos de forma equilibrada demais |
+| Fim de Carreira | Maximizar o impacto | Focar ainda mais nas suas forças | Perder a clareza da função |
+
+<Checklist
+  id="career-growth-goals"
+  title="Lista de Verificação para Evolução da Carreira"
+  items={[
+    "Escolha uma função e construa em torno dela",
+    "Mantenha seus gastos de atributos alinhados com sua posição",
+    "Proteja seus atributos mais fortes contra a diluição",
+    "Acompanhe quais situações expõem suas fraquezas",
+    "Ajuste seu plano de longo prazo após cada estágio da carreira"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Erros Comuns e Perguntas Frequentes (FAQ)">
+A maioria das builds fracas vem dos mesmos erros básicos: tentar melhorar todos os atributos, ignorar a compatibilidade da posição e esperar que um único jogador resolva todas as situações de jogo. Evite essas armadilhas e seu caminho de desenvolvimento será muito mais limpo.
+
+| Erro Comum | Por que Prejudica | Melhor Abordagem |
+|---|---|---|
+| Gasto aleatório de atributos | Enfraquece sua identidade | Construa em torno de uma função |
+| Ignorar a defesa | Torna você um alvo fácil de explorar | Adicione defesa suficiente para a sua posição |
+| Investir demais em um atributo secundário | Deixa lacunas em outros lugares | Cubra primeiro as necessidades essenciais de jogo |
+| Escolher a posição errada | Desacelera a progressão | Combine a posição com o seu estilo de jogo |
+
+<Callout type="tip" title="Regra Simples">
+Se a sua build não explica o que você faz em quadra em uma única frase, ela provavelmente precisa de uma direção mais clara.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor maneira de começar o desenvolvimento de jogador no Build a Hooper?",
+    answer: "Comece com uma função clara. Escolha se seu jogador será um armador, ala ou jogador de garrafão e, em seguida, gaste pontos para apoiar essa identidade."
+  },
+  {
+    question: "Os iniciantes devem escolher uma build equilibrada ou especializada?",
+    answer: "Builds equilibradas costumam ser mais seguras para novos jogadores porque permanecem flexíveis. Builds especializadas podem ser mais fortes, mas exigem um planejamento melhor."
+  },
+  {
+    question: "Quais atributos importam mais para uma build de armador?",
+    answer: "Os armadores geralmente se beneficiam mais de arremesso, controle de bola, velocidade e passe. A defesa pode vir em seguida se você quiser um estilo two-way."
+  },
+  {
+    question: "Como faço para evitar que minha trajetória de carreira pareça bagunçada?",
+    answer: "Use uma posição, uma força principal e um plano de suporte secundário. Essa estrutura mantém seu desenvolvimento consistente ao longo do modo carreira."
+  }
+]} />
+
+</Section>

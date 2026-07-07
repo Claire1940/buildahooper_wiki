@@ -1,0 +1,208 @@
+import { Map, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build a Hooper Perfect Player Build: Guía Paso a Paso",
+  description: "Build a Hooper Perfect Player Build explica cómo elegir un rol, equilibrar atributos y forjar una carrera de baloncesto más sólida en Roblox desde el primer día.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1D4ED8/fff?text=Perfect+Player+Build",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de Build a Hooper"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La build de jugador perfecta en Build a Hooper** comienza con la claridad del rol, no persiguiendo estadísticas puras.
+- **Elige una identidad principal** primero, luego moldea los atributos en torno a esa función en la cancha.
+- **Bases, aleros y pívots** necesitan diferentes prioridades de anotación, defensa y apoyo.
+- **Prueba antes de comprometerte** para poder corregir los puntos débiles al principio de la progresión.
+- **Una plantilla equilibrada** es el punto de partida más seguro si aún estás aprendiendo a jugar.
+</Callout>
+
+<Section icon={Map} title="Conceptos Básicos de la Build de Jugador Perfecta en Build a Hooper">
+
+Una build de jugador perfecta y sólida en Build a Hooper no consiste en maximizar cada número. Se trata de hacer que tu jugador desempeñe un papel lo suficientemente bien como para seguir siendo útil en cada etapa de su carrera. Si quieres que tu build se sienta eficiente, comienza con un rol claro y luego gasta el resto de tus puntos para respaldar ese rol.
+
+Con un presupuesto de más de 100 puntos, la mejor opción es proteger tus fortalezas principales antes de comprar estadísticas de lujo. Si tu jugador necesita anotar, mantén la creación de tiros y el movimiento ágiles. Si tu jugador necesita defender, asegúrate de que la build pueda sobrevivir en el perímetro o en la zona. Puedes iniciar la experiencia desde [Roblox](https://www.roblox.com/) y probar la build en partidas reales.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque de Anotación">
+    - **Ideal para bases/escoltas**
+    - Sólida creación de tiros
+    - Ritmo rápido, bajo margen de error
+  </Card>
+  <Card title="Enfoque Bidireccional (Two-Way)">
+    - **Ideal para aleros**
+    - Ataque y defensa equilibrados
+    - Opción segura para la mayoría de los jugadores
+  </Card>
+  <Card title="Enfoque Interior">
+    - **Ideal para pívots**
+    - Rebotes y control de la zona
+    - Menor libertad fuera de la pintura
+  </Card>
+</CardGrid>
+
+| Tipo de Build | Ideal Para | Fortaleza Principal | Principal Desventaja |
+|---|---|---|---|
+| Base Anotador | Creadores dominantes de balón | Velocidad, tiro, manejo de balón | Menor tamaño e impacto interior |
+| Alero Bidireccional | Roles de equipo flexibles | Ataque y defensa equilibrados | Rendimiento máximo ligeramente menor |
+| Pívot Interior | Control de la zona | Rebotes, defensa, anotación interior | Creación de juego limitada en el perímetro |
+
+<Callout type="tip" title="Filosofía de la Build">
+Si quieres un camino inicial confiable, comienza con un alero bidireccional. Te enseñará sobre espaciado, defensa y selección de tiro sin encasillarte en un solo estilo demasiado pronto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Elige Primero la Posición Correcta">
+
+La elección de la posición cambia cómo se siente una build desde el primer minuto hasta la última posesión. Una build de base puede crear más tiros y tener más contacto con el balón, mientras que una de alero suele ofrecerte el equilibrio más limpio entre anotar y frenar el balón. Los pívots son ideales cuando buscas impacto en la zona y un valor sencillo a través de rebotes, pantallas y defensa interior.
+
+El mayor error es elegir una posición porque suena poderosa en lugar de adaptarla a tu estilo de juego. Si quieres controlar las posesiones, elige base. Si quieres flexibilidad, elige alero. Si quieres dominancia física, elige pívot. Deja que la función decida la posición, y no al revés.
+
+| Posición | Función Primaria | Prioridad de la Build | Cuándo Elegir |
+|---|---|---|---|
+| Base (PG) | Iniciar la ofensiva | Creación de juego, velocidad, manejo | Quieres control de balón y creación |
+| Escolta (SG) | Anotar desde el perímetro | Tiro, movimiento sin balón | Quieres oportunidades limpias de anotación |
+| Alero (SF) | Versatilidad bidireccional | Ataque, defensa y tamaño equilibrados | Quieres la ruta más segura y completa |
+| Pívot (C) | Dominar la zona | Rebotes, fuerza, defensa interior | Quieres protección del aro y rebotes |
+
+<Callout type="warning" title="Error de Rol a Evitar">
+No elijas un pívot solo porque los rebotes parezcan fáciles, y no elijas un base solo porque tirar suene llamativo. La posición incorrecta hace que sientas que tu presupuesto de estadísticas se ha desperdiciado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Asignación de Atributos y Orden de Prioridad">
+
+Una vez que la posición está definida, tu siguiente tarea es dividir el presupuesto en estadísticas principales, secundarias y de apoyo. Aquí es donde la mayoría de los jugadores construyen en exceso. Una build de jugador perfecta suele tener una o dos categorías dominantes y luego suficientes estadísticas de apoyo para evitar sentirse unidimensional.
+
+Mantén el orden simple: primero define qué gana las posesiones, luego gasta en lo que evita las debilidades. Si tu jugador anota, la build debe crear separación. Si tu jugador defiende, la build debe mantenerse disciplinada en los cambios de marca y en las disputas interiores. Si tu jugador es un pívot, la build debe castigar los tiros fallados con rebotes y presión en la pintura.
+
+<Steps>
+  <Step num="1" title="Define la acción ganadora">
+    Decide qué hace tu jugador con más frecuencia: anotar, defender, crear juego o controlar la pintura.
+  </Step>
+  <Step num="2" title="Asegura tus estadísticas principales">
+    Gasta primero en las estadísticas que hacen que tu rol funcione en cada posesión, no en bonificaciones secundarias.
+  </Step>
+  <Step num="3" title="Añade una capa de apoyo">
+    Usa los siguientes puntos para cubrir una debilidad, como la velocidad, la defensa o el pase.
+  </Step>
+  <Step num="4" title="Deja espacio para pruebas">
+    Mantén un pequeño margen para poder hacer ajustes después de unos pocos partidos en lugar de comprometerte por completo demasiado pronto.
+  </Step>
+</Steps>
+
+| Grupo de Atributos | Build de Base | Build de Alero | Build de Pívot |
+|---|---|---|---|
+| Ofensiva | Muy Alta | Alta | Media |
+| Creación de Juego | Muy Alta | Media | Baja |
+| Defensa | Media | Alta | Muy Alta |
+| Físico | Media | Alta | Muy Alta |
+
+<Callout type="info" title="Regla de Prioridad">
+Construye en torno a una categoría de élite y una categoría de respaldo confiable. Un jugador que es excelente en una sola faceta y sólido en todo lo demás a menudo se siente más fuerte que uno con una distribución diluida y generalizada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Las Mejores Plantillas de Build para Empezar">
+
+Estas plantillas son los puntos de partida más sencillos si deseas una build que se sienta competitiva sin necesidad de un sinfín de pruebas y errores. No son las únicas opciones, pero te brindan una dirección clara antes de comenzar a ajustar los atributos y tendencias.
+
+<CardGrid cols={3}>
+  <Card title="Base Anotador">
+    - **Enfoque principal:** tiro y manejo de balón
+    - **Mejor rol:** creador principal
+    - **Fortaleza:** genera ofensiva bajo demanda
+    - **Riesgo:** puede sentirse frágil en defensa
+  </Card>
+  <Card title="Alero Bidireccional">
+    - **Enfoque principal:** equilibrio
+    - **Mejor rol:** conector
+    - **Fortaleza:** útil en casi cualquier alineación
+    - **Riesgo:** menos explosivo que las builds especialistas
+  </Card>
+  <Card title="Ancla Interior">
+    - **Enfoque principal:** rebotes y defensa en la pintura
+    - **Mejor rol:** protector del aro
+    - **Fortaleza:** valor sencillo en ambos extremos
+    - **Riesgo:** variedad de tiro limitada
+  </Card>
+</CardGrid>
+
+| Plantilla | Usa Esto Si | Fortaleza | Precaución Con |
+|---|---|---|---|
+| Base Anotador | Quieres el balón en tus manos | Creación de tiro y velocidad | Defensa débil si la ignoras |
+| Alero Bidireccional | Quieres flexibilidad | Se adapta a muchas necesidades del equipo | Puede sentirse promedio sin enfoque |
+| Ancla Interior | Te gusta el juego físico | Rebotes, tapones, presión interior | Necesita ayuda fuera de la pintura |
+
+<Callout type="success" title="Mejor Opción para Empezar">
+Si estás construyendo tu primer jugador, el alero bidireccional suele ser la plantilla más segura. Te da suficiente ofensiva para mantenerte activo y suficiente defensa para seguir siendo relevante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lanza, Prueba y Perfecciona tu Build">
+
+Una build se vuelve \"perfecta\" solo después de sobrevivir al juego real. Comienza con una plantilla clara, luego comprueba si tu jugador puede anotar, defender y recuperarse de los errores. Tu objetivo no es lucir perfecto sobre el papel. Tu objetivo es sentirte confiable en las posesiones reales.
+
+Usa un ciclo corto de prueba después de cada cambio importante. Si sientes que una estadística no se aprovecha lo suficiente, redúcela la próxima vez. Si un rol se siente demasiado limitado, añade una capa de apoyo. Las pequeñas revisiones suelen ser mejores que una reconstrucción completa, especialmente cuando ya conoces la posición y el estilo de juego que deseas.
+
+<Checklist
+  id="launch-checklist"
+  title="Lista de Verificación Prevuelo:"
+  items={[
+    "Confirma que tu posición coincida con tu estilo de juego",
+    "Asegura un grupo de estadísticas principales antes de gastar en extras",
+    "Prueba la build en unas cuantas posesiones completas",
+    "Rastrea qué se siente débil bajo presión",
+    "Guarda una segunda plantilla para futuras comparaciones"
+  ]}
+/>
+
+| Etapa | Enfoque | Señal de Éxito |
+|---|---|---|
+| Primera Build | Claridad de rol | El jugador hace bien un trabajo |
+| Primera Prueba | Control de debilidades | Sabes qué es lo que se siente ausente |
+| Primer Ajuste | Perfeccionamiento inteligente | La build mejora sin perder su identidad |
+| Uso a Largo Plazo | Crecimiento profesional | El jugador sigue siendo útil en múltiples partidos |
+
+<Callout type="tip" title="Regla de Perfeccionamiento">
+Realiza un cambio a la vez. Si modificas demasiadas estadísticas a la vez, se vuelve más difícil saber qué fue lo que realmente mejoró la build.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<Callout type="info" title="Respuestas Rápidas">
+Usa estas respuestas para reducir tu primera elección y luego compárala con tu posición y estilo de juego preferidos.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué hace que una build de jugador sea perfecta en Build a Hooper?",
+    answer: "Una build de jugador perfecta es aquella que se adapta a un rol específico, utiliza los puntos de manera eficiente y sigue siendo útil en el juego real en lugar de solo verse fuerte sobre el papel."
+  },
+  {
+    question: "¿Debería construir primero un base, un alero o un pívot?",
+    answer: "Comienza con el rol que coincida con la forma en que deseas influir en las posesiones. Los bases crean, los aleros equilibran y los pívots controlan la zona."
+  },
+  {
+    question: "¿Es buena una build equilibrada para principiantes?",
+    answer: "Sí. Una build equilibrada suele ser la forma más fácil de aprender el juego porque reduce las debilidades importantes mientras descubres tu estilo preferido."
+  },
+  {
+    question: "¿Cómo sé si mi build necesita cambios?",
+    answer: "Si sigues perdiendo el mismo tipo de posesión, como ser superado físicamente en el interior o fallar tiros abiertos, esa es una señal de que tu build necesita un ajuste de apoyo."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,187 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Desarrollo de jugadores en build a hooper: Creaciones, posiciones y consejos",
+  description: "Guía de desarrollo de jugadores en build a hooper sobre creaciones, posiciones, prioridades de atributos, insignias, preparación para el draft y consejos de crecimiento profesional para jugadores de baloncesto en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Player+Development+Guide",
+  date: "2026-07-07",
+  author: "Equipo de la Wiki de build a hooper"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **desarrollo de jugadores en build a hooper** comienza con un rol claro, no con mejoras dispersas.
+- Los **bases/escoltas anotadores** necesitan manejo de balón, creación de tiros y suficiente velocidad para generar espacio.
+- Los **pívots (hombres altos)** deben priorizar la presencia interior, los rebotes y la defensa antes que las estadísticas llamativas.
+- Las **creaciones equilibradas** se mantienen flexibles al principio y son más fáciles de perfeccionar durante el crecimiento profesional.
+- La **preparación para el draft** funciona mejor cuando tu posición, tus atributos y tu estilo de juego coinciden.
+</Callout>
+
+<Section icon={Sparkles} title="Conceptos básicos del desarrollo de jugadores en Build a Hooper">
+El desarrollo de jugadores en build a hooper funciona mejor cuando tratas a tu creación como un plan de carrera a largo plazo, no como una simple acumulación de estadísticas de una sola vez. Los comienzos más fuertes suelen darse al elegir una identidad clara y construir en torno a ella antes de intentar conseguir todo a la vez.
+
+<CardGrid cols={3}>
+  <Card title="Base/Escolta anotador">
+    - **Ideal para:** Base o Escolta
+    - Creación de tiros, control de balón, anotación perimetral
+    - Ataque fuerte al principio, mayor exigencia de habilidad
+  </Card>
+  <Card title="Alero polivalente">
+    - **Ideal para:** Escolta o Alero
+    - Valor en ambos lados de la cancha, anotación constante, defensa útil
+    - Opción segura si buscas flexibilidad
+  </Card>
+  <Card title="Pívot dominante">
+    - **Ideal para:** Pívot
+    - Rebotes, defensa interior, control de la zona
+    - Más lento en el perímetro, mayor impacto interior
+  </Card>
+</CardGrid>
+
+| Tipo de creación | Mejor posición | Fuerza principal | Principal desventaja |
+|---|---|---|---|
+| Base/Escolta anotador | PG/SG | Ataque rápido, creación de tiros | Puede sentirse débil en la zona |
+| Alero polivalente | SG/SF | Equilibrio y adaptabilidad | Rara vez es de élite en un área |
+| Pívot dominante | C | Rebotes y control interior | Menos libertad en el perímetro |
+
+<Callout type="tip" title="Selección del editor">
+Si no estás seguro, comienza con una creación equilibrada o de estilo alero. Es más fácil especializarse más adelante que recuperarse de una configuración inicial desajustada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Elige tu posición y tu rol">
+Tu posición debe definir lo que hace tu jugador en cada posesión. En un simulador de carrera de baloncesto, la claridad del rol importa más que la variedad pura, ya que define cómo gastas tus puntos, qué entrenas y cómo encaja tu jugador en el equipo.
+
+| Posición | Tarea principal | Enfoque inicial | Ideal para |
+|---|---|---|---|
+| Base | Dirigir el ataque | Pases, manejo, velocidad | Jugadores que quieren el control |
+| Escolta | Anotar desde el perímetro | Tiro, movimiento, creación | Anotadores puros y escoltas combo |
+| Alero | Hacer un poco de todo | Versatilidad, defensa, finalización | Creaciones polivalentes en ambos lados |
+| Pívot | Dominar la zona | Rebotes, tapones, juego interior | Anclas interiores y físicos grandes |
+
+<Callout type="info" title="Primero el rol, luego las estadísticas">
+Una posición no es solo una etiqueta. Te indica qué atributos deben sostener la creación y qué estadísticas pueden quedar en segundo plano hasta más adelante.
+</Callout>
+
+| Prioridad de rol | Qué maximizar | Qué posponer |
+|---|---|---|
+| Creador de juego | Pases, manejo, visión | Estadísticas interiores pesadas |
+| Tirador | Creación de tiros, precisión, movimiento | Invertir demasiado en defensa al principio |
+| Alero bidireccional | Ataque y defensa equilibrados | Especialización extrema |
+| Ancla de la zona | Rebotes, fuerza, defensa interior | Enfoque en el largo alcance |
+
+Usa la posición que coincida con tu estilo favorito de toma de decisiones. Si te gusta controlar las posesiones, elige ser base/escolta. Si prefieres el espacio y la anotación sin balón, un alero funcionará bien. Si quieres proteger el aro y dominar los rebotes, el camino del pívot es la ruta más directa.
+
+</Section>
+
+<Section icon={Target} title="Prioridades de atributos que más importan">
+El plan de atributos más seguro es simple: construye en torno a tu posición, cubre tus debilidades lo justo y evita gastar puntos en estadísticas que no apoyen tu rol. El crecimiento inicial suele ser más valioso que la novedad.
+
+| Grupo de atributos | Qué aporta | Prioridad recomendada | Por qué importa |
+|---|---|---|---|
+| Tiro | Tiros libres de marca, volumen de anotación | Alta para bases/escoltas y aleros | Mantiene tu ataque confiable |
+| Pase | Movimiento de balón, jugadas preparadas | Alta para bases | Te ayuda a crear mejores tiros |
+| Velocidad | Separación, recuperación, transiciones | Alta para bases/escoltas y aleros | Hace que tu creación se sienta más fluida |
+| Defensa | Paradas, punteos de tiro, presión | Alta para aleros y pívots | Aumenta la utilidad general |
+| Rebotes | Posesiones, segundas oportunidades | Alta para pívots | Añade un impacto constante |
+| Juego interior | Finalización, presión en el aro, control de la zona | Alta para pívots | Define el valor interior |
+
+<Callout type="warning" title="Evita la dispersión de estadísticas">
+No dividas los puntos por igual solo porque el menú te lo permita. Una creación sin puntos fuertes claros suele sentirse más débil que un jugador enfocado con una o dos ventajas destacadas.
+</Callout>
+
+| Enfoque de la creación | Estadísticas principales | Estadísticas secundarias | Brecha notable |
+|---|---|---|---|
+| Creador ofensivo | Tiro, pase, velocidad | Defensa, manejo | Menor presencia interior |
+| Alero bidireccional | Defensa, tiro, velocidad | Pase, finalización | Sin especialidad dominante |
+| Pívot interior | Rebotes, defensa, juego interior | Fuerza, movilidad | Amenaza limitada en el perímetro |
+| Híbrido equilibrado | Todas las categorías principales | Estadísticas de adaptabilidad | Pico de rendimiento inicial más lento |
+
+Una regla práctica que funciona bien aquí es: gasta primero en las estadísticas que deciden tus posesiones, luego usa los puntos sobrantes para tapar los huecos obvios. Este enfoque mantiene a tu jugador útil mientras deja espacio para el crecimiento a largo plazo.
+
+</Section>
+
+<Section icon={Trophy} title="Hoja de ruta del Draft y la progresión profesional">
+El draft y el camino profesional se sienten mejor cuando te preparas antes de empezar. Una configuración limpia evita que crees un jugador que se ve bien en papel pero que tiene problemas una vez que comienza la temporada simulada.
+
+<Steps>
+  <Step num="1" title="Elige tu identidad">
+    Decide si tu hooper es un anotador, creador, defensor, reboteador o un contribuyente equilibrado.
+  </Step>
+  <Step num="2" title="Asegura la posición">
+    Elige el rol que mejor coincida con tus fortalezas deseadas para que tu plan de atributos sea coherente.
+  </Step>
+  <Step num="3" title="Gasta puntos con propósito">
+    Mejora primero las estadísticas que definen tu rol, luego refuerza las áreas que compensan tus debilidades.
+  </Step>
+  <Step num="4" title="Juega para el crecimiento profesional">
+    Entra en el modo carrera, realiza un seguimiento del progreso y perfecciona la creación según el rendimiento de tu jugador en los partidos reales.
+  </Step>
+</Steps>
+
+<Callout type="success" title="La mejor mentalidad de progresión">
+Trata cada temporada como una prueba de tu rol. Cuando tu creación funciona bien en su especialidad, tu carrera a largo plazo se vuelve mucho más fácil de gestionar.
+</Callout>
+
+| Etapa de la carrera | Objetivo principal | Buenos hábitos | A qué prestar atención |
+|---|---|---|---|
+| Creación | Definir la identidad | Elegir un rol claro | Desarrollar demasiadas áreas a la vez |
+| Inicio de carrera | Establecer consistencia | Apoyarse en tus estadísticas más fuertes | Mala selección de tiro o posicionamiento deficiente |
+| Mitad de carrera | Pulir debilidades | Tapar huecos obvios | Gastar puntos de manera demasiado uniforme |
+| Final de carrera | Maximizar el impacto | Duplicar las fortalezas | Perder la claridad del rol |
+
+<Checklist
+  id="career-growth-goals"
+  title="Lista de verificación del crecimiento profesional"
+  items={[
+    "Elige un rol y construye en torno a él",
+    "Mantén el gasto de atributos alineado con tu posición",
+    "Protege tus estadísticas más fuertes de la dilución",
+    "Haz un seguimiento de las situaciones que exponen tus debilidades",
+    "Ajusta tu plan a largo plazo después de cada etapa de tu carrera"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Errores comunes y preguntas frecuentes">
+La mayoría de las creaciones débiles provienen de los mismos errores: buscar todas las estadísticas, ignorar el ajuste de la posición y esperar que un solo jugador resuelva cada situación de juego. Evita esas trampas y tu camino de desarrollo será mucho más limpio.
+
+| Error común | Por qué perjudica | Mejor enfoque |
+|---|---|---|
+| Gasto aleatorio de estadísticas | Debilita tu identidad | Construye en torno a un solo rol |
+| Ignorar la defensa | Te hace fácil de explotar | Añade suficiente defensa para tu posición |
+| Invertir demasiado en una estadística de lujo | Deja huecos en otros lugares | Cubre primero las necesidades de juego principales |
+| Elegir la posición incorrecta | Ralentiza la progresión | Haz coincidir la posición con tu estilo de juego |
+
+<Callout type="tip" title="Regla simple">
+Si tu creación no explica lo que haces en la cancha en una sola frase, probablemente necesite una dirección más clara.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de comenzar el desarrollo de un jugador en build a hooper?",
+    answer: "Comienza con un rol claro. Elige si tu jugador es un base/escolta, alero o pívot, y luego gasta puntos para apoyar esa identidad."
+  },
+  {
+    question: "¿Deberían los principiantes elegir una creación equilibrada o especializada?",
+    answer: "Las creaciones equilibradas suelen ser más seguras para los nuevos jugadores porque mantienen la flexibilidad. Las creaciones especializadas pueden ser más fuertes, pero requieren una mejor planificación."
+  },
+  {
+    question: "¿Qué estadísticas importan más para una creación de base/escolta?",
+    answer: "Los bases y escoltas suelen beneficiarse más del tiro, el manejo del balón, la velocidad y el pase. La defensa puede ser lo siguiente si deseas un estilo bidireccional."
+  },
+  {
+    question: "¿Cómo evito que mi trayectoria profesional se sienta desordenada?",
+    answer: "Usa una posición, una fuerza principal y un plan de apoyo secundario. Esa estructura mantiene tu desarrollo constante a lo largo del modo carrera."
+  }
+]} />
+
+</Section>

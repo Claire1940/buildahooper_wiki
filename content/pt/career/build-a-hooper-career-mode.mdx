@@ -1,0 +1,229 @@
+import { Map, Target, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build a Hooper: Guia Passo a Passo de Configuração do Modo Carreira",
+  description: "Aprenda como criar um jogador no modo carreira do Build a Hooper com escolhas de posição, prioridades de atributos, planejamento de insígnias e dicas de progressão prontas para o draft.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Career+Mode+Setup+Guide",
+  date: "2026-07-07",
+  author: "Equipe Wiki do Build a Hooper"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Build a Hooper** funciona melhor quando você define um papel claro antes de gastar seus pontos.
+- **Armadores (Guards)** precisam de controle de bola, arremesso e velocidade; **pivôs (Bigs)** precisam de tamanho, defesa e rebote.
+- **Builds equilibradas** são mais seguras no início, mas builds especializadas costumam render melhor no final.
+- **O planejamento para o draft** é importante porque as escolhas iniciais moldam a trajetória da sua carreira a longo prazo.
+</Callout>
+
+<Section icon={Map} title="Configuração de Posição no Build a Hooper">
+
+O modo carreira do Build a Hooper começa com uma decisão: que tipo de jogador de basquete você quer se tornar. Se o seu papel não estiver claro, seus pontos de atributos ficarão muito dispersos e seus primeiros jogos parecerão inconsistentes. Mantenha a identidade da build simples e, em seguida, dê suporte a ela com algumas forças secundárias.
+
+<Callout type="tip" title="Posição Primeiro">
+Escolha sua posição antes de focar nos limites de atributos. Uma definição de papel forte torna cada melhoria muito mais fácil de justificar.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Armador Principal (Point Guard)">
+    - **Melhor para:** Controle de bola e criação de jogadas  
+    - **Foco:** Criar arremessos e ditar o ritmo do ataque  
+    - **Risco:** Finalização fraca se você investir demais em passes
+  </Card>
+  <Card title="Ala-Armador (Shooting Guard)">
+    - **Melhor para:** Pontuação no perímetro  
+    - **Foco:** Criação de arremessos e espaçamento de quadra  
+    - **Risco:** Impacto limitado se a defesa for ignorada
+  </Card>
+  <Card title="Ala (Small Forward)">
+    - **Melhor para:** Jogo versátil nos dois lados da quadra (two-way)  
+    - **Foco:** Ataque e defesa equilibrados  
+    - **Risco:** Pode parecer mediano se os pontos forem distribuídos de forma muito uniforme
+  </Card>
+  <Card title="Pivô (Center)">
+    - **Melhor para:** Presença no garrafão  
+    - **Foco:** Rebotes, proteção de aro e pontuação interna  
+    - **Risco:** Builds lentas exigem um posicionamento muito mais preciso
+  </Card>
+</CardGrid>
+
+| Posição | Melhor Papel | Prioridade Inicial | Principal Risco |
+|---|---|---|---|
+| Armador Principal | Criador primário | Controle de bola, passes, criação de arremessos | Pontuação fraca se for equilibrado demais |
+| Ala-Armador | Pontuador de perímetro | Arremesso, movimentação, finalização | Baixa utilidade sem defesa |
+| Ala | Ala two-way | Impacto geral, versatilidade | Atributos de especialidade medíocres |
+| Pivô | Protetor de garrafão | Rebotes, defesa, finalização interna | Limitações de mobilidade |
+
+Uma boa regra é escolher a posição que combine com a sua velocidade preferida de tomada de decisão. Armadores recompensam leituras rápidas e toques frequentes na bola. Alas recompensam adaptabilidade. Pivôs recompensam paciência e tempo de reação. Se você gosta de controlar as posses de bola, escolha armador. Se prefere maior valor defensivo e confrontos diretos, escolha ala ou pivô.
+
+</Section>
+
+<Section icon={Target} title="Alocação de Atributos que Evolui">
+
+Os atributos devem seguir o papel escolhido, e não o contrário. Um jogador com pontos espalhados geralmente parece flexível no papel, mas a build falha quando precisa vencer confrontos diretos repetidamente. Invista primeiro em uma produção consistente e constante, e depois expanda para outros atributos quando a base estiver sólida.
+
+<Callout type="warning" title="Evite Dispersar Pontos">
+Não divida seus pontos iniciais entre todas as categorias. Atributos principais fracos fazem com que até mesmo uma build equilibrada pareça inacabada.
+</Callout>
+
+| Tipo de Build | Ataque | Defesa | Físico | Passes |
+|---|---|---|---|---|
+| Armador Pontuador | Alto | Médio | Médio | Médio |
+| Ala Two-Way | Médio | Alto | Médio | Médio |
+| Pivô de Garrafão | Médio | Alto | Alto | Baixo |
+| Criador Equilibrado | Médio | Médio | Médio | Alto |
+
+| Grupo de Atributos | Por Que Importa | Bom Para |
+|---|---|---|---|
+| Arremesso | Cria caminhos confiáveis para pontuar | Armadores, alas |
+| Finalização | Converte infiltrações e cortes | Infiltradores, alas |
+| Passes | Mantém o ataque fluindo | Armadores principais, criadores de jogadas |
+| Defesa | Garante roubadas de bola e posses | Builds de dois lados (two-way), pivôs |
+| Rebote | Prolonga as posses de bola | Pivôs, jogadores de garrafão |
+
+Use esta escada de prioridades ao distribuir seus pontos:
+
+<Steps>
+  <Step num="1" title="Defina a função principal">
+    Decida se a build foi feita para pontuar, criar jogadas, defender ou dominar o garrafão.
+  </Step>
+  <Step num="2" title="Invista na sua jogada mais forte">
+    Melhore os atributos que você usa em todas as posses, não aqueles que só importam de vez em quando.
+  </Step>
+  <Step num="3" title="Corrija a maior fraqueza">
+    Adicione uma área de suporte para que a build não desmorone ao enfrentar um adversário forte.
+  </Step>
+  <Step num="4" title="Deixe espaço para crescimento">
+    Mantenha flexibilidade suficiente para melhorias futuras, permitindo que a build evolua ao longo da carreira.
+  </Step>
+</Steps>
+
+As builds mais estáveis geralmente têm um caminho de elite, um secundário e um de segurança. Por exemplo, um armador pode focar no arremesso, manter os passes decentes e evitar ignorar a defesa por completo. Essa estrutura cria um início de jogo mais limpo e um teto de evolução muito maior a longo prazo.
+
+</Section>
+
+<Section icon={Trophy} title="Draft e Progressão de Carreira">
+
+O ciclo do draft e da temporada é onde a sua preparação começa a dar resultados. Encare o início da carreira como um teste. Se a sua build consegue produzir posses consistentes, ela geralmente está no caminho certo. Se cada jogo parecer completamente diferente, a identidade central ainda precisa de ajustes.
+
+<Callout type="success" title="Prontidão para o Draft">
+Um plano de draft limpo geralmente supera uma build chamativa com fundamentos fracos.
+</Callout>
+
+| Fase da Carreira | O Que Fazer | Como É o Sucesso |
+|---|---|---|
+| Criação | Escolher posição e estilo | Papel claro desde o início |
+| Pré-Draft | Definir prioridades de atributos | Sem pontos desperdiçados em atributos aleatórios |
+| Início de Carreira | Testar suas principais forças | Impacto consistente em todos os jogos |
+| Meio de Carreira | Refinar fraquezas | Melhor desempenho em confrontos difíceis |
+
+<Steps>
+  <Step num="1" title="Crie a build focando nos primeiros 10 jogos">
+    Certifique-se de que seu jogador já consegue fazer a função para a qual foi projetado.
+  </Step>
+  <Step num="2" title="Monitore falhas repetidas">
+    Observe se você está errando muitos arremessos, perdendo rebotes ou cometendo muitos turnovers.
+  </Step>
+  <Step num="3" title="Ajuste o próximo caminho de melhorias">
+    Gaste os pontos futuros onde a build realmente apresenta falhas em jogo real.
+  </Step>
+  <Step num="4" title="Proteja a identidade">
+    Mantenha o papel principal intacto, mesmo ao adicionar novas habilidades.
+  </Step>
+</Steps>
+
+| Objetivo no Draft | Melhor Escolha | Por Que Ajuda |
+|---|---|---|---|
+| Pontuação rápida | Armador ou Ala | Mais toques na bola e criação de arremessos simplificada |
+| Defesa confiável | Ala ou Pivô | Melhor cobertura de confrontos diretos |
+| Progressão fácil | Criador equilibrado | Menor risco se você ainda estiver aprendendo |
+| Controle do garrafão | Pivô | Rebotes fortes e pressão física no garrafão |
+
+Se você deseja a progressão mais suave possível, evite reconstruir o jogador inteiro no meio do caminho. Mantenha a identidade estável e deixe os números subirem ao redor dela. Essa abordagem reduz melhorias desperdiçadas e faz com que cada temporada pareça mais objetiva.
+
+</Section>
+
+<Section icon={Shield} title="Insígnias, Ajuste de Equipe e Papéis em Quadra">
+
+As insígnias (badges) e o encaixe na equipe funcionam como multiplicadores. A mesma build pode parecer mais forte ou mais fraca dependendo de como o elenco a utiliza. Se um time permite que seu jogador toque muito na bola, proteja o aro ou espace a quadra, fica muito mais fácil maximizar a build.
+
+<Callout type="info" title="O Contexto da Equipe Importa">
+Trate o encaixe no elenco como parte da build, e não como um mero detalhe posterior.
+</Callout>
+
+| Categoria de Insígnia | Melhor Para | Impacto em Quadra |
+|---|---|---|
+| Pontuação | Criadores ofensivos | Criação de arremessos mais confiável |
+| Armação | Armadores e iniciadores | Melhor movimentação e controle de bola |
+| Defesa | Builds de dois lados (two-way) | Paradas defensivas e pressão mais fortes |
+| Garrafão | Pivôs | Melhor jogo físico e rebotes |
+
+| Estilo de Jogo do Time | Melhor Tipo de Build | Por Que Funciona |
+|---|---|---|
+| Ataque veloz (Fast-paced) | Armador pontuador | Mais oportunidades de transição rápida |
+| Sistema de meia-quadra | Ala armador | Posses de bola melhor estruturadas |
+| Elenco focado no garrafão | Pivô | Responsabilidades mais simples na área pintada |
+| Elenco equilibrado | Ala two-way | Encaixe de papel altamente flexível |
+
+Uma configuração prática é alinhar sua build com os momentos que você realmente quer jogar. Se você gosta de arremessar após dribles, priorize pontuação e armação. Se você prefere controlar o espaço e forçar erros dos adversários, invista em defesa e atributos de garrafão. Isso mantém seu jogador útil mesmo quando o ritmo do jogo muda.
+
+<Callout type="tip" title="Teste Simples de Papel">
+Faça uma pergunta a si mesmo: sua build garante posses de bola da mesma maneira em todos os jogos? Se sim, o papel provavelmente está bem definido.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Erros Comuns e Checklist Final">
+
+A maioria das builds fracas falha pelos mesmos motivos: excesso de prioridades, falta de identidade e planejamento inicial ruim. Antes de se comprometer com uma longa jornada de carreira, verifique se não está cometendo os erros que silenciosamente tiram o valor do seu jogador.
+
+<Callout type="tip" title="Verificação Pré-Compromisso">
+Use esta seção antes de fechar sua build ou iniciar uma nova trajetória de carreira.
+</Callout>
+
+| Erro | O Que Causa | Melhor Solução |
+|---|---|---|
+| Atributos principais em excesso | Nenhuma força de destaque | Escolha um caminho principal |
+| Ignorar a defesa | Derrotas fáceis em confrontos individuais | Reserve pontos para garantir paradas defensivas |
+| Focar no estilo primeiro | Produção fraca em quadra | Monte a build focando na utilidade primeiro |
+| Sem plano para o final do jogo | Progressão travada | Deixe margem para melhorias futuras |
+| Build excessivamente equilibrada | Mediano em tudo | Adicione uma categoria de nível de elite |
+
+<Checklist
+  id="build-a-hooper-final-check"
+  title="Monte Antes de Começar:"
+  items={[
+    "Escolha um papel principal para o jogador",
+    "Combine a posição com esse papel",
+    "Defina três prioridades de atributos principais",
+    "Deixe espaço para pelo menos um atributo de suporte",
+    "Confirme se a build consegue garantir posses de bola de forma consistente"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor primeira build no Build a Hooper?",
+    answer: "A melhor primeira build é aquela com o papel mais claro. Um armador, ala ou pivô focado geralmente tem um desempenho melhor do que uma configuração geral dispersa."
+  },
+  {
+    question: "Devo escolher uma posição antes de distribuir os atributos?",
+    answer: "Sim. A posição deve guiar seu plano de atributos para que seus pontos deem suporte à função que você deseja que o jogador desempenhe."
+  },
+  {
+    question: "Como evito criar uma build fraca no modo carreira?",
+    answer: "Mantenha uma identidade sólida, priorize atributos consistentes e certifique-se de que a build consiga produzir valor em mais de um tipo de confronto."
+  },
+  {
+    question: "Uma build equilibrada é melhor do que uma build especializada?",
+    answer: "Builds equilibradas são mais seguras no início, mas as builds especializadas costumam evoluir muito melhor assim que o jogador tem pontos suficientes para sustentar seu papel principal."
+  }
+]} />
+
+</Section>

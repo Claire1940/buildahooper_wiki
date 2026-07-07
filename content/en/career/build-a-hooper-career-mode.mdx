@@ -1,0 +1,229 @@
+import { Map, Target, Trophy, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build a Hooper: Step-by-Step Career Mode Setup Guide",
+  description: "Learn how to build a Hooper career mode player with position choices, attribute priorities, badge planning, and draft-ready progression tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Career+Mode+Setup+Guide",
+  date: "2026-07-07",
+  author: "build a hooper Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Build a Hooper** works best when you lock one clear role before spending points.
+- **Guards** need ball control, shooting, and pace; **bigs** need size, defense, and rebounding.
+- **Balanced builds** are safer early, but specialist builds usually scale better later.
+- **Draft planning** matters because early choices shape your long-term career path.
+</Callout>
+
+<Section icon={Map} title="Build a Hooper Position Setup">
+
+Build a Hooper career mode starts with one decision: what kind of hooper you want to become. If your role is unclear, your attribute points spread too thin and your early games feel inconsistent. Keep the build identity simple, then support it with a few secondary strengths.
+
+<Callout type="tip" title="Position First">
+Choose your position before you chase stat caps. A strong role definition makes every upgrade easier to justify.
+</Callout>
+
+<CardGrid cols={4}>
+  <Card title="Point Guard">
+    - **Best for:** Ball handling and playmaking  
+    - **Focus:** Creating shots and running offense  
+    - **Risk:** Weak finishing if you overinvest in passing
+  </Card>
+  <Card title="Shooting Guard">
+    - **Best for:** Perimeter scoring  
+    - **Focus:** Shot creation and spacing  
+    - **Risk:** Limited impact if defense is ignored
+  </Card>
+  <Card title="Small Forward">
+    - **Best for:** Versatile two-way play  
+    - **Focus:** Balanced offense and defense  
+    - **Risk:** Can feel average if points are spread too evenly
+  </Card>
+  <Card title="Center">
+    - **Best for:** Interior presence  
+    - **Focus:** Rebounding, rim protection, inside scoring  
+    - **Risk:** Slow builds need cleaner positioning
+  </Card>
+</CardGrid>
+
+| Position | Best Role | Early Priority | Main Risk |
+|---|---|---|---|
+| Point Guard | Primary creator | Ball control, passing, shot creation | Weak scoring if overbalanced |
+| Shooting Guard | Perimeter scorer | Shooting, movement, finishing | Low utility without defense |
+| Small Forward | Two-way wing | All-around impact, versatility | Mediocre specialty stats |
+| Center | Paint anchor | Rebounding, defense, inside finish | Mobility gaps |
+
+A good rule is to pick the position that matches your preferred decision speed. Guards reward quick reads and repeated touches. Wings reward adaptability. Bigs reward patience and timing. If you enjoy controlling possessions, lean guard. If you want stronger matchup value, lean wing or center.
+
+</Section>
+
+<Section icon={Target} title="Attribute Allocation That Scales">
+
+Attributes should follow the role, not the other way around. A player with scattered points often looks flexible on paper, but the build fails when it must win a repeated matchup. Spend for repeatable production first, then expand into extras after the core is stable.
+
+<Callout type="warning" title="Avoid Point Spreading">
+Do not divide early points across every category. Weak core stats make even a balanced build feel unfinished.
+</Callout>
+
+| Build Type | Offense | Defense | Physical | Passing |
+|---|---|---|---|---|
+| Scoring Guard | High | Medium | Medium | Medium |
+| Two-Way Wing | Medium | High | Medium | Medium |
+| Interior Big | Medium | High | High | Low |
+| Balanced Creator | Medium | Medium | Medium | High |
+
+| Attribute Group | Why It Matters | Good For |
+|---|---|---|---|
+| Shooting | Creates reliable scoring lanes | Guards, wings |
+| Finishing | Converts drives and cuts | Slashers, wings |
+| Passing | Keeps offense moving | Point guards, creators |
+| Defense | Wins stops and possessions | Two-way builds, bigs |
+| Rebounding | Extends possessions | Centers, interior players |
+
+Use this priority ladder when you assign points:
+
+<Steps>
+  <Step num="1" title="Lock the core job">
+    Decide whether the build is meant to score, create, defend, or anchor the paint.
+  </Step>
+  <Step num="2" title="Fund the strongest action">
+    Upgrade the stats you use every possession, not the ones that only matter once in a while.
+  </Step>
+  <Step num="3" title="Patch the biggest weakness">
+    Add one support area so the build does not collapse when matched against a strong opponent.
+  </Step>
+  <Step num="4" title="Leave room for growth">
+    Keep enough flexibility for later upgrades so the build can still evolve through the career.
+  </Step>
+</Steps>
+
+The most stable builds usually have one elite lane, one secondary lane, and one safety lane. For example, a guard can lean into shooting, keep passing serviceable, and avoid ignoring defense completely. That structure creates a cleaner early game and a better long-term ceiling.
+
+</Section>
+
+<Section icon={Trophy} title="Draft and Career Progression">
+
+The draft and season loop is where your setup starts paying off. Treat the early career like a test run. If your build can produce consistent possessions, it is usually on the right track. If every game feels different, the core identity still needs work.
+
+<Callout type="success" title="Draft Readiness">
+A clean draft plan usually beats a flashy build with weak fundamentals.
+</Callout>
+
+| Career Stage | What To Do | What Success Looks Like |
+|---|---|---|
+| Creation | Pick position and style | Clear role from the start |
+| Pre-Draft | Set core attribute priorities | No wasted points on random stats |
+| Early Career | Test your main strengths | Consistent impact every game |
+| Mid Career | Refine weaknesses | Better matchup performance |
+
+<Steps>
+  <Step num="1" title="Build for the first 10 games">
+    Make sure your player can already do the job you designed them to do.
+  </Step>
+  <Step num="2" title="Track repeated failures">
+    Note whether you are missing shots, losing rebounds, or turning the ball over too often.
+  </Step>
+  <Step num="3" title="Adjust the next upgrade path">
+    Spend later points where the build actually breaks down in live play.
+  </Step>
+  <Step num="4" title="Protect the identity">
+    Keep the main role intact even when you add new skills.
+  </Step>
+</Steps>
+
+| Draft Goal | Better Choice | Why It Helps |
+|---|---|---|---|
+| Early scoring | Guard or wing | More touches and simpler shot creation |
+| Reliable defense | Wing or center | Better matchup coverage |
+| Easy progression | Balanced creator | Lower risk if you are learning |
+| Inside control | Center | Strong rebounding and paint pressure |
+
+If you want the smoothest progression, avoid rebuilding the whole player midstream. Keep the identity steady and let the numbers climb around it. That approach reduces wasted upgrades and makes each season feel more purposeful.
+
+</Section>
+
+<Section icon={Shield} title="Badges, Team Fit, and On-Court Roles">
+
+Badges and team fit act like multipliers. The same build can feel stronger or weaker depending on how the roster uses it. If a team lets your player touch the ball often, protect the rim, or space the floor, the build becomes easier to maximize.
+
+<Callout type="info" title="Team Context Matters">
+Treat roster fit as part of the build, not as an afterthought.
+</Callout>
+
+| Badge Category | Best For | On-Court Impact |
+|---|---|---|
+| Scoring | Offensive creators | More dependable shot creation |
+| Playmaking | Guards and initiators | Better ball movement and control |
+| Defense | Two-way builds | Stronger stops and pressure |
+| Interior | Big men | Better paint play and rebounding |
+
+| Team Style | Best Build Type | Why It Works |
+|---|---|---|
+| Fast-paced offense | Scoring guard | More transition chances |
+| Half-court system | Playmaking wing | Better structured possessions |
+| Interior-heavy roster | Center | Easier paint responsibilities |
+| Balanced roster | Two-way forward | Flexible role fit |
+
+A practical setup is to match your build to the moments you actually want. If you like pulling up after dribble moves, prioritize scoring and playmaking. If you enjoy controlling space and forcing misses, invest in defense and interior stats. That keeps your player useful even when the game flow changes.
+
+<Callout type="tip" title="Simple Role Test">
+Ask one question: does your build win possessions in the same way every game? If yes, the role is probably clean enough.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Common Mistakes and Final Checklist">
+
+Most weak builds fail for the same reasons: too many priorities, not enough identity, and poor early planning. Before you commit to a long career run, scan for the mistakes that quietly drain value from the player.
+
+<Callout type="tip" title="Pre-Commit Check">
+Use this section before you lock in your build or start a fresh career path.
+</Callout>
+
+| Mistake | What It Causes | Better Fix |
+|---|---|---|
+| Too many core stats | No standout strength | Pick one main lane |
+| Ignoring defense | Easy matchup losses | Reserve points for stops |
+| Chasing style first | Weak production | Build for function first |
+| No late-game plan | Stalled progression | Leave room for upgrades |
+| Overbalanced build | Average everywhere | Add one elite category |
+
+<Checklist
+  id="build-a-hooper-final-check"
+  title="Build Before You Start:"
+  items={[
+    "Choose one primary role for the player",
+    "Match the position to that role",
+    "Set three core attribute priorities",
+    "Leave room for at least one support stat",
+    "Confirm the build can win possessions repeatedly"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "What is the best first build in Build a Hooper?",
+    answer: "The best first build is the one with the clearest role. A focused guard, wing, or center usually performs better than a scattered all-around setup."
+  },
+  {
+    question: "Should I pick a position before assigning attributes?",
+    answer: "Yes. Position should guide your attribute plan so your points support the job you want the player to do."
+  },
+  {
+    question: "How do I avoid a weak career-mode build?",
+    answer: "Keep one strong identity, prioritize repeatable stats, and make sure the build can produce value in more than one type of matchup."
+  },
+  {
+    question: "Is a balanced build better than a specialist build?",
+    answer: "Balanced builds are safer early, but specialist builds often scale better once the player has enough points to support the main role."
+  }
+]} />
+
+</Section>

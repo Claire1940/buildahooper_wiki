@@ -1,0 +1,190 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia do melhor jogador em Build a Hooper: Builds, atributos e dicas",
+  description: "Aprenda a criar o melhor jogador em Build a Hooper com escolhas de função, prioridades de atributos, conselhos de posição e dicas de progressão de carreira.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Build+a+Hooper+Guide",
+  date: "2026-07-07",
+  author: "Equipe do Wiki Build a Hooper"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **O guia do melhor jogador em Build a Hooper** começa com uma função clara e, em seguida, distribui pontos para apoiar essa identidade.
+- **Armadores pontuadores** precisam primeiro de controle de bola e criação de arremessos; as melhorias físicas vêm depois que a base estiver estável.
+- **Alas equilibrados** são a escolha inicial mais segura, pois podem pontuar, defender e se adaptar a diferentes confrontos.
+- **A compatibilidade no draft e o crescimento na carreira** melhoram quando sua build é simples, focada e fácil de entender.
+</Callout>
+
+<Section icon={Map} title="Guia do melhor jogador em Build a Hooper: Builds iniciais">
+
+A jogada inicial mais forte em Build a Hooper é escolher uma função antes de mexer nos atributos. Se você tentar criar um jogador que faz de tudo, geralmente acabará com um atleta que parece mediano em todos os confrontos. Comece com uma identidade e depois deixe que o resto da build a apoie.
+
+<CardGrid cols={3}>
+  <Card title="Armador Pontuador">
+    Rápido, criativo e feito para criar arremessos.
+    <br />
+    <br />
+    Ideal para jogadores que querem a bola nas mãos e valorizam a pressão no perímetro.
+  </Card>
+  <Card title="Ala Equilibrado">
+    O ponto de partida mais fácil para a maioria dos jogadores.
+    <br />
+    <br />
+    Ideal para iniciantes que buscam ataque, defesa e flexibilidade sem se comprometer demais.
+  </Card>
+  <Card title="Pivô Dominante">
+    Construído em torno do controle do garrafão, rebotes e presença interna.
+    <br />
+    <br />
+    Ideal para jogadores que preferem o jogo físico e decisões simples de alto valor.
+  </Card>
+</CardGrid>
+
+| Tipo de Build | Ideal para | Principal Força | Principal Risco |
+|---|---|---|---|
+| Armador Pontuador | Criação de arremessos, controle de bola | Cria ataque sob demanda | Pode parecer frágil se a defesa for ignorada |
+| Ala Equilibrado | Jogadores completos | Flexível na maioria das situações | Pode faltar uma vantagem dominante clara |
+| Pivô Dominante | Proteção de aro, rebotes | Vence a batalha no garrafão | Exige bom posicionamento e tempo de reação |
+
+<Callout type="tip" title="Conselho para Iniciantes">
+Se estiver na dúvida, comece com um **ala equilibrado**. Geralmente é a build mais fácil de entender e oferece espaço para aprender sem prender você a um estilo de jogo muito limitado.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como distribuir os pontos de atributo">
+
+Build a Hooper oferece espaço suficiente para se especializar, mas não o bastante para maximizar todas as categorias sem consequências. O segredo é deixar que sua melhor característica lidere. Uma vez definida essa característica, distribua o restante dos pontos para torná-la confiável em jogos reais.
+
+<Steps>
+  <Step num="1" title="Escolha sua função primeiro">
+    Decide se você quer pontuar, defender, criar jogadas ou controlar o garrafão. Essa escolha deve guiar todas as decisões seguintes.
+  </Step>
+  <Step num="2" title="Defina seus atributos principais">
+    Coloque seus primeiros pontos nos atributos que apoiam diretamente seu trabalho principal. É aqui que a build se torna utilizável.
+  </Step>
+  <Step num="3" title="Adicione atributos de suporte">
+    Depois que a base estiver estável, invista em áreas secundárias, como passes, atributos físicos ou ajuda interna.
+  </Step>
+  <Step num="4" title="Mantenha uma pequena margem">
+    Deixe um pouco de flexibilidade para poder fazer ajustes após testar a build em partidas reais.
+  </Step>
+</Steps>
+
+| Grupo de Atributos | O que faz | Melhor Prioridade |
+|---|---|---|
+| Controle de Bola | Ajuda a controlar o ritmo e criar espaço | Alta para armadores e criadores |
+| Arremesso | Aumenta sua ameaça de pontuação de longe | Alta para pontuadores e alas |
+| Defesa | Torna você um alvo mais difícil e mais confiável | Alta para todas as builds |
+| Atributos Físicos | Melhora velocidade, força e impacto no garrafão | Alta para pivôs e infiltradores |
+| Passe | Melhora a movimentação de bola e a criação de jogadas | Alta para armadores principais e focados na equipe |
+
+<Callout type="warning" title="Erro Comum">
+Não distribua os pontos de forma muito equilibrada só porque o menu permite. Uma build diluída costuma parecer equilibrada no papel, mas geralmente carece de uma identidade real de jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Compatibilidade por posição">
+
+Build a Hooper utiliza as posições clássicas do basquete, e cada uma muda como uma boa build deve ser estruturada. Se você escolher a posição errada para o seu estilo preferido, mesmo atributos fortes podem parecer desajeitados. O objetivo é alinhar sua função, seus pontos e sua trajetória de carreira a longo prazo.
+
+| Posição | Trabalho Principal | Atributos Fortes | Erro Comum |
+|---|---|---|---|
+| Armador (PG) | Inicia o ataque e dita o ritmo | Passe, controle de bola, velocidade | Gastar muito em tamanho cedo demais |
+| Ala-Armador (SG) | Pontua do perímetro e em movimento | Arremesso, infiltração, jogo sem bola | Ignorar movimentação e espaçamento |
+| Ala (SF) | Combina pontuação, defesa e flexibilidade | Ataque equilibrado, defesa, atleticismo | Tentar copiar todas as funções de uma vez |
+| Pivô (C) | Domina o garrafão e protege o aro | Rebotes, defesa interna, força | Esquecer o posicionamento e o fôlego |
+
+<CardGrid cols={4}>
+  <Card title="Armador">
+    Ideal para jogadores que querem controlar a posse de bola e criar jogadas para os outros.
+  </Card>
+  <Card title="Ala-Armador">
+    Ideal para pontuadores de perímetro que buscam arremessos livres e volume constante.
+  </Card>
+  <Card title="Ala">
+    Ideal para jogadores flexíveis que gostam de uma mistura de pontuação e trabalho defensivo.
+  </Card>
+  <Card title="Pivô">
+    Ideal para defensores internos que querem dominar os rebotes e o aro.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Teste de Compatibilidade">
+Se você quer a curva de aprendizado mais fácil, **ala** e **pivô** costumam ser as escolhas mais tolerantes. Se você quer o teto de habilidade mais alto, **armador** recompensa decisões mais precisas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Insígnias, compatibilidade no draft e planejamento de carreira">
+
+As insígnias e a progressão de carreira devem reforçar sua build, não salvar uma build fraca. Pense nelas como multiplicadores. Se o seu jogador já tem uma força clara, as melhorias certas tornam essa força ainda mais valiosa sempre que o jogo começar a ficar apertado.
+
+| Foco da Insígnia | Ajuda com | Ideal para | Prioridade |
+|---|---|---|---|
+| Pontuação | Conversão de arremessos e infiltrações | Armadores e pontuadores principais | Alta se o ataque for sua identidade |
+| Criação de Jogadas | Movimentação de bola e criação | Armadores e criadores | Alta para builds focadas em armação |
+| Defesa | Desarmes, contestações, pressão | Alas bidirecionais (two-way) e defensores | Alta para jogadores equilibrados |
+| Jogo Interno | Pontuação no garrafão e rebotes | Pivôs | Alta para pivôs e builds focadas no poste |
+
+| Fase da Carreira | Foco Principal | Objetivo |
+|---|---|---|
+| Criação | Definir sua identidade | Evitar gastos aleatórios de pontos |
+| Draft | Alinhar função à posição | Entrar no caminho certo desde cedo |
+| Início de Carreira | Aumentar atributos principais | Tornar-se confiável rapidamente |
+| Fim de Carreira | Corrigir pontos fracos | Aperfeiçoar a build com cuidado |
+
+<Callout type="info" title="Dica de Carreira">
+Um jogador que se adapta à trajetória da carreira costuma parecer mais forte do que um jogador com números brutos maiores, mas com uma função confusa. A compatibilidade no draft, a sinergia das insígnias e a clareza de funções são fundamentais.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de verificação para iniciantes e perguntas frequentes">
+
+Use esta lista de verificação antes de confirmar sua primeira build. Ela mantém seu jogador focado e facilita a leitura do jogo no início.
+
+<Callout type="tip" title="Lembrete pré-build">
+Se a sua primeira versão parecer fraca, a solução costuma ser uma identidade mais clara, não mais melhorias aleatórias.
+</Callout>
+
+<Checklist
+  id="build-a-hooper-first-build"
+  title="Lista de verificação da primeira build:"
+  items={[
+    "Escolha uma função e uma posição antes de gastar pontos",
+    "Proteja seus atributos principais primeiro",
+    "Mantenha uma força clara acima do restante",
+    "Certifique-se de que consegue defender ou criar jogadas de alguma forma",
+    "Deixe um pouco de flexibilidade para ajustes futuros"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Qual é a build inicial mais segura no guia do melhor jogador em Build a Hooper?",
+    answer: "Um ala equilibrado costuma ser a escolha inicial mais segura porque pode pontuar, defender e se adaptar enquanto você aprende o modo."
+  },
+  {
+    question: "Devo maximizar um atributo ou distribuir os pontos de forma equilibrada?",
+    answer: "Maximize primeiro os atributos que definem sua função. A distribuição equilibrada geralmente cria um jogador mediano em todos os aspectos."
+  },
+  {
+    question: "Qual posição é mais fácil para iniciantes?",
+    answer: "O ala é frequentemente o mais tolerante, enquanto o pivô também é simples se você preferir o jogo interno e rebotes."
+  },
+  {
+    question: "As insígnias importam se meus atributos já forem fortes?",
+    answer: "Sim. As insígnias reforçam o que sua build já faz bem e ajudam seu jogador a parecer mais completo em situações reais."
+  }
+]} />
+
+</Section>

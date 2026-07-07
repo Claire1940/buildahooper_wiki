@@ -1,0 +1,197 @@
+import { Map, Target, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build a Hooper: Guía de configuración paso a paso para la creación de tu jugador",
+  description: "Aprende a elegir la posición correcta, asignar atributos y diseñar una build sólida y lista para el modo carrera en Build a Hooper en Roblox con consejos inteligentes de progresión.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1D4ED8/fff?text=Build+a+Hooper+Guide",
+  date: "2026-07-07",
+  author: "Equipo de Wiki de Build a Hooper"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Build a Hooper** funciona mejor cuando te comprometes con un rol claro antes de gastar tus puntos de atributos.
+- **Los bases organizadores** necesitan velocidad, manejo de balón y tiro; **los pívots** necesitan tamaño, defensa y control interior.
+- **Las builds equilibradas** son más seguras para los jugadores nuevos, pero las builds enfocadas suelen sentirse más fuertes en la progresión de la carrera.
+- **Tu elección de posición** debe coincidir con tu perfil de tiro preferido, tu labor defensiva y tu ruta de crecimiento a largo plazo.
+- **Prueba la build temprano** para que puedas ajustar las prioridades antes de que tu carrera empiece a avanzar demasiado.
+</Callout>
+
+<Section icon={Map} title="Identidad del Jugador en Build a Hooper">
+Build a Hooper comienza con una decisión sencilla: ¿qué tipo de jugador de baloncesto quieres llegar a ser? Una buena build no es solo un montón de estadísticas fuertes. Es un plan. Si defines el rol primero, cada decisión posterior será más fácil, desde la selección de la posición hasta la distribución de los atributos.
+
+El enfoque más limpio es pensar en términos de responsabilidad en la cancha. Algunos jugadores quieren crear juego ofensivo para todos los demás. Otros quieren anotar en rachas, presionar el aro o proteger la zona. Cuanto más específica sea tu identidad, más fácil será evitar el desperdicio de puntos. Para acceder a la plataforma, utiliza [Play on Roblox](https://www.roblox.com/) en 2026 si deseas la ruta directa del cliente.
+
+**Opciones de identidad principal**
+- Creador de tiros (Shot creator)
+- Alero bidireccional (Two-way wing)
+- Ancla interior (Interior anchor)
+- Jugador completo y equilibrado (Balanced all-around player)
+
+<CardGrid cols={3}>
+  <Card title="Creador de Tiros">
+    - **Tarea principal:** crear tiros tras drible
+    - Ideal para un estilo de juego centrado en bases y escoltas
+    - Debilidad: puede sentirse frágil si se ignora la defensa
+  </Card>
+  <Card title="Alero Bidireccional">
+    - **Tarea principal:** anotar y defender
+    - Ideal para un encaje flexible en el equipo
+    - Debilidad: requiere un equilibrio cuidadoso de estadísticas
+  </Card>
+  <Card title="Ancla Interior">
+    - **Tarea principal:** rebotar, defender y finalizar en la zona
+    - Ideal para un fuerte control de la pintura
+    - Debilidad: depende del tamaño y del posicionamiento
+  </Card>
+</CardGrid>
+
+| Identidad | Mejor Uso | Riesgo Principal |
+|---|---|---|
+| Creador de Tiros | Anotación en aclarados, decisiones rápidas | Muy poca defensa o físico |
+| Alero Bidireccional | Juego en equipo versátil, cobertura de emparejamientos | Repartir los puntos de forma demasiado uniforme |
+| Ancla Interior | Rebotes, protección del aro, anotación a corta distancia | Primer paso lento si se exagera con el tamaño |
+| Jugador Equilibrado | Seguridad y flexibilidad para nuevos jugadores | Puede sentirse promedio en todas las categorías |
+
+<Callout type="tip" title="Consejo Editorial">
+Si no estás seguro, construye tu jugador en torno a la única acción que quieras hacer en cada posesión. Esa única decisión evita distribuciones de estadísticas débiles y sin enfoque.
+</Callout>
+</Section>
+
+<Section icon={Target} title="Mejores Posiciones y Rutas de Build">
+La elección de la posición es donde tu build comienza a sentirse real. In un simulador de carrera de baloncesto, la posición debe respaldar la forma en que anotando, defendiendo y moviéndote por el juego. Recomiendo elegir primero el rol, y luego adaptar tu perfil físico a él, en lugar de hacerlo al revés.
+
+Si te gusta el estilo de progresión más amplio de MyCareer, piensa en esto como una versión simplificada de la planificación de carrera de la NBA. La lógica es similar a la de [NBA 2K](https://nba.2k.com/) en 2026: define el rol y luego optimiza las herramientas que hacen que ese rol funcione.
+
+<Callout type="warning" title="Evita Este Error">
+No intentes hacer que un solo jugador haga todo bien. Cuando cada estadística es una prioridad, la build a menudo pierde su ventaja en el juego real.
+</Callout>
+
+| Posición | Ideal Para | Estadísticas Prioritarias | Notas de la Build |
+|---|---|---|---|
+| Base (Point Guard) | Manejo de balón, control del ritmo, creación de tiros | Velocidad, pase, tiro | El mejor si quieres dirigir la ofensiva y dictar el ritmo |
+| Escolta (Shooting Guard) | Anotación perimetral, movimiento sin balón | Tiro, velocidad, finalización | Fuerte para jugadores que quieren rachas rápidas de anotación |
+| Alero (Small Forward) | Impacto bidireccional, anotación flexible | Equilibrio, defensa, atletismo | Buen punto medio para principiantes y veteranos |
+| Pívot (Center) | Rebotes, defensa de la pintura, finalización interior | Tamaño, defensa, fuerza | El mejor si quieres una tarea interior clara |
+
+| Ruta de Build | Ofensiva | Defensa | Dificultad |
+|---|---|---|---|
+| Base Anotador | **Alta** | Media | Media |
+| Alero Bidireccional | Alta | **Alta** | Media-Alta |
+| Pívot Interior | Media | **Alta** | Media |
+| Utilidad Equilibrada | Media | Media | Baja-Media |
+
+La ruta de build más segura para los nuevos jugadores suele ser aquella que hace que tu rol sea evidente. Un base debe moverse como un base. Un pívot debe dominar en la pintura. Un alero debe alternar tareas según cambie la situación. Cuando el rol está claro, tus decisiones en el juego se vuelven más limpias.
+
+<Callout type="info" title="Lógica de Posición">
+La posición correcta no es la más fuerte sobre el papel. Es la que coincide con tus toques de balón preferidos, el espacio en la cancha y tu carga de trabajo defensiva.
+</Callout>
+</Section>
+
+<Section icon={Shield} title="Asignación de Atributos y Plan de Configuración">
+Los atributos son el aspecto en el que se ganan o se pierden la mayoría de las buenas builds. El objetivo no es maximizar cada categoría. El objetivo es financiar las acciones más importantes que tu jugador repetirá en cada partido. Si tu jugador necesita tirar, entonces el tiro debe ser anterior a las estadísticas secundarias de lujo. Si tu jugador necesita defender, esos números no pueden ser una ocurrencia tardía.
+
+<Steps>
+  <Step num="1" title="Define el Rol Principal">
+    Decide si el jugador será un anotador, creador, defensor o especialista interior antes de tocar la reserva de puntos.
+  </Step>
+  <Step num="2" title="Elige la Posición">
+    Haz coincidir el rol con una posición que lo respalde. Esto mantiene tu build natural en lugar de forzar sacrificios de estadísticas incómodos.
+  </Step>
+  <Step num="3" title="Financia Primero las Estadísticas Clave">
+    Gasta la mayor parte de los puntos en las una o dos categorías que deciden la identidad de tu build, como el tiro o la defensa.
+  </Step>
+  <Step num="4" title="Añade Estadísticas de Apoyo al Final">
+    Usa los puntos restantes en velocidad, pase, rebotes o herramientas físicas que mejoren la consistencia.
+  </Step>
+</Steps>
+
+| Tipo de Build | Estadísticas Principales | Estadísticas Secundarias | Dejar Bajo |
+|---|---|---|---|
+| Base Anotador | Tiro, velocidad, manejo | Pase, finalización | Defensa interior pesada |
+| Base Organizador | Pase, velocidad, manejo | Tiro, resistencia | Fuerza interior no utilizada |
+| Alero Bidireccional | Defensa, tiro, atletismo | Finalización, pase | Extremos altamente especializados |
+| Pívot de Zona | Rebotes, defensa interior, fuerza | Finalización cercana | Herramientas perimetrales de bajo impacto |
+
+Una regla de asignación sólida es simple: protege las estadísticas que tocas en cada posesión. Si tienes el balón a menudo, el manejo y el tiro merecen prioridad. Si estás en la pintura, los rebotes y la defensa importan más. No dejes que las estadísticas secundarias consuman el presupuesto que hace que la build funcione.
+
+<Callout type="success" title="Buen Hábito de Configuración">
+Antes de finalizar cualquier cosa, hazte una pregunta: ¿este gasto de puntos hace que mi jugador sea mejor en el rol que realmente quiero desempeñar?
+</Callout>
+</Section>
+
+<Section icon={Trophy} title="Progreso de la Carrera, Valor de Draft y Errores">
+Un buen jugador de Build a Hooper no solo es fuerte en el momento de su creación. También debe escalar a medida que avanza tu carrera. Eso significa que tus decisiones iniciales deben respaldar el rendimiento posterior, especialmente si quieres que tu jugador se sienta útil en partidas largas. Piensa en etapas: lanzamiento, crecimiento y pulido.
+
+| Fase de la Carrera | Enfoque | Lo Que Buscas |
+|---|---|---|
+| Fase Inicial | Conceptos básicos confiables | Rol claro, anotación simple, defensa estable |
+| Mitad de Carrera | Especialización | Una identidad más fuerte y mejor consistencia |
+| Fase Avanzada | Eficiencia | Menos debilidades, mejor impacto por posesión |
+| Largo Plazo | Construcción de legado | Un jugador que siga sintiéndose útil a lo largo de muchos partidos |
+
+| Error Común | Por Qué Afecta | Mejor Solución |
+|---|---|---|
+| Repartir puntos de forma demasiado uniforme | El jugador no tiene ninguna habilidad destacada | Construye en torno a una tarea principal |
+| Ignorar la defensa | Te vuelves fácil de explotar por el rival | Reserva puntos para paradas y punteos |
+| Valorar demasiado el tamaño por sí solo | Los cuerpos grandes pueden sentirse toscos | Empareja el tamaño con las necesidades de movimiento |
+| Copiar una build aleatoria | El rol puede no adaptarse a tu estilo de juego | Comienza con tu propio árbol de decisiones |
+
+La mentalidad del draft es especialmente útil aquí. Un jugador fuerte y listo para el draft ya debería saber qué tipo de minutos y posesiones puede manejar. Si la build no puede anotar, defender o pasar con un propósito claro, por lo general se sentirá débil una vez que los partidos comiencen a importar.
+
+<Callout type="tip" title="Consejo de Progresión">
+Las mejores builds de carrera suelen sentirse aburridas en el buen sentido: repiten las mismas acciones ganadoras sin necesidad de realizar muchas correcciones.
+</Callout>
+</Section>
+
+<Section icon={Sparkles} title="Lista de Verificación de Lanzamiento Final y Preguntas Frecuentes">
+Antes de bloquear a tu jugador, realiza una última auditoría. Esto evita que comiences una carrera con una build que solo se ve bien en teoría. Me gusta usar una lista de verificación corta porque obliga a hacer un repaso final limpio sobre el rol, los puntos y el objetivo final.
+
+<Checklist
+  id="build-launch-checklist"
+  title="Verificación Final de la Build:"
+  items={[
+    "Confirmar el rol principal del jugador en una sola frase",
+    "Verificar que la posición coincida con el rol",
+    "Gastar la mayoría de los puntos en la categoría de habilidad principal",
+    "Mantener al menos un paquete de estadísticas de apoyo",
+    "Probar si la build puede anotar, defender o crear juego a propósito",
+  ]}
+/>
+
+| Verificación Final | Condición de Aprobación | Alerta Roja |
+|---|---|---|
+| Claridad del rol | Puedes describir la build rápidamente | Necesitas varias explicaciones |
+| Enfoque de estadísticas | Las categorías clave lideran el gasto | Todo está casi igualado |
+| Ajuste de posición | El movimiento y el rol se sienten naturales | El jugador se siente forzado |
+| Valor a largo plazo | La build sigue teniendo sentido más adelante | Solo funciona en un escenario específico |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor enfoque inicial para Build a Hooper?",
+    answer: "Comienza con un solo rol, luego construye la posición y los atributos en torno a ese rol. Las builds enfocadas suelen sentirse más fuertes que las mixtas."
+  },
+  {
+    question: "¿Debería hacer una build equilibrada o una build especializada?",
+    answer: "Las builds equilibradas son más seguras para los principiantes, pero las especializadas suelen tener una identidad más clara. Elige la que mejor se adapte a tu nivel de comodidad."
+  },
+  {
+    question: "¿Cómo sé si mi build tiene demasiadas debilidades?",
+    answer: "Si tu jugador no puede anotar, defender o crear juego con claridad en su tarea principal, es probable que la build esté demasiado dispersa y necesite un nuevo enfoque."
+  },
+  {
+    question: "¿Qué debería priorizar primero en Build a Hooper?",
+    answer: "Prioriza las estadísticas que usas con más frecuencia. Para los bases, suele ser la velocidad, el manejo de balón y el tiro. Para los pívots, suele ser el tamaño, los rebotes y la defensa."
+  }
+]} />
+
+<Callout type="info" title="Última Comprobación">
+Si tu build puede explicar su propio propósito en una sola frase, es probable que estés cerca de una configuración sólida.
+</Callout>
+</Section>

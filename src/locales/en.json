@@ -10,7 +10,14 @@
       "twitterDescription": "Build a Hooper Wiki covers player builds, positions, badges, attributes, and NBA career tips for the Roblox basketball simulation."
     }
   },
-  "nav": {},
+  "nav": {
+    "builds": "Builds",
+    "career": "Career",
+    "codes": "Codes",
+    "guide": "Guide",
+    "skills": "Skills",
+    "updates": "Updates"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -411,66 +418,6 @@
       "featured": "Featured Builds",
       "all": "All Builds"
     },
-    "positions": {
-      "title": "Build a Hooper Positions",
-      "description": "Every playable basketball position in Build a Hooper and how each role shapes your build, team fit, and career.",
-      "metaTitle": "Build a Hooper Positions - Point Guard, Center & More",
-      "metaDescription": "Learn every Build a Hooper position, from Point Guard to Center, and how each role changes your build and career.",
-      "categoryLabel": "COURT POSITIONS",
-      "whatIs": "What are Positions?",
-      "whatIsDescription": "Positions in Build a Hooper define your role on the court and shape every attribute and badge decision that follows.",
-      "why": "Why positions matter",
-      "whySteps": {
-        "step1Title": "Know Your Role",
-        "step1Description": "Understand what each position is responsible for on the court",
-        "step2Title": "Match Your Build",
-        "step2Description": "Align attributes and badges with your position's duties",
-        "step3Title": "Find Team Fit",
-        "step3Description": "Pick a franchise that needs your position"
-      },
-      "featured": "Featured Positions",
-      "all": "All Positions"
-    },
-    "attributes": {
-      "title": "Build a Hooper Attributes",
-      "description": "Player attribute categories in Build a Hooper and how to distribute points when creating a custom basketball player.",
-      "metaTitle": "Build a Hooper Attributes - Stats & Point Allocation",
-      "metaDescription": "Master Build a Hooper attributes and learn how to distribute points across offense, defense, physical, and balanced builds.",
-      "categoryLabel": "PLAYER ATTRIBUTES",
-      "whatIs": "What are Attributes?",
-      "whatIsDescription": "Attributes in Build a Hooper are the stats that define how your player performs, from shooting and playmaking to defense and size.",
-      "why": "Why attributes matter",
-      "whySteps": {
-        "step1Title": "Shape Your Style",
-        "step1Description": "Attributes turn a position into a specific playstyle",
-        "step2Title": "Balance Spending",
-        "step2Description": "Distribute points across offense, defense, and physical",
-        "step3Title": "Reinforce with Badges",
-        "step3Description": "Match badges to your strongest attributes"
-      },
-      "featured": "Featured Attributes",
-      "all": "All Attributes"
-    },
-    "badges": {
-      "title": "Build a Hooper Badges",
-      "description": "Basketball badges in Build a Hooper and their impact on player performance across scoring, playmaking, defense, and inside play.",
-      "metaTitle": "Build a Hooper Badges - Scoring, Playmaking & Defense",
-      "metaDescription": "Understand Build a Hooper badges and how each badge category supports different playstyles and builds.",
-      "categoryLabel": "PLAYER BADGES",
-      "whatIs": "What are Badges?",
-      "whatIsDescription": "Badges in Build a Hooper enhance specialized player abilities and sharpen the identity of your build.",
-      "why": "Why use badges",
-      "whySteps": {
-        "step1Title": "Sharpen Strengths",
-        "step1Description": "Badges amplify what your build already does well",
-        "step2Title": "Match Your Build",
-        "step2Description": "Pick badge categories that fit your playstyle",
-        "step3Title": "Upgrade Over Time",
-        "step3Description": "Grow badges as your career develops"
-      },
-      "featured": "Featured Badges",
-      "all": "All Badges"
-    },
     "career": {
       "title": "Build a Hooper Career Mode",
       "description": "The Build a Hooper career simulation experience — progression, seasons, achievements, and long-term player growth.",
@@ -491,54 +438,34 @@
       "featured": "Featured Career Guides",
       "all": "All Career Guides"
     },
-    "draft": {
-      "title": "Build a Hooper Draft Guide",
-      "description": "The Build a Hooper draft process — how player creation choices shape draft outcomes and rookie career starts.",
-      "metaTitle": "Build a Hooper Draft Guide - Rookie & Team Selection",
-      "metaDescription": "Learn the Build a Hooper draft process, from finalizing your build to selecting a team and starting your rookie year.",
-      "categoryLabel": "NBA DRAFT",
-      "whatIs": "What is the Draft?",
-      "whatIsDescription": "The Build a Hooper draft is where your created player enters the league, picks a team, and begins the rookie journey.",
-      "why": "Why the draft matters",
+    "codes": {
+      "title": "Build a Hooper Codes",
+      "description": "Build a Hooper codes explained as build recipes — the best player builds, position picks, and attribute setups players mean when they search for codes.",
+      "metaTitle": "Build a Hooper Codes - Best Build Recipes & Picks",
+      "metaDescription": "Build a Hooper codes turned into build recipes: scoring guards, balanced wings, dominant big men, and the attribute setups behind each pick.",
+      "categoryLabel": "BUILD RECIPES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "In Build a Hooper, codes work as a shortcut for build recipes — the player setups, position picks, and attribute allocations players share as the strongest ways to start a career.",
+      "why": "Why use build recipes",
       "whySteps": {
-        "step1Title": "Finalize Your Build",
-        "step1Description": "Be draft-ready with a complete player",
-        "step2Title": "Pick a Team",
-        "step2Description": "Choose a franchise that fits your style",
-        "step3Title": "Start Strong",
-        "step3Description": "Begin your rookie year on the right foot"
+        "step1Title": "Skip the Trial and Error",
+        "step1Description": "Start with a proven build instead of guessing attribute allocation",
+        "step2Title": "Match Your Position",
+        "step2Description": "Pick a recipe built for your chosen basketball role",
+        "step3Title": "Plan Your Career",
+        "step3Description": "Use the recipe as a baseline for long-term progression"
       },
-      "featured": "Featured Draft Guides",
-      "all": "All Draft Guides"
+      "featured": "Featured Build Recipes",
+      "all": "All Build Recipes"
     },
-    "teams": {
-      "title": "Build a Hooper Teams",
-      "description": "NBA team information for Build a Hooper and how different franchises affect your simulated career experience.",
-      "metaTitle": "Build a Hooper Teams - Franchise Fit & Career Impact",
-      "metaDescription": "Explore Build a Hooper teams and learn how franchise choice shapes your career, role, and legacy.",
-      "categoryLabel": "NBA TEAMS",
-      "whatIs": "What are Teams?",
-      "whatIsDescription": "Build a Hooper teams are the franchises your created player can join, each shaping your role, minutes, and career arc.",
-      "why": "Why team choice matters",
-      "whySteps": {
-        "step1Title": "Find the Right Fit",
-        "step1Description": "Match a franchise to your playstyle",
-        "step2Title": "Secure Your Role",
-        "step2Description": "Pick a team where your position is needed",
-        "step3Title": "Shape Your Legacy",
-        "step3Description": "Build a career around the franchise you choose"
-      },
-      "featured": "Featured Teams",
-      "all": "All Teams"
-    },
-    "guides": {
-      "title": "Build a Hooper Guides",
-      "description": "General Build a Hooper gameplay guides covering beginner basics, progression tips, and career strategy.",
-      "metaTitle": "Build a Hooper Guides - Beginner Tips & Career Strategy",
-      "metaDescription": "Build a Hooper guides covering beginner tips, progression, builds, and career strategy for the Roblox basketball simulation.",
+    "guide": {
+      "title": "Build a Hooper Guide",
+      "description": "Build a Hooper guides covering beginner basics, player creation, progression tips, and career strategy for the Roblox basketball simulation.",
+      "metaTitle": "Build a Hooper Guide - Beginner Tips & Career Strategy",
+      "metaDescription": "Build a Hooper guides covering beginner tips, player creation, progression, and career strategy for the Roblox basketball simulation.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Build a Hooper guides cover gameplay mechanics, progression, builds, and career strategy from first steps to advanced play.",
+      "whatIs": "What is the Guide?",
+      "whatIsDescription": "Build a Hooper guides cover gameplay mechanics, player creation, progression, and career strategy from first steps to advanced play.",
       "why": "Why read guides",
       "whySteps": {
         "step1Title": "Learn the Basics",
@@ -550,6 +477,46 @@
       },
       "featured": "Featured Guides",
       "all": "All Guides"
+    },
+    "skills": {
+      "title": "Build a Hooper Skills",
+      "description": "Build a Hooper skill and attribute builds — shooting, speed, athletic, and dunk setups, plus the best attributes to prioritize for each playstyle.",
+      "metaTitle": "Build a Hooper Skills - Shooting, Speed & Dunk Builds",
+      "metaDescription": "Build a Hooper skill builds for shooting, speed, athletic, and dunk playstyles, with the best attributes to prioritize for each.",
+      "categoryLabel": "SKILL BUILDS",
+      "whatIs": "What are Skills?",
+      "whatIsDescription": "Skills in Build a Hooper are focused attribute builds — shooting, speed, athletic, and dunk setups that sharpen one side of your player's game.",
+      "why": "Why specialize skills",
+      "whySteps": {
+        "step1Title": "Sharpen One Strength",
+        "step1Description": "Focus attributes on the skill that defines your playstyle",
+        "step2Title": "Pair with Your Build",
+        "step2Description": "Match skill builds to your position and overall build",
+        "step3Title": "Prioritize the Best Attributes",
+        "step3Description": "Spend points on the attributes that push your skill furthest"
+      },
+      "featured": "Featured Skill Builds",
+      "all": "All Skill Builds"
+    },
+    "updates": {
+      "title": "Build a Hooper Updates",
+      "description": "Build a Hooper updates and new features — the latest patches, release notes, and gameplay changes added to the Roblox basketball simulation.",
+      "metaTitle": "Build a Hooper Updates - Latest Patches & New Features",
+      "metaDescription": "Track Build a Hooper updates, including the latest patches, release notes, and new features added to the Roblox basketball simulation.",
+      "categoryLabel": "GAME UPDATES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Build a Hooper updates cover the latest patches, new features, and gameplay changes that shape how the basketball simulation evolves over time.",
+      "why": "Why follow updates",
+      "whySteps": {
+        "step1Title": "Stay Current",
+        "step1Description": "Know what changed in the latest patch before you build",
+        "step2Title": "Adapt Your Build",
+        "step2Description": "Adjust attributes and playstyle to new gameplay changes",
+        "step3Title": "Catch New Features",
+        "step3Description": "Use fresh content and systems the moment they drop"
+      },
+      "featured": "Featured Updates",
+      "all": "All Updates"
     }
   }
 }

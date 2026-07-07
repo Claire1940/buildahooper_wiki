@@ -1,1 +1,490 @@
-{}
+{
+  "en": {
+    "builds": [
+      {
+        "slug": "build-a-hooper-all-around-build",
+        "file": "build-a-hooper-all-around-build"
+      },
+      {
+        "slug": "build-a-hooper-best-build",
+        "file": "build-a-hooper-best-build"
+      },
+      {
+        "slug": "build-a-hooper-center-build",
+        "file": "build-a-hooper-center-build"
+      },
+      {
+        "slug": "build-a-hooper-perfect-player-build",
+        "file": "build-a-hooper-perfect-player-build"
+      },
+      {
+        "slug": "build-a-hooper-point-guard-build",
+        "file": "build-a-hooper-point-guard-build"
+      },
+      {
+        "slug": "build-a-hooper-shooting-guard-build",
+        "file": "build-a-hooper-shooting-guard-build"
+      }
+    ],
+    "career": [
+      {
+        "slug": "build-a-hooper-career-mode",
+        "file": "build-a-hooper-career-mode"
+      },
+      {
+        "slug": "build-a-hooper-create-player",
+        "file": "build-a-hooper-create-player"
+      },
+      {
+        "slug": "build-a-hooper-player-career",
+        "file": "build-a-hooper-player-career"
+      },
+      {
+        "slug": "build-a-hooper-player-development",
+        "file": "build-a-hooper-player-development"
+      },
+      {
+        "slug": "build-a-hooper-season-progression",
+        "file": "build-a-hooper-season-progression"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "build-a-hooper-codes",
+        "file": "build-a-hooper-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-hooper-beginner-guide",
+        "file": "build-a-hooper-beginner-guide"
+      },
+      {
+        "slug": "build-a-hooper-best-player-guide",
+        "file": "build-a-hooper-best-player-guide"
+      },
+      {
+        "slug": "build-a-hooper-career-guide",
+        "file": "build-a-hooper-career-guide"
+      },
+      {
+        "slug": "build-a-hooper-how-to-build-a-player",
+        "file": "build-a-hooper-how-to-build-a-player"
+      },
+      {
+        "slug": "build-a-hooper-progression-guide",
+        "file": "build-a-hooper-progression-guide"
+      },
+      {
+        "slug": "build-a-hooper-tips-and-tricks",
+        "file": "build-a-hooper-tips-and-tricks"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "build-a-hooper-athletic-build",
+        "file": "build-a-hooper-athletic-build"
+      },
+      {
+        "slug": "build-a-hooper-best-attributes",
+        "file": "build-a-hooper-best-attributes"
+      },
+      {
+        "slug": "build-a-hooper-dunk-build",
+        "file": "build-a-hooper-dunk-build"
+      },
+      {
+        "slug": "build-a-hooper-shooting-build",
+        "file": "build-a-hooper-shooting-build"
+      },
+      {
+        "slug": "build-a-hooper-speed-build",
+        "file": "build-a-hooper-speed-build"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "build-a-hooper-latest-update",
+        "file": "build-a-hooper-latest-update"
+      },
+      {
+        "slug": "build-a-hooper-new-features",
+        "file": "build-a-hooper-new-features"
+      },
+      {
+        "slug": "build-a-hooper-new-update",
+        "file": "build-a-hooper-new-update"
+      },
+      {
+        "slug": "build-a-hooper-release-update",
+        "file": "build-a-hooper-release-update"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "build-a-hooper-all-around-build",
+        "file": "build-a-hooper-all-around-build"
+      },
+      {
+        "slug": "build-a-hooper-best-build",
+        "file": "build-a-hooper-best-build"
+      },
+      {
+        "slug": "build-a-hooper-center-build",
+        "file": "build-a-hooper-center-build"
+      },
+      {
+        "slug": "build-a-hooper-perfect-player-build",
+        "file": "build-a-hooper-perfect-player-build"
+      },
+      {
+        "slug": "build-a-hooper-point-guard-build",
+        "file": "build-a-hooper-point-guard-build"
+      },
+      {
+        "slug": "build-a-hooper-shooting-guard-build",
+        "file": "build-a-hooper-shooting-guard-build"
+      }
+    ],
+    "career": [
+      {
+        "slug": "build-a-hooper-career-mode",
+        "file": "build-a-hooper-career-mode"
+      },
+      {
+        "slug": "build-a-hooper-create-player",
+        "file": "build-a-hooper-create-player"
+      },
+      {
+        "slug": "build-a-hooper-player-career",
+        "file": "build-a-hooper-player-career"
+      },
+      {
+        "slug": "build-a-hooper-player-development",
+        "file": "build-a-hooper-player-development"
+      },
+      {
+        "slug": "build-a-hooper-season-progression",
+        "file": "build-a-hooper-season-progression"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "build-a-hooper-codes",
+        "file": "build-a-hooper-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-hooper-beginner-guide",
+        "file": "build-a-hooper-beginner-guide"
+      },
+      {
+        "slug": "build-a-hooper-best-player-guide",
+        "file": "build-a-hooper-best-player-guide"
+      },
+      {
+        "slug": "build-a-hooper-career-guide",
+        "file": "build-a-hooper-career-guide"
+      },
+      {
+        "slug": "build-a-hooper-how-to-build-a-player",
+        "file": "build-a-hooper-how-to-build-a-player"
+      },
+      {
+        "slug": "build-a-hooper-progression-guide",
+        "file": "build-a-hooper-progression-guide"
+      },
+      {
+        "slug": "build-a-hooper-tips-and-tricks",
+        "file": "build-a-hooper-tips-and-tricks"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "build-a-hooper-athletic-build",
+        "file": "build-a-hooper-athletic-build"
+      },
+      {
+        "slug": "build-a-hooper-best-attributes",
+        "file": "build-a-hooper-best-attributes"
+      },
+      {
+        "slug": "build-a-hooper-dunk-build",
+        "file": "build-a-hooper-dunk-build"
+      },
+      {
+        "slug": "build-a-hooper-shooting-build",
+        "file": "build-a-hooper-shooting-build"
+      },
+      {
+        "slug": "build-a-hooper-speed-build",
+        "file": "build-a-hooper-speed-build"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "build-a-hooper-latest-update",
+        "file": "build-a-hooper-latest-update"
+      },
+      {
+        "slug": "build-a-hooper-new-features",
+        "file": "build-a-hooper-new-features"
+      },
+      {
+        "slug": "build-a-hooper-new-update",
+        "file": "build-a-hooper-new-update"
+      },
+      {
+        "slug": "build-a-hooper-release-update",
+        "file": "build-a-hooper-release-update"
+      }
+    ]
+  },
+  "ja": {
+    "builds": [
+      {
+        "slug": "build-a-hooper-all-around-build",
+        "file": "build-a-hooper-all-around-build"
+      },
+      {
+        "slug": "build-a-hooper-best-build",
+        "file": "build-a-hooper-best-build"
+      },
+      {
+        "slug": "build-a-hooper-center-build",
+        "file": "build-a-hooper-center-build"
+      },
+      {
+        "slug": "build-a-hooper-perfect-player-build",
+        "file": "build-a-hooper-perfect-player-build"
+      },
+      {
+        "slug": "build-a-hooper-point-guard-build",
+        "file": "build-a-hooper-point-guard-build"
+      },
+      {
+        "slug": "build-a-hooper-shooting-guard-build",
+        "file": "build-a-hooper-shooting-guard-build"
+      }
+    ],
+    "career": [
+      {
+        "slug": "build-a-hooper-career-mode",
+        "file": "build-a-hooper-career-mode"
+      },
+      {
+        "slug": "build-a-hooper-create-player",
+        "file": "build-a-hooper-create-player"
+      },
+      {
+        "slug": "build-a-hooper-player-career",
+        "file": "build-a-hooper-player-career"
+      },
+      {
+        "slug": "build-a-hooper-player-development",
+        "file": "build-a-hooper-player-development"
+      },
+      {
+        "slug": "build-a-hooper-season-progression",
+        "file": "build-a-hooper-season-progression"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "build-a-hooper-codes",
+        "file": "build-a-hooper-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-hooper-beginner-guide",
+        "file": "build-a-hooper-beginner-guide"
+      },
+      {
+        "slug": "build-a-hooper-best-player-guide",
+        "file": "build-a-hooper-best-player-guide"
+      },
+      {
+        "slug": "build-a-hooper-career-guide",
+        "file": "build-a-hooper-career-guide"
+      },
+      {
+        "slug": "build-a-hooper-how-to-build-a-player",
+        "file": "build-a-hooper-how-to-build-a-player"
+      },
+      {
+        "slug": "build-a-hooper-progression-guide",
+        "file": "build-a-hooper-progression-guide"
+      },
+      {
+        "slug": "build-a-hooper-tips-and-tricks",
+        "file": "build-a-hooper-tips-and-tricks"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "build-a-hooper-athletic-build",
+        "file": "build-a-hooper-athletic-build"
+      },
+      {
+        "slug": "build-a-hooper-best-attributes",
+        "file": "build-a-hooper-best-attributes"
+      },
+      {
+        "slug": "build-a-hooper-dunk-build",
+        "file": "build-a-hooper-dunk-build"
+      },
+      {
+        "slug": "build-a-hooper-shooting-build",
+        "file": "build-a-hooper-shooting-build"
+      },
+      {
+        "slug": "build-a-hooper-speed-build",
+        "file": "build-a-hooper-speed-build"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "build-a-hooper-latest-update",
+        "file": "build-a-hooper-latest-update"
+      },
+      {
+        "slug": "build-a-hooper-new-features",
+        "file": "build-a-hooper-new-features"
+      },
+      {
+        "slug": "build-a-hooper-new-update",
+        "file": "build-a-hooper-new-update"
+      },
+      {
+        "slug": "build-a-hooper-release-update",
+        "file": "build-a-hooper-release-update"
+      }
+    ]
+  },
+  "pt": {
+    "builds": [
+      {
+        "slug": "build-a-hooper-all-around-build",
+        "file": "build-a-hooper-all-around-build"
+      },
+      {
+        "slug": "build-a-hooper-best-build",
+        "file": "build-a-hooper-best-build"
+      },
+      {
+        "slug": "build-a-hooper-center-build",
+        "file": "build-a-hooper-center-build"
+      },
+      {
+        "slug": "build-a-hooper-perfect-player-build",
+        "file": "build-a-hooper-perfect-player-build"
+      },
+      {
+        "slug": "build-a-hooper-point-guard-build",
+        "file": "build-a-hooper-point-guard-build"
+      },
+      {
+        "slug": "build-a-hooper-shooting-guard-build",
+        "file": "build-a-hooper-shooting-guard-build"
+      }
+    ],
+    "career": [
+      {
+        "slug": "build-a-hooper-career-mode",
+        "file": "build-a-hooper-career-mode"
+      },
+      {
+        "slug": "build-a-hooper-create-player",
+        "file": "build-a-hooper-create-player"
+      },
+      {
+        "slug": "build-a-hooper-player-career",
+        "file": "build-a-hooper-player-career"
+      },
+      {
+        "slug": "build-a-hooper-player-development",
+        "file": "build-a-hooper-player-development"
+      },
+      {
+        "slug": "build-a-hooper-season-progression",
+        "file": "build-a-hooper-season-progression"
+      }
+    ],
+    "codes": [
+      {
+        "slug": "build-a-hooper-codes",
+        "file": "build-a-hooper-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-hooper-beginner-guide",
+        "file": "build-a-hooper-beginner-guide"
+      },
+      {
+        "slug": "build-a-hooper-best-player-guide",
+        "file": "build-a-hooper-best-player-guide"
+      },
+      {
+        "slug": "build-a-hooper-career-guide",
+        "file": "build-a-hooper-career-guide"
+      },
+      {
+        "slug": "build-a-hooper-how-to-build-a-player",
+        "file": "build-a-hooper-how-to-build-a-player"
+      },
+      {
+        "slug": "build-a-hooper-progression-guide",
+        "file": "build-a-hooper-progression-guide"
+      },
+      {
+        "slug": "build-a-hooper-tips-and-tricks",
+        "file": "build-a-hooper-tips-and-tricks"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "build-a-hooper-athletic-build",
+        "file": "build-a-hooper-athletic-build"
+      },
+      {
+        "slug": "build-a-hooper-best-attributes",
+        "file": "build-a-hooper-best-attributes"
+      },
+      {
+        "slug": "build-a-hooper-dunk-build",
+        "file": "build-a-hooper-dunk-build"
+      },
+      {
+        "slug": "build-a-hooper-shooting-build",
+        "file": "build-a-hooper-shooting-build"
+      },
+      {
+        "slug": "build-a-hooper-speed-build",
+        "file": "build-a-hooper-speed-build"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "build-a-hooper-latest-update",
+        "file": "build-a-hooper-latest-update"
+      },
+      {
+        "slug": "build-a-hooper-new-features",
+        "file": "build-a-hooper-new-features"
+      },
+      {
+        "slug": "build-a-hooper-new-update",
+        "file": "build-a-hooper-new-update"
+      },
+      {
+        "slug": "build-a-hooper-release-update",
+        "file": "build-a-hooper-release-update"
+      }
+    ]
+  }
+}
