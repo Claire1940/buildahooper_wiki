@@ -56,692 +56,292 @@
     "description": "Build your dream basketball player, choose your position, allocate attributes, earn badges, and chase NBA glory in this Roblox basketball career simulation."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Build a Hooper",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need to build your player, run your career, and chase NBA glory in Build a Hooper.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Basketball",
+        "title": "Build a Hooper Builds",
+        "description": "Player builds for every position and playstyle"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "MapPin",
+        "title": "Build a Hooper Positions",
+        "description": "Point guard to center — pick your court role"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "BarChart3",
+        "title": "Build a Hooper Attributes",
+        "description": "Distribute attribute points the smart way"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Award",
+        "title": "Build a Hooper Badges",
+        "description": "Badge upgrades that match your build"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Trophy",
+        "title": "Build a Hooper Career Mode",
+        "description": "Grow a rookie into an NBA legend"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "ClipboardList",
+        "title": "Build a Hooper Draft Guide",
+        "description": "Draft process, rookie start, and team selection"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Users",
+        "title": "Build a Hooper Teams",
+        "description": "Choose the franchise that fits your career"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "GraduationCap",
+        "title": "Build a Hooper Beginner Guide",
+        "description": "First-player setup and early progression"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "buildAHooperBuilds": {
+      "title": "Build a Hooper Builds",
+      "eyebrow": "Player Builds",
+      "intro": "Build a Hooper turns player creation into the heart of the game — choose a position, shape a physical profile, allocate attributes, and define a playstyle. These build templates organize the most popular basketball roles so you can design a career path that fits how you want to play.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "icon": "Zap",
+          "tier": "Scoring Guard",
+          "playstyle": "Offensive Creator",
+          "position": "Point Guard / Shooting Guard",
+          "focus": ["Ball handling", "Shot creation", "Scoring ability"],
+          "description": "A guard-focused build designed around creating shots, controlling possessions, and leading the offense from the perimeter."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "icon": "Crown",
+          "tier": "All-Around Player",
+          "playstyle": "Balanced Star",
+          "position": "Point Guard / Shooting Guard / Small Forward",
+          "focus": ["Offense", "Defense", "Overall versatility"],
+          "description": "A flexible build for players who want to contribute across multiple areas and adapt to any matchup."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "icon": "Shield",
+          "tier": "Dominant Big Man",
+          "playstyle": "Interior Presence",
+          "position": "Center",
+          "focus": ["Size", "Rebounding", "Inside play"],
+          "description": "A center-focused build designed around controlling the paint, protecting the rim, and dominating inside play."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "buildAHooperPositions": {
+      "title": "Build a Hooper Positions",
+      "eyebrow": "Positions Guide",
+      "intro": "In Build a Hooper, your position defines your role on the court and shapes every attribute decision that follows. Learn what each position is responsible for before you commit to a build direction.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "icon": "Compass",
+          "position": "Point Guard",
+          "role": "Primary Ball Handler",
+          "focus": ["Playmaking", "Ball control", "Offensive organization"],
+          "description": "The floor leader who handles the ball, sets up teammates, and runs the offense."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "icon": "Target",
+          "position": "Shooting Guard",
+          "role": "Perimeter Scorer",
+          "focus": ["Shooting", "Scoring", "Offensive movement"],
+          "description": "A guard role built around generating points from the perimeter and moving without the ball."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "icon": "Activity",
+          "position": "Small Forward",
+          "role": "Versatile Wing",
+          "focus": ["Balanced skills", "Athletic ability", "Two-way play"],
+          "description": "A flexible position that blends scoring, defense, and versatility across the court."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "icon": "Dumbbell",
+          "position": "Center",
+          "role": "Interior Player",
+          "focus": ["Size", "Defense", "Rebounding"],
+          "description": "A big-man role focused on protecting the paint, rebounding, and controlling inside play."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "buildAHooperAttributes": {
+      "title": "Build a Hooper Attributes",
+      "eyebrow": "Player Creation",
+      "intro": "Attributes are where a Build a Hooper player takes shape. Decide where to spend your points and your build becomes a scorer, a creator, a defender, or a balanced athlete.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
+          "icon": "Flame",
+          "category": "Offense",
+          "related": ["Scoring", "Shooting", "Creating opportunities"],
+          "goal": "For players who want stronger offensive impact and finishing around the rim."
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
+          "icon": "Shield",
+          "category": "Defense",
+          "related": ["Defensive ability", "Stopping opponents", "Team support"],
+          "goal": "For players who prioritize stops, rim protection, and team defense."
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
+          "icon": "Dumbbell",
+          "category": "Physical",
+          "related": ["Size", "Athletic profile", "Player style"],
+          "goal": "For players who want a specific physical identity and presence on the court."
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
+          "icon": "Gauge",
+          "category": "Balanced Build",
+          "related": ["Multiple areas", "Versatility", "Adaptability"],
+          "goal": "For players who want steady contributions across the court."
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "buildAHooperBadges": {
+      "title": "Build a Hooper Badges",
+      "eyebrow": "Player Upgrades",
+      "intro": "Badges in Build a Hooper enhance specialized player abilities and sharpen the identity of your build. Use badge concepts to reinforce how you want your player to perform on the court.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "icon": "Zap",
+          "category": "Scoring Badges",
+          "supports": "Offensive-focused players",
+          "effect": "Reinforces a player's scoring identity and offensive strengths."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "icon": "Target",
+          "category": "Playmaking Badges",
+          "supports": "Guard and creator builds",
+          "effect": "Boosts players who create plays and run the offense."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "icon": "Shield",
+          "category": "Defense Badges",
+          "supports": "Two-way players",
+          "effect": "Strengthens defensive-focused player development."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "icon": "Crown",
+          "category": "Inside Play Badges",
+          "supports": "Big man builds",
+          "effect": "Empowers players focused on interior basketball roles."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "buildAHooperCareer": {
+      "title": "Build a Hooper Career Mode",
+      "eyebrow": "Career Progression",
+      "intro": "Build a Hooper's career mode follows your created player from rookie to legend. Each stage builds on the last, turning attribute choices and badge picks into a long, rewarding NBA journey.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Create Your Player",
+          "description": "Choose a position, set your physical profile, and allocate attributes to define your playstyle before the career begins."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Enter the NBA Draft",
+          "description": "Take your built player into the draft and start the journey from rookie to franchise cornerstone."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Grow Through the Rookie Season",
+          "description": "Earn minutes, develop your signature skills, and let your build's strengths show on the court."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Stack Awards and Accolades",
+          "description": "Chase MVP honors, championships, and individual awards as your player peaks."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Build a Legacy",
+          "description": "Turn a strong career into a legendary resume that defines how your hooper is remembered."
+        }
+      ],
+      "milestones": ["Rookie debut", "First MVP", "Championship", "All-Time great"]
+    },
+    "buildAHooperDraft": {
+      "title": "Build a Hooper Draft Guide",
+      "eyebrow": "Draft Process",
+      "intro": "The NBA Draft is where your Build a Hooper career truly begins. Understanding the draft flow helps new players start strong and pick a team that fits their build.",
+      "steps": [
+        {
+          "title": "Finalize Your Build",
+          "description": "Lock in position, physical profile, and attributes so your player is ready for draft evaluation."
+        },
+        {
+          "title": "Enter the Draft",
+          "description": "Submit your built player to the draft and begin the rookie journey."
+        },
+        {
+          "title": "Pick Your Team",
+          "description": "Choose a franchise that matches your playstyle and the role you want to play."
+        },
+        {
+          "title": "Start Your Rookie Year",
+          "description": "Step onto the court as a rookie and start turning your build into a real career."
+        }
+      ],
+      "milestones": ["Draft entry", "Team selection", "Rookie tip-off", "First career game"]
+    },
+    "buildAHooperTeams": {
+      "title": "Build a Hooper Teams",
+      "eyebrow": "Team Selection",
+      "intro": "In Build a Hooper, the franchise you join shapes the career experience around your player. These team archetypes help you think about fit, role, and the kind of legacy you want to build.",
+      "items": [
+        {
+          "icon": "Crown",
+          "name": "Championship Contenders",
+          "style": "Win-now franchise",
+          "fit": "For players chasing rings and high-pressure playoff moments."
+        },
+        {
+          "icon": "Rocket",
+          "name": "Rising Young Teams",
+          "style": "Growth-oriented core",
+          "fit": "For players who want to grow alongside a developing roster."
+        },
+        {
+          "icon": "Star",
+          "name": "Star-Driven Franchises",
+          "style": "Built around a headline star",
+          "fit": "For players who want to pair with or take over a franchise."
+        },
+        {
+          "icon": "Flag",
+          "name": "Balanced Organizations",
+          "style": "All-around depth",
+          "fit": "For players who want steady roles and team-first basketball."
+        }
+      ]
+    },
+    "buildAHooperBeginner": {
+      "title": "Build a Hooper Beginner Guide",
+      "eyebrow": "Getting Started",
+      "intro": "New to Build a Hooper? These are the beginner questions players ask before creating their first player and starting an NBA career on Roblox.",
+      "faqs": [
+        {
+          "question": "What is Build a Hooper on Roblox?",
+          "answer": "Build a Hooper is a Roblox basketball simulation where you create a custom player, allocate attributes, and build an NBA career from draft day onward."
+        },
+        {
+          "question": "Where can I play Build a Hooper?",
+          "answer": "Build a Hooper is played on Roblox. You can jump in through the Roblox platform and start building your hooper right away."
+        },
+        {
+          "question": "How do I create my first player in Build a Hooper?",
+          "answer": "Pick a position, set a physical profile, and distribute attribute points to match the playstyle you want before entering the draft."
+        },
+        {
+          "question": "Which position should a beginner pick in Build a Hooper?",
+          "answer": "Guards are a great starting point for learning ball control and offense, while balanced wings let new players contribute in multiple areas."
+        },
+        {
+          "question": "Does Build a Hooper have a career mode?",
+          "answer": "Yes. Build a Hooper's career mode follows your player from the draft through rookie seasons, awards, and long-term legacy."
+        },
+        {
+          "question": "What should I focus on early in Build a Hooper?",
+          "answer": "Concentrate attribute points on a clear strength, match badges to that strength, and build a playstyle before spreading points everywhere."
         }
       ]
     }
@@ -749,31 +349,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Build a Hooper",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Build a Hooper?",
+        "answer": "Build a Hooper is a Roblox basketball simulation where you create a custom player, choose a position, allocate attributes, and build an NBA career from the draft onward."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Where can I play Build a Hooper?",
+        "answer": "Build a Hooper is available on Roblox. You can start building your player directly through the Roblox platform."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do builds work in Build a Hooper?",
+        "answer": "In Build a Hooper, a build is your custom player — defined by position, physical profile, attribute allocation, and playstyle choices that shape your entire career."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Which positions can I choose in Build a Hooper?",
+        "answer": "Build a Hooper lets you build around basketball positions like Point Guard, Shooting Guard, Small Forward, and Center, each with its own role and responsibilities."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Does Build a Hooper have a career and draft mode?",
+        "answer": "Yes. Build a Hooper includes a career mode where your created player enters the NBA Draft, joins a team, and grows from rookie to legend."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What are badges in Build a Hooper?",
+        "answer": "Badges in Build a Hooper enhance specialized abilities and reinforce your build's identity, from scoring and playmaking to defense and inside play."
       }
     ]
   },
@@ -799,125 +399,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
+    "builds": {
+      "title": "Build a Hooper Builds",
+      "description": "Recommended Build a Hooper player builds for every position and playstyle, including scoring guards, all-around players, and dominant big men.",
+      "metaTitle": "Build a Hooper Builds - Best Player Builds & Playstyles",
+      "metaDescription": "Explore the best Build a Hooper builds for every position and playstyle, from scoring guards to dominant big men.",
+      "categoryLabel": "PLAYER BUILDS",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Builds in Build a Hooper are custom player templates built from position, physical profile, attributes, and playstyle choices that define your career.",
+      "why": "Why pick a build?",
+      "whySteps": {
+        "step1Title": "Define Your Role",
+        "step1Description": "Choose a position and playstyle that matches how you want to play",
+        "step2Title": "Allocate Attributes",
+        "step2Description": "Spend points on the skills that power your chosen style",
+        "step3Title": "Build a Career",
+        "step3Description": "Take your built player from draft day to NBA legend"
+      },
+      "featured": "Featured Builds",
+      "all": "All Builds"
+    },
+    "positions": {
+      "title": "Build a Hooper Positions",
+      "description": "Every playable basketball position in Build a Hooper and how each role shapes your build, team fit, and career.",
+      "metaTitle": "Build a Hooper Positions - Point Guard, Center & More",
+      "metaDescription": "Learn every Build a Hooper position, from Point Guard to Center, and how each role changes your build and career.",
+      "categoryLabel": "COURT POSITIONS",
+      "whatIs": "What are Positions?",
+      "whatIsDescription": "Positions in Build a Hooper define your role on the court and shape every attribute and badge decision that follows.",
+      "why": "Why positions matter",
+      "whySteps": {
+        "step1Title": "Know Your Role",
+        "step1Description": "Understand what each position is responsible for on the court",
+        "step2Title": "Match Your Build",
+        "step2Description": "Align attributes and badges with your position's duties",
+        "step3Title": "Find Team Fit",
+        "step3Description": "Pick a franchise that needs your position"
+      },
+      "featured": "Featured Positions",
+      "all": "All Positions"
+    },
+    "attributes": {
+      "title": "Build a Hooper Attributes",
+      "description": "Player attribute categories in Build a Hooper and how to distribute points when creating a custom basketball player.",
+      "metaTitle": "Build a Hooper Attributes - Stats & Point Allocation",
+      "metaDescription": "Master Build a Hooper attributes and learn how to distribute points across offense, defense, physical, and balanced builds.",
+      "categoryLabel": "PLAYER ATTRIBUTES",
+      "whatIs": "What are Attributes?",
+      "whatIsDescription": "Attributes in Build a Hooper are the stats that define how your player performs, from shooting and playmaking to defense and size.",
+      "why": "Why attributes matter",
+      "whySteps": {
+        "step1Title": "Shape Your Style",
+        "step1Description": "Attributes turn a position into a specific playstyle",
+        "step2Title": "Balance Spending",
+        "step2Description": "Distribute points across offense, defense, and physical",
+        "step3Title": "Reinforce with Badges",
+        "step3Description": "Match badges to your strongest attributes"
+      },
+      "featured": "Featured Attributes",
+      "all": "All Attributes"
+    },
+    "badges": {
+      "title": "Build a Hooper Badges",
+      "description": "Basketball badges in Build a Hooper and their impact on player performance across scoring, playmaking, defense, and inside play.",
+      "metaTitle": "Build a Hooper Badges - Scoring, Playmaking & Defense",
+      "metaDescription": "Understand Build a Hooper badges and how each badge category supports different playstyles and builds.",
+      "categoryLabel": "PLAYER BADGES",
+      "whatIs": "What are Badges?",
+      "whatIsDescription": "Badges in Build a Hooper enhance specialized player abilities and sharpen the identity of your build.",
+      "why": "Why use badges",
+      "whySteps": {
+        "step1Title": "Sharpen Strengths",
+        "step1Description": "Badges amplify what your build already does well",
+        "step2Title": "Match Your Build",
+        "step2Description": "Pick badge categories that fit your playstyle",
+        "step3Title": "Upgrade Over Time",
+        "step3Description": "Grow badges as your career develops"
+      },
+      "featured": "Featured Badges",
+      "all": "All Badges"
+    },
+    "career": {
+      "title": "Build a Hooper Career Mode",
+      "description": "The Build a Hooper career simulation experience — progression, seasons, achievements, and long-term player growth.",
+      "metaTitle": "Build a Hooper Career Mode - Draft to Legend Guide",
+      "metaDescription": "Guide to Build a Hooper career mode, from draft day and rookie seasons to MVP awards and a legendary legacy.",
+      "categoryLabel": "CAREER MODE",
+      "whatIs": "What is Career Mode?",
+      "whatIsDescription": "Build a Hooper's career mode follows your created player from the NBA Draft through rookie seasons, awards, and a long legacy.",
+      "why": "Why play career mode",
+      "whySteps": {
+        "step1Title": "Grow Your Player",
+        "step1Description": "Develop your build season over season",
+        "step2Title": "Chase Awards",
+        "step2Description": "Earn MVP, championship, and career honors",
+        "step3Title": "Build a Legacy",
+        "step3Description": "Turn a strong career into an all-time resume"
+      },
+      "featured": "Featured Career Guides",
+      "all": "All Career Guides"
+    },
+    "draft": {
+      "title": "Build a Hooper Draft Guide",
+      "description": "The Build a Hooper draft process — how player creation choices shape draft outcomes and rookie career starts.",
+      "metaTitle": "Build a Hooper Draft Guide - Rookie & Team Selection",
+      "metaDescription": "Learn the Build a Hooper draft process, from finalizing your build to selecting a team and starting your rookie year.",
+      "categoryLabel": "NBA DRAFT",
+      "whatIs": "What is the Draft?",
+      "whatIsDescription": "The Build a Hooper draft is where your created player enters the league, picks a team, and begins the rookie journey.",
+      "why": "Why the draft matters",
+      "whySteps": {
+        "step1Title": "Finalize Your Build",
+        "step1Description": "Be draft-ready with a complete player",
+        "step2Title": "Pick a Team",
+        "step2Description": "Choose a franchise that fits your style",
+        "step3Title": "Start Strong",
+        "step3Description": "Begin your rookie year on the right foot"
+      },
+      "featured": "Featured Draft Guides",
+      "all": "All Draft Guides"
+    },
+    "teams": {
+      "title": "Build a Hooper Teams",
+      "description": "NBA team information for Build a Hooper and how different franchises affect your simulated career experience.",
+      "metaTitle": "Build a Hooper Teams - Franchise Fit & Career Impact",
+      "metaDescription": "Explore Build a Hooper teams and learn how franchise choice shapes your career, role, and legacy.",
+      "categoryLabel": "NBA TEAMS",
+      "whatIs": "What are Teams?",
+      "whatIsDescription": "Build a Hooper teams are the franchises your created player can join, each shaping your role, minutes, and career arc.",
+      "why": "Why team choice matters",
+      "whySteps": {
+        "step1Title": "Find the Right Fit",
+        "step1Description": "Match a franchise to your playstyle",
+        "step2Title": "Secure Your Role",
+        "step2Description": "Pick a team where your position is needed",
+        "step3Title": "Shape Your Legacy",
+        "step3Description": "Build a career around the franchise you choose"
+      },
+      "featured": "Featured Teams",
+      "all": "All Teams"
+    },
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Build a Hooper Guides",
+      "description": "General Build a Hooper gameplay guides covering beginner basics, progression tips, and career strategy.",
+      "metaTitle": "Build a Hooper Guides - Beginner Tips & Career Strategy",
+      "metaDescription": "Build a Hooper guides covering beginner tips, progression, builds, and career strategy for the Roblox basketball simulation.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIsDescription": "Build a Hooper guides cover gameplay mechanics, progression, builds, and career strategy from first steps to advanced play.",
+      "why": "Why read guides",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Learn the Basics",
+        "step1Description": "Understand player creation and core mechanics",
+        "step2Title": "Progress Faster",
+        "step2Description": "Follow proven paths from rookie to star",
+        "step3Title": "Master Strategy",
+        "step3Description": "Develop advanced tactics for your career"
       },
-      "featured": "Featured & Essential",
+      "featured": "Featured Guides",
       "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
     }
   }
 }

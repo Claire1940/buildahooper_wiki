@@ -28,6 +28,26 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // Build a Hooper 篮球主题图标
+  Basketball: LucideIcons.Basketball,
+  MapPin: LucideIcons.MapPin,
+  BarChart3: LucideIcons.BarChart3,
+  Award: LucideIcons.Award,
+  Trophy: LucideIcons.Trophy,
+  ClipboardList: LucideIcons.ClipboardList,
+  GraduationCap: LucideIcons.GraduationCap,
+  Dumbbell: LucideIcons.Dumbbell,
+  Target: LucideIcons.Target,
+  Crown: LucideIcons.Crown,
+  Zap: LucideIcons.Zap,
+  Flame: LucideIcons.Flame,
+  Gauge: LucideIcons.Gauge,
+  Activity: LucideIcons.Activity,
+  Rocket: LucideIcons.Rocket,
+  Flag: LucideIcons.Flag,
+  Compass: LucideIcons.Compass,
+  Medal: LucideIcons.Medal,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
