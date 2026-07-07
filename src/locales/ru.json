@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "description": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "keywords": "Lucid Blocks, вики Lucid Blocks, крафт, биомы, достижения, выживание, Steam",
-      "ogTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "ogDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях, концовках и советы по выживанию в сюрреалистичной воксельной песочнице на Steam.",
-      "twitterTitle": "Вики Lucid Blocks — крафт, биомы и достижения",
-      "twitterDescription": "Вики Lucid Blocks содержит информацию о крафте, биомах, существах, предметах, достижениях и советы по выживанию в сюрреалистичной воксельной песочнице на Steam."
+      "title": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "description": "Build a Hooper Wiki features player builds, position guides, attribute recommendations, badges, NBA career tips and Roblox gameplay resources for every player.",
+      "keywords": "Build a Hooper, Roblox, Builds, Positions, Badges, Attributes, Career",
+      "ogTitle": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "ogDescription": "Build a Hooper Wiki features player builds, position guides, attribute recommendations, badges, NBA career tips and Roblox gameplay resources for every player.",
+      "twitterTitle": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "twitterDescription": "Build a Hooper Wiki covers player builds, positions, badges, attributes, and NBA career tips for the Roblox basketball simulation."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Главная",
     "more": "Ещё",
-    "playNow": "Играть на Steam",
+    "playNow": "Играть на Roblox",
     "switchLanguage": "Сменить язык",
     "switchTheme": "Сменить тему",
     "lightMode": "Светлая тема",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Статьи скоро появятся"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Воксельная песочница на выживание",
-    "title": "Lucid Blocks Вики",
-    "description": "Исследуйте сказочные биомы, объединяйте предметы с помощью Apotheosis, свободно стройте и выживайте среди странных существ в этой сюрреалистичной песочнице с открытым миром на Steam.",
-    "getFreeCodesCTA": "Изучить руководство по крафту",
-    "playOnSteamCTA": "Играть на Steam",
+    "badge": "NBA Career Simulation on Roblox",
+    "title": "Build a Hooper Wiki",
+    "description": "Create your dream basketball player, customize attributes, choose your position, enter the NBA Draft, and build a legendary career in this Roblox basketball simulation inspired by MyCareer.",
+    "getFreeCodesCTA": "Build Your Player",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1 325",
-        "label": "Игроков онлайн"
+        "value": "4",
+        "label": "Positions Available"
       },
       "stat2": {
-        "value": "1 986",
-        "label": "Пиковый онлайн"
+        "value": "100+",
+        "label": "Attribute Points"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Положительных отзывов"
+        "value": "Career",
+        "label": "Career Mode"
       },
       "stat4": {
-        "value": "12 марта 2026",
-        "label": "Дата выхода"
+        "value": "Player Builds",
+        "label": "Custom Builds"
       }
     }
   },
   "gameFeature": {
-    "title": "Геймплей Lucid Blocks",
-    "description": "Исследуйте сюрреалистичные биомы, объединяйте предметы с помощью Apotheosis и выживайте среди странных существ в этой похожей на сон воксельной песочнице на Steam."
+    "title": "Build a Hooper Gameplay",
+    "description": "Build your dream basketball player, choose your position, allocate attributes, earn badges, and chase NBA glory in this Roblox basketball career simulation."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -181,27 +181,25 @@
     ]
   },
   "cta": {
-    "title": "Готовы исследовать Lucid Blocks?",
-    "description": "Присоединяйтесь к сообществу Lucid Blocks в Discord, где вас ждут руководства, обновления и обсуждения!",
-    "joinCommunity": "Присоединиться к Discord",
-    "joinGame": "Играть на Steam"
+    "title": "Ready to Build Your Hooper?",
+    "description": "Watch Build a Hooper gameplay on YouTube, then jump into Roblox to start your NBA career simulation today!",
+    "joinCommunity": "Watch Gameplay",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Вики Lucid Blocks",
-    "description": "Ваш полноценный ресурсный центр по крафту, биомам, существам, достижениям и руководствам по выживанию в Lucid Blocks.",
-    "resources": "Ресурсы",
-    "community": "Сообщество",
-    "legal": "Юридическая информация",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Сообщество Steam",
-    "steamStore": "Магазин Steam",
-    "about": "О проекте",
-    "privacy": "Политика конфиденциальности",
-    "terms": "Условия использования",
-    "copyrightNotice": "Авторское право",
-    "copyright": "© 2026 Вики Lucid Blocks. Не связано с разработчиками Lucid Blocks.",
-    "disclaimer": "Неофициальный фанатский ресурс."
+    "title": "Build a Hooper Wiki",
+    "description": "Your complete resource hub for Build a Hooper player builds, positions, attributes, badges, and NBA career guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "youtube": "Watch on YouTube",
+    "roblox": "Play on Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Build a Hooper Wiki. Not affiliated with the developers of Build a Hooper or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

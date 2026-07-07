@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "description": "Build a Hooper Wiki features player builds, position guides, attribute recommendations, badges, NBA career tips and Roblox gameplay resources for every player.",
+      "keywords": "Build a Hooper, Roblox, Builds, Positions, Badges, Attributes, Career",
+      "ogTitle": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "ogDescription": "Build a Hooper Wiki features player builds, position guides, attribute recommendations, badges, NBA career tips and Roblox gameplay resources for every player.",
+      "twitterTitle": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "twitterDescription": "Build a Hooper Wiki covers player builds, positions, badges, attributes, and NBA career tips for the Roblox basketball simulation."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "ホーム",
     "more": "もっと見る",
-    "playNow": "Steamでプレイ",
+    "playNow": "Robloxでプレイ",
     "switchLanguage": "言語を切り替える",
     "switchTheme": "テーマを切り替える",
     "lightMode": "ライトモード",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "NBA Career Simulation on Roblox",
+    "title": "Build a Hooper Wiki",
+    "description": "Create your dream basketball player, customize attributes, choose your position, enter the NBA Draft, and build a legendary career in this Roblox basketball simulation inspired by MyCareer.",
+    "getFreeCodesCTA": "Build Your Player",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "4",
+        "label": "Positions Available"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "100+",
+        "label": "Attribute Points"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "Career",
+        "label": "Career Mode"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "Player Builds",
+        "label": "Custom Builds"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "Build a Hooper Gameplay",
+    "description": "Build your dream basketball player, choose your position, allocate attributes, earn badges, and chase NBA glory in this Roblox basketball career simulation."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -785,27 +785,25 @@
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "Ready to Build Your Hooper?",
+    "description": "Watch Build a Hooper gameplay on YouTube, then jump into Roblox to start your NBA career simulation today!",
+    "joinCommunity": "Watch Gameplay",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
-    "resources": "リソース",
-    "community": "コミュニティ",
-    "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
-    "privacy": "プライバシーポリシー",
-    "terms": "利用規約",
-    "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
-    "disclaimer": "非公式のファン作成リソースサイトです。"
+    "title": "Build a Hooper Wiki",
+    "description": "Your complete resource hub for Build a Hooper player builds, positions, attributes, badges, and NBA career guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "youtube": "Watch on YouTube",
+    "roblox": "Play on Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Build a Hooper Wiki. Not affiliated with the developers of Build a Hooper or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

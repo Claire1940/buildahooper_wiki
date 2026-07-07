@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "description": "Build a Hooper Wiki features player builds, position guides, attribute recommendations, badges, NBA career tips and Roblox gameplay resources for every player.",
+      "keywords": "Build a Hooper, Roblox, Builds, Positions, Badges, Attributes, Career",
+      "ogTitle": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "ogDescription": "Build a Hooper Wiki features player builds, position guides, attribute recommendations, badges, NBA career tips and Roblox gameplay resources for every player.",
+      "twitterTitle": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "twitterDescription": "Build a Hooper Wiki covers player builds, positions, badges, attributes, and NBA career tips for the Roblox basketball simulation."
     }
   },
   "nav": {
@@ -21,7 +21,7 @@
   "common": {
     "home": "Início",
     "more": "Mais",
-    "playNow": "Jogue no Steam",
+    "playNow": "Jogue no Roblox",
     "switchLanguage": "Alterar Idioma",
     "switchTheme": "Alterar Tema",
     "lightMode": "Modo Claro",
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Artigos em breve"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "badge": "NBA Career Simulation on Roblox",
+    "title": "Build a Hooper Wiki",
+    "description": "Create your dream basketball player, customize attributes, choose your position, enter the NBA Draft, and build a legendary career in this Roblox basketball simulation inspired by MyCareer.",
+    "getFreeCodesCTA": "Build Your Player",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "4",
+        "label": "Positions Available"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "100+",
+        "label": "Attribute Points"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "Career",
+        "label": "Career Mode"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "Player Builds",
+        "label": "Custom Builds"
       }
     }
   },
   "gameFeature": {
-    "title": "Jogabilidade de Lucid Blocks",
-    "description": "Explore biomas surreais, funda itens com Apotheosis e sobreviva a criaturas estranhas neste sandbox de voxel onírico no Steam."
+    "title": "Build a Hooper Gameplay",
+    "description": "Build your dream basketball player, choose your position, allocate attributes, earn badges, and chase NBA glory in this Roblox basketball career simulation."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -785,27 +785,25 @@
     ]
   },
   "cta": {
-    "title": "Pronto para explorar Lucid Blocks?",
-    "description": "Junte-se à comunidade de Lucid Blocks no Discord para guias, atualizações e discussões!",
-    "joinCommunity": "Entrar no Discord",
-    "joinGame": "Jogue no Steam"
+    "title": "Ready to Build Your Hooper?",
+    "description": "Watch Build a Hooper gameplay on YouTube, then jump into Roblox to start your NBA career simulation today!",
+    "joinCommunity": "Watch Gameplay",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Seu centro de recursos completo para crafting, biomas, criaturas, conquistas e guias de sobrevivência de Lucid Blocks.",
-    "resources": "Recursos",
-    "community": "Comunidade",
+    "title": "Build a Hooper Wiki",
+    "description": "Your complete resource hub for Build a Hooper player builds, positions, attributes, badges, and NBA career guides.",
+    "resources": "Resources",
+    "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidade Steam",
-    "steamStore": "Loja Steam",
-    "about": "Sobre",
-    "privacy": "Política de Privacidade",
-    "terms": "Termos de Serviço",
+    "youtube": "Watch on YouTube",
+    "roblox": "Play on Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Wiki de Lucid Blocks. Não afiliada aos desenvolvedores de Lucid Blocks.",
-    "disclaimer": "Site de recursos não oficial feito por fãs."
+    "copyright": "© 2026 Build a Hooper Wiki. Not affiliated with the developers of Build a Hooper or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {

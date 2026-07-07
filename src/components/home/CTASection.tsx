@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Users } from "lucide-react";
+import { Youtube } from "lucide-react";
 
 interface CTASectionProps {
   title: string;
@@ -32,16 +32,16 @@ export default function CTASection({
               className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-6 md:px-8 py-5 md:py-6 text-base md:text-lg"
             >
               <a
-                href="https://discord.com/invite/lucidblocks"
+                href="https://www.youtube.com/watch?v=Nn2TMYg6SYc"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Users className="w-5 h-5 mr-2" />
+                <Youtube className="w-5 h-5 mr-2" />
                 {joinCommunity}
               </a>
             </Button>
             <a
-              href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+              href="https://www.roblox.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md border border-border hover:bg-white/10 px-6 md:px-8 py-5 md:py-6 text-base md:text-lg font-medium transition-colors"

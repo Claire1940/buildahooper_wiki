@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
+      "title": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "description": "Build a Hooper Wiki features player builds, position guides, attribute recommendations, badges, NBA career tips and Roblox gameplay resources for every player.",
+      "keywords": "Build a Hooper, Roblox, Builds, Positions, Badges, Attributes, Career",
+      "ogTitle": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "ogDescription": "Build a Hooper Wiki features player builds, position guides, attribute recommendations, badges, NBA career tips and Roblox gameplay resources for every player.",
+      "twitterTitle": "Build a Hooper Wiki - Builds, Positions & Career Guide",
+      "twitterDescription": "Build a Hooper Wiki covers player builds, positions, badges, attributes, and NBA career tips for the Roblox basketball simulation."
     }
   },
   "nav": {
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Articles à venir"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "NBA Career Simulation on Roblox",
+    "title": "Build a Hooper Wiki",
+    "description": "Create your dream basketball player, customize attributes, choose your position, enter the NBA Draft, and build a legendary career in this Roblox basketball simulation inspired by MyCareer.",
+    "getFreeCodesCTA": "Build Your Player",
+    "playOnSteamCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "4",
+        "label": "Positions Available"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "100+",
+        "label": "Attribute Points"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "Career",
+        "label": "Career Mode"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "Player Builds",
+        "label": "Custom Builds"
       }
     }
   },
   "gameFeature": {
-    "title": "Gameplay de Lucid Blocks",
-    "description": "Regardez de minuscules gnomes réaliser de gros braquages dans des missions furtives chaotiques en coopération à 6 joueurs !"
+    "title": "Build a Hooper Gameplay",
+    "description": "Build your dream basketball player, choose your position, allocate attributes, earn badges, and chase NBA glory in this Roblox basketball career simulation."
   },
   "tools": {
     "title": "Lucid Blocks",
@@ -819,27 +819,25 @@
     ]
   },
   "cta": {
-    "title": "Prêt à commencer à braquer ?",
-    "description": "Rejoignez la communauté Lucid Blocks sur Discord pour des groupes de coopération, des mises à jour et des discussions sur les mods !",
-    "joinCommunity": "Rejoindre Discord",
-    "joinGame": "Obtenir la démo sur Steam"
+    "title": "Ready to Build Your Hooper?",
+    "description": "Watch Build a Hooper gameplay on YouTube, then jump into Roblox to start your NBA career simulation today!",
+    "joinCommunity": "Watch Gameplay",
+    "joinGame": "Play on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Votre centre de ressources complet pour les braquages furtifs, les stratégies de coopération, les mods et les guides communautaires de Lucid Blocks.",
-    "resources": "Ressources",
-    "community": "Communauté",
-    "legal": "Légal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Communauté Steam",
-    "steamStore": "Magasin Steam",
-    "about": "À propos",
-    "privacy": "Politique de confidentialité",
-    "terms": "Conditions d'utilisation",
-    "copyrightNotice": "Droits d'auteur",
-    "copyright": "© 2026 Lucid Blocks Wiki. Non affilié aux développeurs de Lucid Blocks.",
-    "disclaimer": "Site web de ressources non officiel créé par des fans."
+    "title": "Build a Hooper Wiki",
+    "description": "Your complete resource hub for Build a Hooper player builds, positions, attributes, badges, and NBA career guides.",
+    "resources": "Resources",
+    "community": "Community",
+    "legal": "Legal",
+    "youtube": "Watch on YouTube",
+    "roblox": "Play on Roblox",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Build a Hooper Wiki. Not affiliated with the developers of Build a Hooper or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
     "guides": {
