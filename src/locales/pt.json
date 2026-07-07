@@ -1,1 +1,576 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Build a Hooper Wiki - Builds, Posições & Guia de Carreira",
+      "description": "A Build a Hooper Wiki apresenta builds de jogadores, guias de posições, recomendações de atributos, insígnias, dicas de carreira na NBA e recursos de jogabilidade do Roblox para todos os jogadores.",
+      "keywords": "Build a Hooper, Roblox, Builds, Posições, Insígnias, Atributos, Carreira",
+      "ogTitle": "Build a Hooper Wiki - Builds, Posições & Guia de Carreira",
+      "ogDescription": "A Build a Hooper Wiki apresenta builds de jogadores, guias de posições, recomendações de atributos, insígnias, dicas de carreira na NBA e recursos de jogabilidade do Roblox para todos os jogadores.",
+      "twitterTitle": "Build a Hooper Wiki - Builds, Posições & Guia de Carreira",
+      "twitterDescription": "A Build a Hooper Wiki cobre builds de jogadores, posições, insígnias, atributos e dicas de carreira na NBA para a simulação de basquete do Roblox."
+    }
+  },
+  "nav": {
+    "builds": "Builds",
+    "career": "Carreira",
+    "codes": "Códigos",
+    "guide": "Guia",
+    "skills": "Habilidades",
+    "updates": "Atualizações"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Simulação de Carreira na NBA no Roblox",
+    "title": "Build a Hooper Wiki",
+    "description": "Crie o jogador de basquete dos seus sonhos, personalize atributos, escolha sua posição, entre no Draft da NBA e construa uma carreira lendária nesta simulação de basquete do Roblox inspirada no MyCareer.",
+    "getFreeCodesCTA": "Crie Seu Jogador",
+    "playOnSteamCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "4",
+        "label": "Posições Disponíveis"
+      },
+      "stat2": {
+        "value": "100+",
+        "label": "Pontos de Atributo"
+      },
+      "stat3": {
+        "value": "Carreira",
+        "label": "Modo Carreira"
+      },
+      "stat4": {
+        "value": "Builds de Jogadores",
+        "label": "Builds Personalizadas"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Build a Hooper",
+    "description": "Crie o seu jogador de basquete dos sonhos, escolha sua posição, distribua atributos, ganhe insígnias e busque a glória da NBA nesta simulação de carreira de basquete no Roblox."
+  },
+  "tools": {
+    "title": "Build a Hooper",
+    "titleHighlight": "Recursos",
+    "subtitle": "Tudo o que você precisa para criar seu jogador, gerir sua carreira e buscar a glória da NBA no Build a Hooper.",
+    "cards": [
+      {
+        "icon": "Basquete",
+        "title": "Builds do Build a Hooper",
+        "description": "Builds de jogador para cada posição e estilo de jogo"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Posições do Build a Hooper",
+        "description": "De armador a pivô — escolha seu papel em quadra"
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Atributos do Build a Hooper",
+        "description": "Distribua pontos de atributo de forma inteligente"
+      },
+      {
+        "icon": "Award",
+        "title": "Insígnias do Build a Hooper",
+        "description": "Melhorias de insígnias que combinam com sua build"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Modo Carreira do Build a Hooper",
+        "description": "Transforme um novato em uma lenda da NBA"
+      },
+      {
+        "icon": "ClipboardList",
+        "title": "Guia de Draft do Build a Hooper",
+        "description": "Processo de draft, início como novato e seleção de equipe"
+      },
+      {
+        "icon": "Users",
+        "title": "Equipes do Build a Hooper",
+        "description": "Escolha a franquia que se adapta à sua carreira"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Guia para Iniciantes do Build a Hooper",
+        "description": "Configuração do primeiro jogador e progressão inicial"
+      }
+    ]
+  },
+  "modules": {
+    "buildAHooperBuilds": {
+      "title": "Builds do Build a Hooper",
+      "eyebrow": "Builds de Jogador",
+      "intro": "Build a Hooper transforma a criação de jogadores no coração do jogo — escolha uma posição, molde um perfil físico, distribua atributos e defina um estilo de jogo. Estes modelos de build organizam as funções de basquete mais populares para que você possa projetar uma trajetória de carreira que combine com sua forma de jogar.",
+      "items": [
+        {
+          "icon": "Zap",
+          "tier": "Ala-Armador Pontuador",
+          "playstyle": "Criador Ofensivo",
+          "position": "Armador / Ala-Armador",
+          "focus": [
+            "Controle de bola",
+            "Criação de arremesso",
+            "Capacidade de pontuação"
+          ],
+          "description": "Uma build focada em armadores, projetada para criar arremessos, controlar posses de bola e liderar o ataque a partir do perímetro."
+        },
+        {
+          "icon": "Crown",
+          "tier": "Jogador Completo",
+          "playstyle": "Estrela Equilibrada",
+          "position": "Armador / Ala-Armador / Ala",
+          "focus": [
+            "Ataque",
+            "Defesa",
+            "Versatilidade geral"
+          ],
+          "description": "Uma build flexível para jogadores que querem contribuir em várias áreas e se adaptar a qualquer confronto."
+        },
+        {
+          "icon": "Escudo",
+          "tier": "Pivô Dominante",
+          "playstyle": "Presença no Garrafão",
+          "position": "Pivô",
+          "focus": [
+            "Tamanho",
+            "Rebotes",
+            "Jogo interno"
+          ],
+          "description": "Uma build focada em pivô, projetada para controlar o garrafão, proteger o aro e dominar o jogo interno."
+        }
+      ]
+    },
+    "buildAHooperPositions": {
+      "title": "Posições do Build a Hooper",
+      "eyebrow": "Guia de Posições",
+      "intro": "No Build a Hooper, sua posição define seu papel em quadra e molda cada decisão de atributo a seguir. Saiba pelo que cada posição é responsável antes de se comprometer com uma direção de build.",
+      "items": [
+        {
+          "icon": "Bússola",
+          "position": "Armador",
+          "role": "Principal Condutor de Bola",
+          "focus": [
+            "Organização",
+            "Controle de bola",
+            "Organização ofensiva"
+          ],
+          "description": "O líder em quadra que conduz a bola, serve os companheiros e comanda o ataque."
+        },
+        {
+          "icon": "Alvo",
+          "position": "Ala-Armador",
+          "role": "Pontuador de Perímetro",
+          "focus": [
+            "Arremesso",
+            "Pontuação",
+            "Movimentação ofensiva"
+          ],
+          "description": "Uma função de ala-armador focada em pontuar do perímetro e se movimentar sem a bola."
+        },
+        {
+          "icon": "Atividade",
+          "position": "Ala",
+          "role": "Ala Versátil",
+          "focus": [
+            "Habilidades equilibradas",
+            "Capacidade atlética",
+            "Jogo nos dois lados da quadra"
+          ],
+          "description": "Uma posição flexível que combina pontuação, defesa e versatilidade em toda a quadra."
+        },
+        {
+          "icon": "Haltere",
+          "position": "Pivô",
+          "role": "Jogador de Garrafão",
+          "focus": [
+            "Tamanho",
+            "Defesa",
+            "Rebotes"
+          ],
+          "description": "Uma função de pivô focada em proteger o garrafão, pegar rebotes e controlar o jogo interno."
+        }
+      ]
+    },
+    "buildAHooperAttributes": {
+      "title": "Atributos do Build a Hooper",
+      "eyebrow": "Criação de Jogador",
+      "intro": "Atributos são onde o jogador do Build a Hooper toma forma. Decida onde gastar seus pontos e sua build se tornará um pontuador, um criador, um defensor ou um atleta equilibrado.",
+      "items": [
+        {
+          "icon": "Chama",
+          "category": "Ataque",
+          "related": [
+            "Pontuação",
+            "Arremesso",
+            "Criar oportunidades"
+          ],
+          "goal": "Para jogadores que desejam um impacto ofensivo mais forte e finalização perto do aro."
+        },
+        {
+          "icon": "Escudo",
+          "category": "Defesa",
+          "related": [
+            "Habilidade defensiva",
+            "Parar adversários",
+            "Suporte ao time"
+          ],
+          "goal": "Para jogadores que priorizam paradas defensivas, proteção de aro e defesa coletiva."
+        },
+        {
+          "icon": "Haltere",
+          "category": "Físico",
+          "related": [
+            "Tamanho",
+            "Perfil atlético",
+            "Estilo de jogador"
+          ],
+          "goal": "Para jogadores que desejam uma identidade física específica e presença em quadra."
+        },
+        {
+          "icon": "Medidor",
+          "category": "Build Equilibrada",
+          "related": [
+            "Múltiplas áreas",
+            "Versatilidade",
+            "Adaptabilidade"
+          ],
+          "goal": "Para jogadores que desejam contribuições constantes em toda a quadra."
+        }
+      ]
+    },
+    "buildAHooperBadges": {
+      "title": "Badges do Build a Hooper",
+      "eyebrow": "Melhorias de Jogador",
+      "intro": "As Badges no Build a Hooper aprimoram habilidades especializadas do jogador e definem a identidade da sua build. Use conceitos de badges para reforçar como você quer que seu jogador atue em quadra.",
+      "items": [
+        {
+          "icon": "Raio",
+          "category": "Badges de Pontuação",
+          "supports": "Jogadores focados no ataque",
+          "effect": "Reforça a identidade de pontuador de um jogador e seus pontos fortes ofensivos."
+        },
+        {
+          "icon": "Alvo",
+          "category": "Insígnias de Organização",
+          "supports": "Builds de armador e criador",
+          "effect": "Melhora jogadores que criam jogadas e organizam o ataque."
+        },
+        {
+          "icon": "Escudo",
+          "category": "Insígnias de Defesa",
+          "supports": "Jogadores two-way",
+          "effect": "Fortalece o desenvolvimento de jogadores focados na defesa."
+        },
+        {
+          "icon": "Coroa",
+          "category": "Insígnias de Jogo Interno",
+          "supports": "Builds de big man",
+          "effect": "Fortalece jogadores focados em funções no garrafão."
+        }
+      ]
+    },
+    "buildAHooperCareer": {
+      "title": "Guia do Modo Carreira do Build a Hooper",
+      "eyebrow": "Progressão de Carreira",
+      "intro": "O Build a Hooper foca na criação e desenvolvimento de uma experiência personalizada de jogador de basquete, inspirada em simulações de carreira modernas. Os jogadores podem personalizar seu hooper, melhorar habilidades e seguir uma jornada de progressão através de temporadas simuladas e conquistas.",
+      "steps": [
+        {
+          "title": "Crie seu Hooper",
+          "description": "Comece criando um jogador de basquete personalizado com sua posição preferida, perfil físico e estilo de jogo."
+        },
+        {
+          "title": "Desenvolva as Habilidades do Jogador",
+          "description": "Melhore o desempenho do seu jogador focando em atributos e escolhas de jogabilidade que combinem com a sua função preferida em quadra."
+        },
+        {
+          "title": "Construa o Progresso da Carreira",
+          "description": "Avance por experiências de basquete enquanto desenvolve a reputação e a habilidade geral do seu jogador."
+        },
+        {
+          "title": "Crie um Legado",
+          "description": "Continue melhorando seu jogador e trace um caminho de carreira único no basquete através de uma progressão de longo prazo."
+        }
+      ],
+      "milestones": [
+        "Estreia de calouro",
+        "Primeiro MVP",
+        "Campeonato",
+        "Lenda de todos os tempos"
+      ]
+    },
+    "buildAHooperDraft": {
+      "title": "Guia do Draft do Build a Hooper",
+      "eyebrow": "Sistema de Draft",
+      "intro": "A experiência do draft é projetada em torno do início da jornada de um novo jogador. Criar uma build equilibrada, selecionar uma posição adequada e entender os pontos fortes do jogador são partes importantes para construir uma carreira de sucesso no Build a Hooper.",
+      "steps": [
+        {
+          "title": "Escolha a Identidade do seu Jogador",
+          "description": "Decida se o seu hooper focará em pontuação, armação, defesa, rebotes ou em um estilo completo."
+        },
+        {
+          "title": "Selecione uma Posição",
+          "description": "Escolha uma função no basquete, como armador, ala ou pivô, com base no tipo de jogador que você deseja criar."
+        },
+        {
+          "title": "Personalize sua Build",
+          "description": "Ajuste as características do jogador, incluindo tamanho, perfil físico e foco de jogabilidade."
+        },
+        {
+          "title": "Comece sua Jornada de Carreira",
+          "description": "Comece a desenvolver seu jogador criado e progrida pela experiência de simulação de basquete."
+        }
+      ],
+      "milestones": [
+        "Entrada no Draft",
+        "Seleção de time",
+        "Tip-off do Calouro",
+        "Primeiro jogo da carreira"
+      ]
+    },
+    "buildAHooperTeams": {
+      "title": "Guia de Times do Build a Hooper",
+      "eyebrow": "Times da NBA",
+      "intro": "O Build a Hooper foi projetado em torno de um conceito de simulação de basquete onde as equipes e os ambientes da liga fornecem o contexto para a jornada da carreira de um jogador. O jogo se inspira em sistemas de carreira no estilo da NBA, onde a seleção do time e a progressão influenciam a experiência geral.",
+      "items": [
+        {
+          "icon": "Coroa",
+          "name": "Franquias Inspiradas na NBA",
+          "style": "Sistemas de times profissionais",
+          "fit": "Explore os conceitos de carreira do Build a Hooper inspirados em sistemas de equipes profissionais e estruturas de ligas."
+        },
+        {
+          "icon": "Bússola",
+          "name": "Ambiente de Carreira",
+          "style": "O contexto molda o crescimento",
+          "fit": "Diferentes contextos de equipe moldam como o papel e o desenvolvimento do seu hooper criado se desenrolam ao longo de uma carreira."
+        },
+        {
+          "icon": "Alvo",
+          "name": "Papel do Jogador",
+          "style": "Ajuste de posição e estilo de jogo",
+          "fit": "Sua posição e estilo de jogo ajudam a definir como você se encaixa no sistema de equipe do Build a Hooper."
+        },
+        {
+          "icon": "Bandeira",
+          "name": "Seleção de Time",
+          "style": "Escolha sua franquia",
+          "fit": "Escolha uma franquia cujo sistema e cultura correspondam à carreira que você deseja construir."
+        }
+      ]
+    },
+    "buildAHooperBeginner": {
+      "title": "Guia de Iniciante do Build a Hooper",
+      "eyebrow": "Guia de Iniciante",
+      "intro": "Novos jogadores podem começar aprendendo o básico da criação de jogadores, funções no basquete e conceitos de progressão. Este guia de iniciante explica as principais ideias por trás da construção e desenvolvimento de um hooper personalizado no Build a Hooper.",
+      "faqs": [
+        {
+          "question": "O que é o Build a Hooper?",
+          "answer": "O Build a Hooper é uma simulação de basquete no Roblox focada em criar e desenvolver um jogador de basquete personalizado desde o dia do draft até uma longa carreira."
+        },
+        {
+          "question": "Como os iniciantes devem criar seu primeiro jogador no Build a Hooper?",
+          "answer": "Comece no Build a Hooper escolhendo uma posição e um estilo de jogo que correspondam a como você deseja que seu jogador atue em quadra."
+        },
+        {
+          "question": "No que os novos jogadores do Build a Hooper devem focar primeiro?",
+          "answer": "Aprenda o sistema de criação de jogadores do Build a Hooper, entenda as funções no basquete e melhore as habilidades do seu jogador por meio de uma progressão constante."
+        },
+        {
+          "question": "Os jogadores podem criar diferentes tipos de hoopers no Build a Hooper?",
+          "answer": "Sim. No Build a Hooper, você pode projetar diferentes conceitos de jogador mudando posições, builds e estilos de basquete preferidos."
+        },
+        {
+          "question": "O Build a Hooper tem um modo carreira?",
+          "answer": "Sim. O modo carreira do Build a Hooper acompanha seu jogador criado desde o draft, passando pelas temporadas de calouro, prêmios e um longo legado."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre o Build a Hooper",
+    "questions": [
+      {
+        "question": "O que é o Build a Hooper?",
+        "answer": "O Build a Hooper é uma simulação de basquete no Roblox onde você cria um jogador personalizado, escolhe uma posição, aloca atributos e constrói uma carreira na NBA a partir do draft."
+      },
+      {
+        "question": "Onde posso jogar o Build a Hooper?",
+        "answer": "Build a Hooper está disponível no Roblox. Você pode começar a criar seu jogador diretamente pela plataforma Roblox."
+      },
+      {
+        "question": "Como funcionam as builds em Build a Hooper?",
+        "answer": "No Build a Hooper, uma build é o seu jogador personalizado — definido por posição, perfil físico, alocação de atributos e escolhas de estilo de jogo que moldam toda a sua carreira."
+      },
+      {
+        "question": "Quais posições posso escolher no Build a Hooper?",
+        "answer": "Build a Hooper permite que você crie em torno de posições de basquete como Armador, Ala-Armador, Ala e Pivô, cada uma com seu próprio papel e responsabilidades."
+      },
+      {
+        "question": "O Build a Hooper tem um modo carreira e draft?",
+        "answer": "Sim. Build a Hooper inclui um modo carreira onde seu jogador criado entra no Draft da NBA, junta-se a um time e evolui de calouro a lenda."
+      },
+      {
+        "question": "O que são badges no Build a Hooper?",
+        "answer": "Badges no Build a Hooper aprimoram habilidades especializadas e reforçam a identidade da sua build, desde pontuação e armação até defesa e jogo interno."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para criar seu Hooper?",
+    "description": "Assista à gameplay de Build a Hooper no YouTube e depois entre no Roblox para começar sua simulação de carreira na NBA hoje mesmo!",
+    "joinCommunity": "Assistir Gameplay",
+    "joinGame": "Jogar no Roblox"
+  },
+  "footer": {
+    "title": "Wiki do Build a Hooper",
+    "description": "Seu hub de recursos completo para builds de jogadores, posições, atributos, badges e guias de carreira na NBA do Build a Hooper.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "youtube": "Assistir no YouTube",
+    "roblox": "Jogar no Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Build a Hooper Wiki. Não afiliado aos desenvolvedores de Build a Hooper ou Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "builds": {
+      "title": "Builds de Build a Hooper",
+      "description": "Builds de jogadores recomendadas do Build a Hooper para cada posição e estilo de jogo, incluindo armadores pontuadores, jogadores versáteis e pivôs dominantes.",
+      "metaTitle": "Builds de Build a Hooper - Melhores Builds de Jogadores e Estilos de Jogo",
+      "metaDescription": "Explore as melhores builds de Build a Hooper para cada posição e estilo de jogo, de armadores pontuadores a pivôs dominantes.",
+      "categoryLabel": "BUILDS DE JOGADORES",
+      "whatIs": "O que são Builds?",
+      "whatIsDescription": "Builds no Build a Hooper são modelos de jogadores personalizados criados a partir de escolhas de posição, perfil físico, atributos e estilo de jogo que definem sua carreira.",
+      "why": "Por que escolher uma build?",
+      "whySteps": {
+        "step1Title": "Defina seu Papel",
+        "step1Description": "Escolha uma posição e um estilo de jogo que combine com a sua forma de jogar",
+        "step2Title": "Aloque Atributos",
+        "step2Description": "Gaste pontos nas habilidades que potencializam o seu estilo escolhido",
+        "step3Title": "Construa uma Carreira",
+        "step3Description": "Leve seu jogador criado do dia do draft até se tornar uma lenda da NBA"
+      },
+      "featured": "Builds em Destaque",
+      "all": "Todas as Builds"
+    },
+    "career": {
+      "title": "Modo Carreira do Build a Hooper",
+      "description": "A experiência de simulação de carreira do Build a Hooper — progressão, temporadas, conquistas e crescimento do jogador a longo prazo.",
+      "metaTitle": "Modo Carreira do Build a Hooper - Guia do Draft à Lenda",
+      "metaDescription": "Guia para o modo carreira do Build a Hooper, desde o dia do draft e temporadas de calouro até prêmios de MVP e um legado lendário.",
+      "categoryLabel": "MODO CARREIRA",
+      "whatIs": "O que é o Modo Carreira?",
+      "whatIsDescription": "O modo carreira do Build a Hooper acompanha seu jogador criado desde o Draft da NBA até as temporadas de calouro, prêmios e um longo legado.",
+      "why": "Por que jogar o modo carreira",
+      "whySteps": {
+        "step1Title": "Evolua Seu Jogador",
+        "step1Description": "Desenvolva sua build temporada após temporada",
+        "step2Title": "Busque Prêmios",
+        "step2Description": "Ganhe prêmios de MVP, campeonatos e honras de carreira",
+        "step3Title": "Construa um Legado",
+        "step3Description": "Transforme uma carreira sólida em um currículo histórico"
+      },
+      "featured": "Guias de Carreira em Destaque",
+      "all": "Todos os Guias de Carreira"
+    },
+    "codes": {
+      "title": "Códigos do Build a Hooper",
+      "description": "Códigos do Build a Hooper explicados como receitas de build — as melhores builds de jogadores, escolhas de posição e configurações de atributos que os jogadores buscam ao procurar por códigos.",
+      "metaTitle": "Códigos do Build a Hooper - Melhores Receitas de Build e Escolhas",
+      "metaDescription": "Códigos do Build a Hooper transformados em receitas de build: armadores pontuadores, alas equilibrados, pivôs dominantes e as configurações de atributos por trás de cada escolha.",
+      "categoryLabel": "RECEITAS DE BUILD",
+      "whatIs": "O que são Códigos?",
+      "whatIsDescription": "No Build a Hooper, os códigos funcionam como um atalho para receitas de build — as configurações de jogador, escolhas de posição e alocações de atributos que os jogadores compartilham como as formas mais fortes de começar uma carreira.",
+      "why": "Por que usar receitas de build",
+      "whySteps": {
+        "step1Title": "Pule a Tentativa e Erro",
+        "step1Description": "Comece com uma build comprovada em vez de adivinhar a alocação de atributos",
+        "step2Title": "Combine com Sua Posição",
+        "step2Description": "Escolha uma receita feita para sua função escolhida no basquete",
+        "step3Title": "Planeje Sua Carreira",
+        "step3Description": "Use la receita como base para a progressão a longo prazo"
+      },
+      "featured": "Receitas de Build em Destaque",
+      "all": "Todas as Receitas de Build"
+    },
+    "guide": {
+      "title": "Guia do Build a Hooper",
+      "description": "Guias do Build a Hooper cobrindo o básico para iniciantes, criação de jogador, dicas de progressão e estratégia de carreira para a simulação de basquete no Roblox.",
+      "metaTitle": "Guia do Build a Hooper - Dicas para Iniciantes e Estratégia de Carreira",
+      "metaDescription": "Guias do Build a Hooper cobrindo dicas para iniciantes, criação de jogador, progressão e estratégia de carreira para a simulação de basquete no Roblox.",
+      "categoryLabel": "GUIAS DO JOGO",
+      "whatIs": "O que é o Guia?",
+      "whatIsDescription": "Os guias do Build a Hooper cobrem mecânicas de jogo, criação de jogador, progressão e estratégia de carreira, desde os primeiros passos até o jogo avançado.",
+      "why": "Por que ler guias",
+      "whySteps": {
+        "step1Title": "Aprenda o Básico",
+        "step1Description": "Entenda a criação de jogadores e as mecânicas principais",
+        "step2Title": "Progrida Mais Rápido",
+        "step2Description": "Siga caminhos comprovados de rookie a estrela",
+        "step3Title": "Domine a Estratégia",
+        "step3Description": "Desenvolva táticas avançadas para sua carreira"
+      },
+      "featured": "Guias em Destaque",
+      "all": "Todos os Guias"
+    },
+    "skills": {
+      "title": "Build a Hooper Skills",
+      "description": "Builds de atributos e skills do Build a Hooper — configurações de arremesso, velocidade, atlético e enterrada, além dos melhores atributos para priorizar em cada estilo de jogo.",
+      "metaTitle": "Build a Hooper Skills - Builds de Arremesso, Velocidade e Enterrada",
+      "metaDescription": "Builds de skills do Build a Hooper para estilos de jogo de arremesso, velocidade, atlético e enterrada, com os melhores atributos para priorizar em cada um.",
+      "categoryLabel": "BUILDS DE SKILLS",
+      "whatIs": "O que são Skills?",
+      "whatIsDescription": "Skills no Build a Hooper são builds de atributos focadas — configurações de arremesso, velocidade, atlético e enterrada que aprimoram um lado do jogo do seu jogador.",
+      "why": "Por que especializar skills",
+      "whySteps": {
+        "step1Title": "Aprimore uma Força",
+        "step1Description": "Foque os atributos na skill que define seu estilo de jogo",
+        "step2Title": "Combine com sua Build",
+        "step2Description": "Combine builds de skills com sua posição e build geral",
+        "step3Title": "Priorize os Melhores Atributos",
+        "step3Description": "Gaste pontos nos atributos que levam sua skill ao limite"
+      },
+      "featured": "Builds de Skills em Destaque",
+      "all": "Todas as Builds de Skills"
+    },
+    "updates": {
+      "title": "Atualizações do Build a Hooper",
+      "description": "Atualizações e novos recursos do Build a Hooper — os patches mais recentes, notas de lançamento e mudanças de jogabilidade adicionadas à simulação de basquete do Roblox.",
+      "metaTitle": "Atualizações do Build a Hooper - Patches Recentes e Novos Recursos",
+      "metaDescription": "Acompanhe as atualizações do Build a Hooper, incluindo os patches mais recentes, notas de lançamento e novos recursos adicionados à simulação de basquete do Roblox.",
+      "categoryLabel": "ATUALIZAÇÕES DO JOGO",
+      "whatIs": "O que são Atualizações?",
+      "whatIsDescription": "As atualizações do Build a Hooper cobrem os patches mais recentes, novos recursos e mudanças de jogabilidade que moldam como a simulação de basquete evolui com o tempo.",
+      "why": "Por que acompanhar as atualizações",
+      "whySteps": {
+        "step1Title": "Mantenha-se Atualizado",
+        "step1Description": "Saiba o que mudou no patch mais recente antes de criar sua build",
+        "step2Title": "Adapte sua Build",
+        "step2Description": "Ajuste atributos e estilo de jogo para as novas mudanças de jogabilidade",
+        "step3Title": "Aproveite Novos Recursos",
+        "step3Description": "Use conteúdos e sistemas novos no momento em que forem lançados"
+      },
+      "featured": "Atualizações em Destaque",
+      "all": "Todas as Atualizações"
+    }
+  }
+}

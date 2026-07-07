@@ -1,1 +1,576 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Build a Hooper Wiki - ビルド、ポジション＆キャリアガイド",
+      "description": "Build a Hooper Wikiでは、すべてのプレイヤーのために、プレイヤービルド、ポジションガイド、おすすめの能力値、バッジ、NBAキャリアのコツ、およびRobloxのゲームプレイリソースを掲載しています。",
+      "keywords": "Build a Hooper, Roblox, ビルド, ポジション, バッジ, 能力値, キャリア",
+      "ogTitle": "Build a Hooper Wiki - ビルド、ポジション＆キャリアガイド",
+      "ogDescription": "Build a Hooper Wikiでは、すべてのプレイヤーのために、プレイヤービルド、ポジションガイド、おすすめの能力値、バッジ、NBAキャリアのコツ、およびRobloxのゲームプレイリソースを掲載しています。",
+      "twitterTitle": "Build a Hooper Wiki - ビルド、ポジション＆キャリアガイド",
+      "twitterDescription": "Build a Hooper Wikiでは、Robloxのバスケットボールシミュレーションにおけるプレイヤービルド、ポジション、バッジ、能力値、およびNBAキャリアのコツについて解説しています。"
+    }
+  },
+  "nav": {
+    "builds": "ビルド",
+    "career": "キャリア",
+    "codes": "コード",
+    "guide": "ガイド",
+    "skills": "スキル",
+    "updates": "アップデート"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Robloxでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "RobloxでのNBAキャリアシミュレーション",
+    "title": "Build a Hooper Wiki",
+    "description": "理想のバスケットボールプレイヤーを作成し、能力値をカスタマイズし、ポジションを選択し、NBAドラフトにエントリーして、MyCareerにインスパイアされたこのRobloxバスケットボールシミュレーションで伝説的なキャリアを築きましょう。",
+    "getFreeCodesCTA": "プレイヤーを作成する",
+    "playOnSteamCTA": "Robloxでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "4",
+        "label": "選択可能なポジション"
+      },
+      "stat2": {
+        "value": "100+",
+        "label": "能力値ポイント"
+      },
+      "stat3": {
+        "value": "キャリア",
+        "label": "キャリアモード"
+      },
+      "stat4": {
+        "value": "プレイヤービルド",
+        "label": "カスタムビルド"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Build a Hooperのゲームプレイ",
+    "description": "理想のバスケットボール選手を作成し、ポジションを選び、能力値を振り分け、バッジを獲得して、このRobloxバスケキャリアシミュレーションでNBAの栄光を追い求めよう。"
+  },
+  "tools": {
+    "title": "Build a Hooper",
+    "titleHighlight": "リソース",
+    "subtitle": "Build a Hooperで選手を作成し、キャリアを運営し、NBAの栄光を掴むために必要なすべての情報。",
+    "cards": [
+      {
+        "icon": "バスケットボール",
+        "title": "Build a Hooperのビルド",
+        "description": "あらゆるポジションとプレイスタイルに対応したプレイヤービルド"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Build a Hooperのポジション",
+        "description": "ポイントガードからセンターまで — コートでの役割を選ぼう"
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Build a Hooperの能力値",
+        "description": "賢い能力値ポイントの振り分け方"
+      },
+      {
+        "icon": "Award",
+        "title": "Build a Hooperのバッジ",
+        "description": "ビルドに最適なバッジアップグレード"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Build a Hooperのキャリアモード",
+        "description": "ルーキーをNBAのレジェンドへ成長させよう"
+      },
+      {
+        "icon": "ClipboardList",
+        "title": "Build a Hooperのドラフトガイド",
+        "description": "ドラフトの流れ、ルーキーのスタート、そしてチーム選び"
+      },
+      {
+        "icon": "Users",
+        "title": "Build a Hooperのチーム",
+        "description": "自分のキャリアに合ったフランチャイズを選ぼう"
+      },
+      {
+        "icon": "GraduationCap",
+        "title": "Build a Hooperのビギナーガイド",
+        "description": "最初の選手セットアップと序盤の進め方"
+      }
+    ]
+  },
+  "modules": {
+    "buildAHooperBuilds": {
+      "title": "Build a Hooperのビルド",
+      "eyebrow": "プレイヤービルド",
+      "intro": "Build a Hooperでは、選手作成がゲームの核となります。ポジションを選び、フィジカルプロファイルを設定し、能力値を振り分け、プレイスタイルを決定します。これらのビルドテンプレートは、人気の高いバスケットボールの役割を整理したもので、自分の理想のプレイスタイルに合わせたキャリアパスを設計できます。",
+      "items": [
+        {
+          "icon": "Zap",
+          "tier": "スコアリングガード",
+          "playstyle": "オフェンシブ・クリエイター",
+          "position": "ポイントガード / シューティングガード",
+          "focus": [
+            "ボールハンドリング",
+            "シュートクリエイション",
+            "得点能力"
+          ],
+          "description": "シュートの創出、ポゼッションのコントロール、そしてペリメーターからのオフェンス牽引に特化した、ガード向けのビルド。"
+        },
+        {
+          "icon": "Crown",
+          "tier": "オールラウンドプレイヤー",
+          "playstyle": "バランススター",
+          "position": "ポイントガード / シューティングガード / スモールフォワード",
+          "focus": [
+            "オフェンス",
+            "ディフェンス",
+            "総合的な汎用性"
+          ],
+          "description": "あらゆるエリアで貢献し、どんなマッチアップにも適応したいプレイヤー向けのフレキシブルなビルド。"
+        },
+        {
+          "icon": "シールド",
+          "tier": "圧倒的なビッグマン",
+          "playstyle": "インテリアプレゼンス",
+          "position": "センター",
+          "focus": [
+            "サイズ",
+            "リバウンド",
+            "インサイドプレー"
+          ],
+          "description": "ペイントエリアの支配、リム保護、そしてインサイドプレーでの圧倒を目的としたセンター特化型ビルド。"
+        }
+      ]
+    },
+    "buildAHooperPositions": {
+      "title": "Build a Hooperのポジション",
+      "eyebrow": "ポジションガイド",
+      "intro": "Build a Hooperでは、ポジションによってコート上の役割が決まり、その後のあらゆる能力値の決定に影響します。ビルドの方向性を決める前に、各ポジションの役割を理解しましょう。",
+      "items": [
+        {
+          "icon": "コンパス",
+          "position": "ポイントガード",
+          "role": "プライマリボールハンドラー",
+          "focus": [
+            "プレイメイキング",
+            "ボールコントロール",
+            "オフェンスの組み立て"
+          ],
+          "description": "ボールを運び、味方をお膳立てし、オフェンスを指揮するフロアリーダー。"
+        },
+        {
+          "icon": "ターゲット",
+          "position": "シューティングガード",
+          "role": "ペリメーター・スコアラー",
+          "focus": [
+            "シュート",
+            "スコアリング",
+            "オフェンス時の動き"
+          ],
+          "description": "外郭（ペリメーター）からの得点と、ボールを持っていない時の動きを軸としたガードの役割。"
+        },
+        {
+          "icon": "アクティビティ",
+          "position": "スモールフォワード",
+          "role": "万能なウィング",
+          "focus": [
+            "バランスの取れたスキル",
+            "身体能力",
+            "トゥーウェイのプレー"
+          ],
+          "description": "得点力、守備力、そしてコート全域での汎用性を兼ね備えた柔軟なポジション。"
+        },
+        {
+          "icon": "ダンベル",
+          "position": "センター",
+          "role": "インサイドプレーヤー",
+          "focus": [
+            "サイズ",
+            "ディフェンス",
+            "リバウンド"
+          ],
+          "description": "ペイントエリアの死守、リバウンド、インサイドプレーの支配に焦点を当てたビッグマンの役割。"
+        }
+      ]
+    },
+    "buildAHooperAttributes": {
+      "title": "Build a Hooper 能力値",
+      "eyebrow": "プレイヤー作成",
+      "intro": "能力値によって、Build a Hooperのプレイヤーの個性が形成されます。ポイントをどこに振り分けるかによって、あなたのビルドはスコアラー、クリエイター、ディフェンダー、あるいはバランスの取れたアスリートになります。",
+      "items": [
+        {
+          "icon": "フレイム",
+          "category": "オフェンス",
+          "related": [
+            "スコアリング",
+            "シューティング",
+            "チャンスメイク"
+          ],
+          "goal": "より強力なオフェンスの影響力と、リム周辺でのフィニッシュを求めるプレイヤー向け。"
+        },
+        {
+          "icon": "シールド",
+          "category": "ディフェンス",
+          "related": [
+            "ディフェンス能力",
+            "相手の阻止",
+            "チームサポート"
+          ],
+          "goal": "ストップ、リムプロテクション、そしてチームディフェンスを優先するプレイヤー向け。"
+        },
+        {
+          "icon": "ダンベル",
+          "category": "フィジカル",
+          "related": [
+            "サイズ",
+            "運動能力の特性",
+            "プレイスタイル"
+          ],
+          "goal": "コート上での特定のフィジカル面での個性と存在感を求めるプレイヤー向け。"
+        },
+        {
+          "icon": "ゲージ",
+          "category": "バランス型ビルド",
+          "related": [
+            "複数の領域",
+            "万能性",
+            "適応力"
+          ],
+          "goal": "コートのあらゆる場所で安定した貢献をしたいプレイヤー向け。"
+        }
+      ]
+    },
+    "buildAHooperBadges": {
+      "title": "Build a Hooper バッジ",
+      "eyebrow": "プレイヤーのアップグレード",
+      "intro": "Build a Hooperのバッジは、プレイヤーの専門的な能力を強化し、ビルドの個性を際立たせます。バッジのコンセプトを活用して、コート上でのプレイヤーのプレイスタイルを強化しましょう。",
+      "items": [
+        {
+          "icon": "ザップ",
+          "category": "スコアリングバッジ",
+          "supports": "オフェンス重視 of プレイヤー",
+          "effect": "プレイヤーのスコアラーとしての個性とオフェンスの強みを強化します。"
+        },
+        {
+          "icon": "ターゲット",
+          "category": "プレイメイクバッジ",
+          "supports": "ガードおよびクリエイタービルド",
+          "effect": "プレイを組み立て、オフェンスをコントロールするプレイヤーをブーストします。"
+        },
+        {
+          "icon": "シールド",
+          "category": "ディフェンスバッジ",
+          "supports": "ツーウェイプレイヤー",
+          "effect": "ディフェンス重視のプレイヤー育成を強化します。"
+        },
+        {
+          "icon": "クラウン",
+          "category": "インサイドプレイバッジ",
+          "supports": "ビッグマンビルド",
+          "effect": "インサイドでの役割に特化したプレイヤーの能力を高めます。"
+        }
+      ]
+    },
+    "buildAHooperCareer": {
+      "title": "Build a Hooper キャリアモードガイド",
+      "eyebrow": "キャリアの進行",
+      "intro": "Build a Hooperは、現代のバスケットボールキャリアシミュレーションにインスパイアされた、オリジナルのバスケットボールプレイヤー体験の作成と育成に焦点を当てています。プレイヤーは自身のフーパーをカスタマイズし、能力を向上させ、シミュレーションされたシーズンや実績を通じて成長の道のりを進めることができます。",
+      "steps": [
+        {
+          "title": "フーパーを作成する",
+          "description": "好みのポジション、フィジカルプロファイル、プレイスタイルの方向性を設定して、カスタムバスケットボールプレイヤーの作成から始めましょう。"
+        },
+        {
+          "title": "プレイヤースキルの育成",
+          "description": "コート上での好みの役割に合った能力値やゲームプレイの選択に集中し、プレイヤーのパフォーマンスを向上させましょう。"
+        },
+        {
+          "title": "キャリアを進める",
+          "description": "プレイヤーの評価と総合能力を高めながら、様々なバスケットボール体験を通じて前進しましょう。"
+        },
+        {
+          "title": "レガシーを築く",
+          "description": "長期的な成長を通じてプレイヤーを向上させ続け、独自のバスケットボールキャリアの道を切り開きましょう。"
+        }
+      ],
+      "milestones": [
+        "ルーキーデビュー",
+        "初のMVP",
+        "チャンピオンシップ",
+        "歴代最高プレイヤー"
+      ]
+    },
+    "buildAHooperDraft": {
+      "title": "Build a Hooper ドラフトガイド",
+      "eyebrow": "ドラフトシステム",
+      "intro": "ドラフト体験は、新しいプレイヤーの旅の始まりを中心に設計されています。Build a Hooperで成功するバスケットボールキャリアを築くには、バランスの取れたビルドの作成、適切なポジションの選択、そしてプレイヤーの強みを理解することが重要な要素となります。",
+      "steps": [
+        {
+          "title": "プレイヤーアイデンティティの選択",
+          "description": "作成するフーパーを、得点、プレイメイク、ディフェンス、リバウンド、またはオールラウンドなスタイルのどれに特化させるかを決定します。"
+        },
+        {
+          "title": "ポジションの選択",
+          "description": "作成したいプレイヤーのタイプに基づいて、ガード、ウィング、ビッグマンなどのバスケットボールにおける役割を選択します。"
+        },
+        {
+          "title": "ビルドのカスタマイズ",
+          "description": "サイズ、フィジカルプロファイル、ゲームプレイの焦点など、プレイヤーの特徴を調整します。"
+        },
+        {
+          "title": "キャリアの旅を始める",
+          "description": "作成したプレイヤーの育成を開始し、バスケットボールシミュレーション体験を進めましょう。"
+        }
+      ],
+      "milestones": [
+        "ドラフトエントリー",
+        "チーム選択",
+        "ルーキー・ティップオフ",
+        "キャリア初試合"
+      ]
+    },
+    "buildAHooperTeams": {
+      "title": "Build a Hooper チームガイド",
+      "eyebrow": "NBAチーム",
+      "intro": "Build a Hooperは、チームやリーグ環境がプレイヤーのキャリアの旅の背景となるバスケットボール・シミュレーションのコンセプトに基づいて設計されています。このゲームはNBAスタイルのキャリアシステムから着想を得ており、チームの選択と成長が全体的な体験に影響を与えます。",
+      "items": [
+        {
+          "icon": "クラウン",
+          "name": "NBAにインスパイアされたフランチャイズ",
+          "style": "プロチーム・システム",
+          "fit": "プロチームのシステムやリーグ構造にインスパイアされた、Build a Hooperのキャリアコンセプトを探索しましょう。"
+        },
+        {
+          "icon": "コンパス",
+          "name": "キャリア環境",
+          "style": "コンテキストが成長を形作る",
+          "fit": "チームごとの異なるコンテキストが、作成したフーパーの役割やキャリアを通じた成長の仕方を形作ります。"
+        },
+        {
+          "icon": "ターゲット",
+          "name": "プレイヤーの役割",
+          "style": "ポジションとプレイスタイルの適合",
+          "fit": "ポジションとプレイスタイルは、Build a Hooperのチームシステムにどのように適合するかを定義するのに役立ちます。"
+        },
+        {
+          "icon": "フラッグ",
+          "name": "チーム選択",
+          "style": "フランチャイズを選択する",
+          "fit": "自分が築きたいキャリアに合ったシステムと文化を持つフランチャイズを選びましょう。"
+        }
+      ]
+    },
+    "buildAHooperBeginner": {
+      "title": "Build a Hooper ビギナーガイド",
+      "eyebrow": "ビギナーガイド",
+      "intro": "新規プレイヤーは、プレイヤー作成の基本、バスケットボールの役割、成長のコンセプトを学ぶことから始めることができます。このビギナーガイドでは、Build a Hooperでカスタムフーパーを作成し、育成するための主要なアイデアを説明します。",
+      "faqs": [
+        {
+          "question": "Build a Hooperとは？",
+          "answer": "Build a Hooperは、ドラフトの日から長いキャリアを通じて、カスタムバスケットボールプレイヤーを作成・育成することに焦点を当てたRobloxのバスケットボール・シミュレーションです。"
+        },
+        {
+          "question": "初心者は最初のBuild a Hooperプレイヤーをどのように作成すべきですか？",
+          "answer": "Build a Hooperでは、コート上でプレイヤーにどのようなパフォーマンスをさせたいかに合わせて、ポジションとプレイスタイルを選択することから始めましょう。"
+        },
+        {
+          "question": "Build a Hooperの新規プレイヤーは、まず何に集中すべきですか？",
+          "answer": "Build a Hooperのプレイヤー作成システムを学び、バスケットボールの役割を理解し、着実な成長を通じてプレイヤーの能力を向上させましょう。"
+        },
+        {
+          "question": "Build a Hooperで異なるタイプのフーパーを作成することはできますか？",
+          "answer": "はい。Build a Hooperでは、ポジション、ビルド、好みのバスケットボールスタイルを変更することで、さまざまなプレイヤーコンセプトを設計できます。"
+        },
+        {
+          "question": "Build a Hooperにはキャリアモードがありますか？",
+          "answer": "はい。Build a Hooperのキャリアモードでは、作成したプレイヤーのドラフトからルーキーシーズン、受賞、そして長いレガシーまでを追体験できます。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある",
+    "titleHighlight": "質問",
+    "subtitle": "Build a Hooperについて知っておくべきすべてのこと",
+    "questions": [
+      {
+        "question": "Build a Hooperとは？",
+        "answer": "Build a Hooperは、カスタムプレイヤーを作成し、ポジションを選択し、属性を割り当て、ドラフト以降のNBAキャリアを築き上げるRobloxのバスケットボール・シミュレーションです。"
+      },
+      {
+        "question": "Build a Hooperはどこでプレイできますか？",
+        "answer": "Build a HooperはRobloxでプレイ可能です。Robloxプラットフォームから直接、プレイヤーの作成を開始できます。"
+      },
+      {
+        "question": "Build a Hooperではビルドはどのように機能しますか？",
+        "answer": "Build a Hooperにおいて、ビルドとはポジション、フィジカルプロファイル、能力値の割り振りと、キャリア全体を決定づけるプレイスタイルの選択によって定義される、あなただけのカスタムプレイヤーのことです。"
+      },
+      {
+        "question": "Build a Hooperではどのポジションを選択できますか？",
+        "answer": "Build a Hooperでは、ポイントガード、シューティングガード、スモールフォワード、センターといったバスケットボールのポジションを中心にビルドを作成でき、それぞれに独自の役割と責任があります。"
+      },
+      {
+        "question": "Build a Hooperにはキャリアモードやドラフトモードはありますか？",
+        "answer": "はい。Build a Hooperには、作成したプレイヤーがNBAドラフトにエントリーし、チームに加入して、ルーキーからレジェンドへと成長していくキャリアモードが用意されています。"
+      },
+      {
+        "question": "Build a Hooperにおけるバッジとは何ですか？",
+        "answer": "Build a Hooperのバッジは、得点やプレイメイクからディフェンス、インサイドプレイに至るまで、特化した能力を強化し、ビルドのアイデンティティを確立します。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "フーパーを作成する準備はできましたか？",
+    "description": "YouTubeでBuild a Hooperのゲームプレイ動画をチェックして、今すぐRobloxでNBAキャリアシミュレーションを始めましょう！",
+    "joinCommunity": "ゲームプレイ動画を見る",
+    "joinGame": "Robloxでプレイする"
+  },
+  "footer": {
+    "title": "Build a Hooper Wiki",
+    "description": "Build a Hooperのプレイヤービルド、ポジション、能力値、バッジ、そしてNBAキャリアガイドに関する完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "youtube": "YouTubeで見る",
+    "roblox": "Robloxでプレイする",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Build a Hooper Wiki. Build a Hooperの開発者およびRoblox Corporationとは提携していません。",
+    "disclaimer": "非公式のファン作成リソースウェブサイト。"
+  },
+  "pages": {
+    "builds": {
+      "title": "Build a Hooperのビルド",
+      "description": "スコアリングガード、オールラウンダー、圧倒的なビッグマンなど、あらゆるポジションとプレイスタイルに対応したBuild a Hooperのおすすめプレイヤービルド。",
+      "metaTitle": "Build a Hooperのビルド - おすすめのプレイヤービルド＆プレイスタイル",
+      "metaDescription": "スコアリングガードから圧倒的なビッグマンまで、あらゆるポジションとプレイスタイルにおけるBuild a Hooperのおすすめビルドを紹介します。",
+      "categoryLabel": "プレイヤービルド",
+      "whatIs": "ビルドとは？",
+      "whatIsDescription": "Build a Hooperにおけるビルドとは、ポジション、フィジカルプロファイル、能力値、そしてキャリアを決定づけるプレイスタイルの選択から構成されるカスタムプレイヤーのテンプレートです。",
+      "why": "なぜビルドを選ぶのか？",
+      "whySteps": {
+        "step1Title": "役割を定義する",
+        "step1Description": "自分の望むプレイに合ったポジションとプレイスタイルを選択する",
+        "step2Title": "能力値を割り振る",
+        "step2Description": "選択したスタイルを強化するスキルにポイントを割り振る",
+        "step3Title": "キャリアを築く",
+        "step3Description": "作成したプレイヤーをドラフト当日からNBAのレジェンドへと導く"
+      },
+      "featured": "おすすめのビルド",
+      "all": "すべてのビルド"
+    },
+    "career": {
+      "title": "Build a Hooper キャリアモード",
+      "description": "Build a Hooperのキャリアシミュレーション体験 — 成長、シーズン、アチーブメント、そして長期的なプレイヤーの育成。",
+      "metaTitle": "Build a Hooper キャリアモード - ドラフトからレジェンドへのガイド",
+      "metaDescription": "ドラフト当日やルーキーシーズンからMVP受賞、そして伝説的なレガシーまで、Build a Hooper キャリアモードのガイド。",
+      "categoryLabel": "キャリアモード",
+      "whatIs": "キャリアモードとは？",
+      "whatIsDescription": "Build a Hooperのキャリアモードでは、作成したプレイヤーのNBAドラフトからルーキーシーズン、各賞の受賞、そして長く続くレガシーまでを追いかけます。",
+      "why": "キャリアモードをプレイする理由",
+      "whySteps": {
+        "step1Title": "プレイヤーを育成しよう",
+        "step1Description": "シーズンを重ねるごとにビルドを成長させる",
+        "step2Title": "賞を狙おう",
+        "step2Description": "MVP、チャンピオンシップ、そしてキャリアの栄誉を勝ち取る",
+        "step3Title": "レガシーを築こう",
+        "step3Description": "強力なキャリアを歴代最高の経歴へと変える"
+      },
+      "featured": "おすすめのキャリアガイド",
+      "all": "すべてのキャリアガイド"
+    },
+    "codes": {
+      "title": "Build a Hooper コード",
+      "description": "Build a Hooperのコードをビルドレシピとして解説 — プレイヤーがコードを検索する際に求めている、最高のプレイヤービルド、ポジション選択、属性セットアップ。",
+      "metaTitle": "Build a Hooper コード - 最良のビルドレシピと選択",
+      "metaDescription": "Build a Hooperのコードをビルドレシピ化：スコアリングガード、バランス型ウィング、圧倒的なビッグマン、そしてそれぞれの選択の背後にある属性セットアップ。",
+      "categoryLabel": "ビルドレシピ",
+      "whatIs": "コードとは？",
+      "whatIsDescription": "Build a Hooperにおいて、コードはビルドレシピのショートカットとして機能します。これは、キャリアをスタートさせる最強の方法としてプレイヤー間で共有されている、プレイヤー設定、ポジション選択、属性配分です。",
+      "why": "ビルドレシピを使う理由",
+      "whySteps": {
+        "step1Title": "試行錯誤をスキップ",
+        "step1Description": "属性配分を推測する代わりに、実績のあるビルドで開始する",
+        "step2Title": "ポジションに合わせる",
+        "step2Description": "選択したバスケットボールの役割に合わせて作成されたレシピを選ぶ",
+        "step3Title": "キャリアを計画する",
+        "step3Description": "長期的な成長のベースラインとしてレシピを使用する"
+      },
+      "featured": "おすすめのビルドレシピ",
+      "all": "すべてのビルドレシピ"
+    },
+    "guide": {
+      "title": "Build a Hooper ガイド",
+      "description": "Robloxバスケットボールシミュレーションの初心者の基本、プレイヤー作成、成長のヒント、キャリア戦略をカバーするBuild a Hooperガイド。",
+      "metaTitle": "Build a Hooper ガイド - 初心者向けのヒントとキャリア戦略",
+      "metaDescription": "Robloxバスケットボールシミュレーションの初心者向けのヒント、プレイヤー作成、成長、キャリア戦略をカバーするBuild a Hooperガイド。",
+      "categoryLabel": "ゲームガイド",
+      "whatIs": "ガイドとは？",
+      "whatIsDescription": "Build a Hooperのガイドでは、ゲームプレイの仕組み、選手作成、育成、そして初心者から上級者までのキャリア戦略を解説しています。",
+      "why": "ガイドを読む理由",
+      "whySteps": {
+        "step1Title": "基本を学ぶ",
+        "step1Description": "選手作成と核となる仕組みを理解する",
+        "step2Title": "より早く成長する",
+        "step2Description": "ルーキーからスターへと至る実績のあるルートをたどる",
+        "step3Title": "戦略を極める",
+        "step3Description": "キャリアに向けた高度な戦術を身につける"
+      },
+      "featured": "おすすめガイド",
+      "all": "すべてのガイド"
+    },
+    "skills": {
+      "title": "Build a Hooper スキル",
+      "description": "Build a Hooperのスキルと能力値ビルド — シュート、スピード、アスレチック、ダンクのセットアップに加え、各プレイスタイルで優先すべき最適な能力値を紹介。",
+      "metaTitle": "Build a Hooper スキル - シュート、スピード、ダンクビルド",
+      "metaDescription": "シュート、スピード、アスレチック、ダンクのプレイスタイルに対応したBuild a Hooperのスキルビルドと、それぞれで優先すべき最適な能力値。",
+      "categoryLabel": "スキルビルド",
+      "whatIs": "スキルとは？",
+      "whatIsDescription": "Build a Hooperにおけるスキルとは、選手のプレイスタイルの特定の一面を研ぎ澄ますための、シュート、スピード、アスレチック、ダンクなどの特化型能力値ビルドのことです。",
+      "why": "スキルを特化させる理由",
+      "whySteps": {
+        "step1Title": "1つの強みを研ぎ澄ます",
+        "step1Description": "自分のプレイスタイルを決定づけるスキルに能力値を集中させる",
+        "step2Title": "自分のビルドと組み合わせる",
+        "step2Description": "ポジションや全体のビルドにスキルビルドを合わせる",
+        "step3Title": "最適な能力値を優先する",
+        "step3Description": "スキルを最大限に高める能力値にポイントを割り振る"
+      },
+      "featured": "おすすめのスキルビルド",
+      "all": "すべてのスキルビルド"
+    },
+    "updates": {
+      "title": "Build a Hooper アップデート",
+      "description": "Build a Hooperのアップデートと新機能 — このRobloxバスケットボールシミュレーションに追加された最新パッチ、リリースノート、ゲームプレイの変更点。",
+      "metaTitle": "Build a Hooper アップデート - 最新パッチ＆新機能",
+      "metaDescription": "このRobloxバスケットボールシミュレーションに追加された最新パッチ、リリースノート、新機能など、Build a Hooperのアップデート情報をチェックしましょう。",
+      "categoryLabel": "ゲームアップデート",
+      "whatIs": "アップデートとは？",
+      "whatIsDescription": "Build a Hooperのアップデートでは、このバスケットボールシミュレーションの進化を形作る最新パッチ、新機能、ゲームプレイの変更点をカバーしています。",
+      "why": "アップデート情報を追う理由",
+      "whySteps": {
+        "step1Title": "最新情報を把握する",
+        "step1Description": "ビルドを作成する前に、最新パッチでの変更点を把握する",
+        "step2Title": "ビルドを調整する",
+        "step2Description": "新しいゲームプレイの変更に合わせて、能力値やプレイスタイルを調整する",
+        "step3Title": "新機能をいち早く体験する",
+        "step3Description": "新しいコンテンツやシステムがリリースされた瞬間に利用する"
+      },
+      "featured": "注目のアップデート",
+      "all": "すべてのアップデート"
+    }
+  }
+}

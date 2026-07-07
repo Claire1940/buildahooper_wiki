@@ -7,28 +7,24 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.buildahooper.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（Build a Hooper 6 分类：builds/career/codes/guide/skills/updates）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'builds': 0.9,
+	'career': 0.8,
+	'codes': 0.9,
+	'guide': 0.9,
+	'skills': 0.8,
+	'updates': 0.8,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'builds': 'weekly',
+	'career': 'weekly',
+	'codes': 'daily',
+	'guide': 'weekly',
+	'skills': 'weekly',
+	'updates': 'daily',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

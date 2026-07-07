@@ -152,7 +152,7 @@ export default function Copyright() {
               The following trademarks and service marks are the property of their respective owners:
             </p>
             <ul>
-              <li><strong>STEAM</strong> - Trademark of Roblox Corporation</li>
+              <li><strong>ROBLOX</strong> - Trademark of Roblox Corporation</li>
               <li><strong>Build a Hooper</strong> - Trademark of the game developers</li>
               <li><strong>Build a Hooper Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
