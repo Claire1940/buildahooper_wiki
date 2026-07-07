@@ -5,7 +5,7 @@ import {
   ArrowRight,
   Award,
   BarChart3,
-  Basketball,
+  Dumbbell,
   BookOpen,
   Check,
   ChevronDown,
@@ -59,7 +59,7 @@ const TOOLS_SECTION_IDS = [
 
 // 每个模块标题旁的代表性图标（与 Tools Grid 一致）
 const MODULE_HEADER_ICONS: Record<string, LucideIcon> = {
-  builds: Basketball,
+  builds: Dumbbell,
   positions: MapPin,
   attributes: BarChart3,
   badges: Award,

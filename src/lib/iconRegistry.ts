@@ -28,8 +28,7 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
-  // Build a Hooper 篮球主题图标
-  Basketball: LucideIcons.Basketball,
+  // Build a Hooper 篮球主题图标（Basketball 不在 lucide-react 导出，用 Dumbbell 替代）
   MapPin: LucideIcons.MapPin,
   BarChart3: LucideIcons.BarChart3,
   Award: LucideIcons.Award,
