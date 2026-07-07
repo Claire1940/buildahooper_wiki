@@ -232,116 +232,108 @@
       ]
     },
     "buildAHooperCareer": {
-      "title": "Build a Hooper Career Mode",
+      "title": "Build a Hooper Career Mode Guide",
       "eyebrow": "Career Progression",
-      "intro": "Build a Hooper's career mode follows your created player from rookie to legend. Each stage builds on the last, turning attribute choices and badge picks into a long, rewarding NBA journey.",
+      "intro": "Build a Hooper focuses on creating and developing a personalized basketball player experience inspired by modern basketball career simulations. Players can customize their hooper, improve abilities, and follow a progression journey through simulated seasons and achievements.",
       "steps": [
         {
-          "title": "Create Your Player",
-          "description": "Choose a position, set your physical profile, and allocate attributes to define your playstyle before the career begins."
+          "title": "Create Your Hooper",
+          "description": "Start by designing a custom basketball player with your preferred position, physical profile, and playstyle direction."
         },
         {
-          "title": "Enter the NBA Draft",
-          "description": "Take your built player into the draft and start the journey from rookie to franchise cornerstone."
+          "title": "Develop Player Skills",
+          "description": "Improve your player's performance by focusing on attributes and gameplay choices that match your preferred role on the court."
         },
         {
-          "title": "Grow Through the Rookie Season",
-          "description": "Earn minutes, develop your signature skills, and let your build's strengths show on the court."
+          "title": "Build Career Progress",
+          "description": "Advance through basketball experiences while developing your player's reputation and overall ability."
         },
         {
-          "title": "Stack Awards and Accolades",
-          "description": "Chase MVP honors, championships, and individual awards as your player peaks."
-        },
-        {
-          "title": "Build a Legacy",
-          "description": "Turn a strong career into a legendary resume that defines how your hooper is remembered."
+          "title": "Create a Legacy",
+          "description": "Continue improving your player and shape a unique basketball career path through long-term progression."
         }
       ],
       "milestones": ["Rookie debut", "First MVP", "Championship", "All-Time great"]
     },
     "buildAHooperDraft": {
       "title": "Build a Hooper Draft Guide",
-      "eyebrow": "Draft Process",
-      "intro": "The NBA Draft is where your Build a Hooper career truly begins. Understanding the draft flow helps new players start strong and pick a team that fits their build.",
+      "eyebrow": "Draft System",
+      "intro": "The draft experience is designed around starting a new player's journey. Creating a balanced build, selecting a suitable position, and understanding player strengths are important parts of building a successful basketball career in Build a Hooper.",
       "steps": [
         {
-          "title": "Finalize Your Build",
-          "description": "Lock in position, physical profile, and attributes so your player is ready for draft evaluation."
+          "title": "Choose Your Player Identity",
+          "description": "Decide whether your hooper will focus on scoring, playmaking, defense, rebounding, or an all-around style."
         },
         {
-          "title": "Enter the Draft",
-          "description": "Submit your built player to the draft and begin the rookie journey."
+          "title": "Select a Position",
+          "description": "Pick a basketball role such as guard, wing, or big man based on the type of player you want to create."
         },
         {
-          "title": "Pick Your Team",
-          "description": "Choose a franchise that matches your playstyle and the role you want to play."
+          "title": "Customize Your Build",
+          "description": "Adjust player characteristics including size, physical profile, and gameplay focus."
         },
         {
-          "title": "Start Your Rookie Year",
-          "description": "Step onto the court as a rookie and start turning your build into a real career."
+          "title": "Begin Your Career Journey",
+          "description": "Start developing your created player and progress through the basketball simulation experience."
         }
       ],
       "milestones": ["Draft entry", "Team selection", "Rookie tip-off", "First career game"]
     },
     "buildAHooperTeams": {
-      "title": "Build a Hooper Teams",
-      "eyebrow": "Team Selection",
-      "intro": "In Build a Hooper, the franchise you join shapes the career experience around your player. These team archetypes help you think about fit, role, and the kind of legacy you want to build.",
+      "title": "Build a Hooper Teams Guide",
+      "eyebrow": "NBA Teams",
+      "intro": "Build a Hooper is designed around a basketball simulation concept where teams and league environments provide context for a player's career journey. The game draws inspiration from NBA-style career systems, where team selection and progression influence the overall experience.",
       "items": [
         {
           "icon": "Crown",
-          "name": "Championship Contenders",
-          "style": "Win-now franchise",
-          "fit": "For players chasing rings and high-pressure playoff moments."
+          "name": "NBA-Inspired Franchises",
+          "style": "Pro team systems",
+          "fit": "Explore Build a Hooper career concepts inspired by professional team systems and league structures."
         },
         {
-          "icon": "Rocket",
-          "name": "Rising Young Teams",
-          "style": "Growth-oriented core",
-          "fit": "For players who want to grow alongside a developing roster."
+          "icon": "Compass",
+          "name": "Career Environment",
+          "style": "Context shapes growth",
+          "fit": "Different team contexts shape how your created hooper's role and development unfold over a career."
         },
         {
-          "icon": "Star",
-          "name": "Star-Driven Franchises",
-          "style": "Built around a headline star",
-          "fit": "For players who want to pair with or take over a franchise."
+          "icon": "Target",
+          "name": "Player Role",
+          "style": "Position and playstyle fit",
+          "fit": "Your position and playstyle help define how you fit into a Build a Hooper team system."
         },
         {
           "icon": "Flag",
-          "name": "Balanced Organizations",
-          "style": "All-around depth",
-          "fit": "For players who want steady roles and team-first basketball."
+          "name": "Team Selection",
+          "style": "Choose your franchise",
+          "fit": "Pick a franchise whose system and culture match the career you want to build."
         }
       ]
     },
     "buildAHooperBeginner": {
       "title": "Build a Hooper Beginner Guide",
-      "eyebrow": "Getting Started",
-      "intro": "New to Build a Hooper? These are the beginner questions players ask before creating their first player and starting an NBA career on Roblox.",
+      "eyebrow": "Beginner Guide",
+      "intro": "New players can start by learning the basics of player creation, basketball roles, and progression concepts. This beginner guide explains the main ideas behind building and developing a custom hooper in Build a Hooper.",
       "faqs": [
         {
-          "question": "What is Build a Hooper on Roblox?",
-          "answer": "Build a Hooper is a Roblox basketball simulation where you create a custom player, allocate attributes, and build an NBA career from draft day onward."
+          "question": "What is Build a Hooper?",
+          "answer": "Build a Hooper is a Roblox basketball simulation focused on creating and developing a custom basketball player from draft day through a long career."
         },
         {
-          "question": "Where can I play Build a Hooper?",
-          "answer": "Build a Hooper is played on Roblox. You can jump in through the Roblox platform and start building your hooper right away."
+          "question": "How should beginners create their first Build a Hooper player?",
+          "answer": "Start in Build a Hooper by choosing a position and playstyle that matches how you want your player to perform on the court."
         },
         {
-          "question": "How do I create my first player in Build a Hooper?",
-          "answer": "Pick a position, set a physical profile, and distribute attribute points to match the playstyle you want before entering the draft."
+          "question": "What should new Build a Hooper players focus on first?",
+          "answer": "Learn the Build a Hooper player creation system, understand basketball roles, and improve your player's abilities through steady progression."
         },
         {
-          "question": "Which position should a beginner pick in Build a Hooper?",
-          "answer": "Guards are a great starting point for learning ball control and offense, while balanced wings let new players contribute in multiple areas."
+          "question": "Can players create different types of hoopers in Build a Hooper?",
+          "answer": "Yes. In Build a Hooper you can design different player concepts by changing positions, builds, and preferred basketball styles."
         },
         {
           "question": "Does Build a Hooper have a career mode?",
-          "answer": "Yes. Build a Hooper's career mode follows your player from the draft through rookie seasons, awards, and long-term legacy."
-        },
-        {
-          "question": "What should I focus on early in Build a Hooper?",
-          "answer": "Concentrate attribute points on a clear strength, match badges to that strength, and build a playstyle before spreading points everywhere."
+          "answer": "Yes. Build a Hooper's career mode follows your created player from the draft through rookie seasons, awards, and a long legacy."
         }
       ]
     }
